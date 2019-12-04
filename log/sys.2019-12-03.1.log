@@ -1,0 +1,10 @@
+2019-12-03 16:22:07,857 INFO (StartupInfoLogger.java:61)- Started Startup in 2.165 seconds (JVM running for 3.258)
+2019-12-03 16:22:26,882 INFO (DemoIndex.java:25)- 开始访问controller
+2019-12-03 16:22:55,874 INFO (DemoIndex.java:25)- 开始访问controller
+2019-12-03 16:22:55,882 ERROR (GlobalExceptionHandler.java:31)- =============暂无权限=================
+2019-12-03 16:24:43,301 INFO (DemoIndex.java:25)- 开始访问controller
+2019-12-03 16:24:54,636 ERROR (GlobalExceptionHandler.java:31)- =============暂无权限=================
+2019-12-03 16:25:48,313 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 89808 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-03 16:25:48,320 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-03 16:25:48,321 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-03 16:25:49,771 INFO (StartupInfoLogger.java:61)- Started Startup in 2.188 seconds (JVM running for 3.145)

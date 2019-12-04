@@ -1,0 +1,10 @@
+com\king\exception\NoPermissionException.class
+com\king\utils\I18nUtils.class
+com\king\exception\GlobalExceptionHandler.class
+com\king\conf\LocaleConfig$1.class
+com\king\starter\Startup.class
+com\king\sys\controller\DemoIndex.class
+com\king\conf\LocaleConfig.class
+com\king\exception\ExceptionEnum.class
+com\king\exception\MissServletRequestParameterException.class
+com\king\response\ResponseResult.class
