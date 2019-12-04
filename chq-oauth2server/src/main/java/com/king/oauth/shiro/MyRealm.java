@@ -1,4 +1,4 @@
-package com.king.shiro;
+package com.king.oauth.shiro;
 
 import com.king.sys.SysResource;
 import com.king.sys.SysRole;

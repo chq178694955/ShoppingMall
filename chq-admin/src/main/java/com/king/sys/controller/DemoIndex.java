@@ -38,4 +38,9 @@ public class DemoIndex {
         }
     }
 
+    @RequestMapping("/authSuc")
+    public String authSuc(){
+        return "redirect:auth2_success";
+    }
+
 }

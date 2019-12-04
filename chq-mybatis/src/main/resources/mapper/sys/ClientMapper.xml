@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.king.dao.ClientMapper">
+
+    <resultMap type="com.king.sys.Oauth2Client" id="baseResultMap">
+        <id column="id" property="id" />
+        <result column="client_name" property="clientName" />
+        <result column="client_id" property="clientId" />
+        <result column="client_secret" property="clientSecret" />
+    </resultMap>
+
+    <sql id="baseColumns">id,client_name,client_id,client_secret</sql>
+
+    <select id="findByClientId" resultMap="baseResultMap" parameterType="java.lang.String">
+        select <include refid="baseColumns"/> from oauth2_client where client_id = #{clientId,jdbcType=VARCHAR}
+    </select>
+
+    <select id="findByClientSecret" resultMap="baseResultMap" parameterType="java.lang.String">
+        select <include refid="baseColumns"/> from oauth2_client where client_secret = #{clientSecret,jdbcType=VARCHAR}
+    </select>
+
+</mapper>

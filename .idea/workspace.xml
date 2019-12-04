@@ -2,48 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acefd2f6-1f2e-4f88-9727-d37aeca89315" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/conf/DruidConfigration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/handler/mybatis/GeneralTypeHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chq-entity/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chq-entity/src/main/java/com/king/enums/ActionEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chq-entity/src/main/java/com/king/enums/BaseEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chq-entity/src/main/java/com/king/enums/SexEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chq-entity/src/main/java/com/king/sys/TestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chq-mybatis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chq-mybatis/src/main/java/com/king/dao/TestMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chq-mybatis/src/main/resources/mapper/sys/TestMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/oauth/controller/AccessTokenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/oauth/controller/AuthCodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/oauth/controller/GetUserInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-admin/src/main/resources/templates/auth2_success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-business/chq-business.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-business/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-entity/src/main/java/com/king/enums/AccountStateEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-entity/src/main/java/com/king/sys/Oauth2Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-entity/src/main/java/com/king/sys/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-mybatis/src/main/java/com/king/dao/ClientMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-mybatis/src/main/java/com/king/dao/SysUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-mybatis/src/main/resources/mapper/sys/ClientMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-oauth2server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/conf/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/constant/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/AccessTokenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/AuthorizeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/UserInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/handler/mybatis/GeneralTypeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/service/AuthorizeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/service/ClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/service/impl/AuthorizeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/service/impl/ClientServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/shiro/MyMatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/shiro/MyRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/shiro/MyRememberFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/shiro/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/starter/Startup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/resources/i18n/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/resources/i18n/messages_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/resources/i18n/messages_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/resources/logback-boot.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/resources/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chq-admin/log/sys.log" beforeDir="false" afterPath="$PROJECT_DIR$/chq-admin/log/sys.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chq-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chq-admin/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/MyRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/MyRealm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/starter/Startup.java" beforeDir="false" afterPath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/starter/Startup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/ShiroConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/controller/DemoIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/controller/DemoIndex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/dto/SysResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/dto/SysResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/dto/SysRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/dto/SysRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/dto/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/dto/SysUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/service/ISysResourceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/service/ISysResourceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/service/ISysRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/service/ISysRoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/service/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/service/impl/SysResourceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/service/impl/SysResourceServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/service/impl/SysRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/service/impl/SysRoleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/dto/SysResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/chq-entity/src/main/java/com/king/sys/SysResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/dto/SysRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/chq-entity/src/main/java/com/king/sys/SysRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/dto/SysUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/service/ISysResourceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/chq-business/src/main/java/com/king/sys/service/ISysResourceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/service/ISysRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/chq-business/src/main/java/com/king/sys/service/ISysRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/chq-business/src/main/java/com/king/sys/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/service/impl/SysResourceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/chq-business/src/main/java/com/king/sys/service/impl/SysResourceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/service/impl/SysRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/chq-business/src/main/java/com/king/sys/service/impl/SysRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/chq-business/src/main/java/com/king/sys/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chq-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/chq-admin/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chq-admin/target/chq-admin-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/chq-admin/target/chq-admin-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chq-admin/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/chq-admin/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chq-admin/target/classes/com/king/shiro/MyRealm.class" beforeDir="false" afterPath="$PROJECT_DIR$/chq-admin/target/classes/com/king/shiro/MyRealm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chq-admin/target/classes/com/king/shiro/ShiroConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/chq-admin/target/classes/com/king/shiro/ShiroConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chq-admin/target/classes/com/king/starter/Startup.class" beforeDir="false" afterPath="$PROJECT_DIR$/chq-admin/target/classes/com/king/starter/Startup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chq-admin/target/classes/com/king/sys/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/chq-admin/target/classes/com/king/sys/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chq-admin/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/chq-admin/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chq-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/chq-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chq-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/chq-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chq-admin/target/surefire-reports/TEST-com.king.Test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chq-admin/target/surefire-reports/com.king.Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chq-common/target/chq-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/chq-common/target/chq-common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chq-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/chq-common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chq-entity/src/main/java/com/king/sys/TestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chq-mybatis/src/main/java/com/king/dao/TestMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chq-mybatis/src/main/resources/mapper/sys/TestMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chq-mybatis/src/main/resources/mapper/sys/SysUserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/sys.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/sys.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -54,6 +70,8 @@
     <ignored path="$PROJECT_DIR$/chq-admin/target/" />
     <ignored path="$PROJECT_DIR$/chq-entity/target/" />
     <ignored path="$PROJECT_DIR$/chq-mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/chq-oauth2server/target/" />
+    <ignored path="$PROJECT_DIR$/chq-business/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,70 +81,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chq-admin/pom.xml">
+        <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/shiro/ShiroConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="121" column="21" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/controller/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            <state relative-caret-position="521">
+              <caret line="158" column="28" lean-forward="true" selection-start-line="158" selection-start-column="28" selection-end-line="158" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chq-mybatis/pom.xml">
+        <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chq-mybatis/src/main/java/com/king/dao/TestMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            <state relative-caret-position="263">
+              <caret line="91" column="25" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#914#915#0" expanded="true" />
+                <element signature="e#944#945#0" expanded="true" />
+                <element signature="e#2935#2936#0" expanded="true" />
+                <element signature="e#2965#2966#0" expanded="true" />
+                <element signature="e#1995#1996#0" expanded="true" />
+                <element signature="e#2025#2026#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chq-admin/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/resources/templates/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="61" column="52" selection-start-line="61" selection-start-column="52" selection-end-line="61" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chq-mybatis/src/main/resources/mapper/sys/TestMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="23" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/starter/Startup.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="171">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -138,10 +126,10 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="HTML File" />
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -160,11 +148,20 @@
       <find>mysql</find>
       <find>useGlobalDataSourceStat</find>
       <find>Qualifier</find>
-      <find>mybatis</find>
       <find>userService</find>
       <find>testMapper</find>
       <find>classpath</find>
       <find>mapper</find>
+      <find>User</find>
+      <find>mybatis</find>
+      <find>redis</find>
+      <find>clientSecret</find>
+      <find>filterChainDefinitionMap</find>
+      <find>spring-boot-starter-data-redis</find>
+      <find>spring-boot-starter-thymeleaf</find>
+      <find>page</find>
+      <find>shiro</find>
+      <find>oauth2login</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -176,57 +173,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/exception/GlobalExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/resources/logback-boot.xml" />
-        <option value="$PROJECT_DIR$/chq-common/src/main/java/com/king/utils/StringUtils.java" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/response/ResponseResult.java" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/resources/i18n/messages_zh_CN.properties" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/resources/i18n/messages_en_US.properties" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/utils/MessageUtils.java" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/utils/I18nUtils.java" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/resources/i18n/common.properties" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/resources/i18n/common_zh_CN.properties" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/conf/LocaleConfig.java" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/MyMatcher.java" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/dto/SysUser.java" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/dto/SysRole.java" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/service/ISysRole.java" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/service/ISysRoleService.java" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/service/impl/SysRoleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/dto/SysResource.java" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/service/ISysResourceService.java" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/service/impl/SysResourceServiceImpl.java" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/service/IUserService.java" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/MyRemeberFilter.java" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/RedisCacheManager.java" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/constant/Constants.java" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/resources/templates/login.html" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/conf/RedisAutoConfiguration.java" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/conf/RedisConfig.java" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/utils/RedisUtil.java" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/controller/DemoIndex.java" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/ShiroConfig.java" />
-        <option value="$PROJECT_DIR$/chq-admin/src/test/java/com/king/Test.java" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/conf/DruidConfigration.java" />
-        <option value="$PROJECT_DIR$/chq-entity/src/main/java/com/king/enums/SexEnum.java" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/handler/mybatis/GeneralTypeHandler.java" />
-        <option value="$PROJECT_DIR$/chq-entity/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/chq-entity/src/main/java/com/king/sys/TestDto.java" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/MyRealm.java" />
-        <option value="$PROJECT_DIR$/chq-mybatis/src/main/java/com/king/sys/TestMapper.java" />
-        <option value="$PROJECT_DIR$/chq-mybatis/src/main/java/com/king/dao/sys/TestMapper.java" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/chq/dao/sys/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/chq-admin/pom.xml" />
-        <option value="$PROJECT_DIR$/chq-mybatis/src/main/java/com/chq/dao/TestMapper.java" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/starter/Startup.java" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/chq-mybatis/src/main/resources/mapper/sys/TestMapper.xml" />
-        <option value="$PROJECT_DIR$/chq-mybatis/src/main/java/com/king/dao/TestMapper.java" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/chq-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/entity/User.java" />
+        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/oauth/Client.java" />
+        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/oauth/service/AuthorizeService.java" />
+        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/oauth/service/ClientService.java" />
+        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/entity/Client.java" />
+        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/AccessTokenController.java" />
+        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/UserInfoController.java" />
+        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/oauth/controller/AuthCodeController.java" />
+        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/oauth/controller/AccessTokenController.java" />
+        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/oauth/controller/GetUserInfoController.java" />
+        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/conf/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/chq-entity/src/main/java/com/king/enums/AccountStateEnum.java" />
+        <option value="$PROJECT_DIR$/chq-entity/src/main/java/com/king/sys/SysUser.java" />
+        <option value="$PROJECT_DIR$/chq-entity/src/main/java/com/king/sys/Oauth2Client.java" />
+        <option value="$PROJECT_DIR$/chq-mybatis/src/main/java/com/king/dao/SysUserMapper.java" />
+        <option value="$PROJECT_DIR$/chq-mybatis/src/main/resources/mapper/sys/SysUserMapper.xml" />
+        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/handler/mybatis/GeneralTypeHandler.java" />
+        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/service/ClientService.java" />
+        <option value="$PROJECT_DIR$/chq-mybatis/src/main/java/com/king/dao/ClientMapper.java" />
+        <option value="$PROJECT_DIR$/chq-mybatis/src/main/resources/mapper/sys/ClientMapper.xml" />
+        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/service/impl/ClientServiceImpl.java" />
+        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/service/impl/AuthorizeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/chq-admin/src/main/resources/templates/auth2_success.html" />
+        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/controller/DemoIndex.java" />
+        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/shiro/MyMatcher.java" />
+        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/constant/Constants.java" />
+        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/shiro/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/shiro/MyRememberFilter.java" />
+        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/chq-entity/src/main/java/com/king/sys/SysRole.java" />
+        <option value="$PROJECT_DIR$/chq-business/src/main/java/com/king/sys/service/ISysResourceService.java" />
+        <option value="$PROJECT_DIR$/chq-business/src/main/java/com/king/sys/service/ISysRoleService.java" />
+        <option value="$PROJECT_DIR$/chq-business/pom.xml" />
+        <option value="$PROJECT_DIR$/chq-business/src/main/java/com/king/sys/service/impl/SysRoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/chq-business/src/main/java/com/king/sys/service/impl/SysResourceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/chq-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/chq-oauth2server/pom.xml" />
+        <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/MyRealm.java" />
+        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/shiro/MyRealm.java" />
+        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/service/UserService.java" />
+        <option value="$PROJECT_DIR$/chq-business/src/main/java/com/king/sys/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/chq-business/src/main/java/com/king/sys/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/starter/Startup.java" />
+        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/AuthorizeController.java" />
+        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/chq-admin/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/LoginController.java" />
       </list>
     </option>
   </component>
@@ -315,7 +312,147 @@
               <item name="chq-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="king" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="king" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="king" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="king" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-business" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="king" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="king" type="462c0819:PsiDirectoryNode" />
+              <item name="enums" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="king" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
@@ -369,6 +506,109 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="sys" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-oauth2server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-oauth2server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-oauth2server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-oauth2server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-oauth2server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-oauth2server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-oauth2server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-oauth2server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-oauth2server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-oauth2server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth" type="462c0819:PsiDirectoryNode" />
+              <item name="starter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-oauth2server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-oauth2server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -384,24 +624,29 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575446393802" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575461610778" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../org-sys-root" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\projects\ShoppingMall\chq-admin\src\main\resources\mapper" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.king.handler.mybatis" />
-      <recent name="com.king.conf" />
-      <recent name="com.king.shiro" />
+      <recent name="com.king.oauth.controller" />
+      <recent name="com.king.oauth.constant" />
+      <recent name="com.king.oauth.handler.mybatis" />
+      <recent name="com.king.enums" />
+      <recent name="com.king.oauth.conf" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\projects\ShoppingMall\chq-admin\src\main\resources" />
-      <recent name="D:\projects\ShoppingMall\chq-entity\src\main\java\com\king\enums" />
+      <recent name="D:\projects\ShoppingMall\chq-business\src\main\java\com\king\sys\service\impl" />
+      <recent name="D:\projects\ShoppingMall\chq-business\src\main\java\com\king\sys\service" />
+      <recent name="D:\projects\ShoppingMall\chq-entity\src\main\java\com\king\sys" />
+      <recent name="D:\projects\ShoppingMall\chq-oauth2server\src\main\java\com\king\oauth\shiro" />
+      <recent name="D:\projects\ShoppingMall\chq-admin\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -416,39 +661,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Startup">
-    <configuration name="Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chq-admin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.king.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.king" />
-      <option name="MAIN_CLASS_NAME" value="com.king.Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chq-admin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.king.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.king" />
-      <option name="MAIN_CLASS_NAME" value="com.king.Test" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Startup" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.Startup_client">
+    <configuration name="Startup_client" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="chq-admin" />
       <extension name="coverage">
         <pattern>
@@ -457,15 +671,33 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.king.starter.Startup" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Startup_server" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="chq-oauth2server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.king.oauth.starter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.king.oauth.starter.Startup" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Startup_client" />
+      <item itemvalue="Spring Boot.Startup_server" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Startup" />
-        <item itemvalue="JUnit.Test.test1" />
-        <item itemvalue="JUnit.Test" />
+        <item itemvalue="Spring Boot.Startup_client" />
+        <item itemvalue="Spring Boot.Startup_server" />
       </list>
     </recent_temporary>
   </component>
@@ -482,8 +714,16 @@
       <workItem from="1575339582923" duration="8387000" />
       <workItem from="1575360867449" duration="5111000" />
       <workItem from="1575368778037" duration="4741000" />
-      <workItem from="1575418871259" duration="22579000" />
+      <workItem from="1575418871259" duration="33971000" />
     </task>
+    <task id="LOCAL-00001" summary="springboot集成mybatis">
+      <created>1575446462242</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575446462242</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -498,13 +738,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40818000" />
+    <option name="totallyTimeSpent" value="52210000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17493297" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20308311" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -515,7 +755,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32844576" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.398827" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3739003" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -542,462 +782,472 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="springboot集成mybatis" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot集成mybatis" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/response/ResponseResult.java">
+    <entry file="file://$PROJECT_DIR$/chq-entity/src/main/java/com/king/sys/SysUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="25" />
-          <folding>
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/resources/i18n/messages.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="ResourceBundle" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/resources/i18n/messages_en_US.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="ResourceBundle" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/resources/i18n/messages_zh_CN.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="20" />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle" />
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Locale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="561" column="33" lean-forward="true" selection-start-line="561" selection-start-column="33" selection-end-line="561" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/mavenLocalRepository/org/springframework/spring-context/5.2.1.RELEASE/spring-context-5.2.1.RELEASE.jar!/org/springframework/context/support/DelegatingMessageSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/conf/LocaleConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        <state relative-caret-position="177">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+            <element signature="e#964#965#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+            <element signature="e#1114#1115#0" expanded="true" />
+            <element signature="e#1156#1157#0" expanded="true" />
+            <element signature="e#1209#1210#0" expanded="true" />
+            <element signature="e#1248#1249#0" expanded="true" />
+            <element signature="e#1322#1323#0" expanded="true" />
+            <element signature="e#1378#1379#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/resources/i18n/common_en_US.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="ResourceBundle" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/resources/i18n/common_zh_CN.properties">
+    <entry file="file://$PROJECT_DIR$/chq-mybatis/src/main/resources/mapper/sys/SysUserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/resources/i18n/common.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/dto/SysUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="20" />
-          <folding>
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="510">
+          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/dto/SysRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/service/impl/SysRoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/service/ISysRoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/dto/SysResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/service/impl/SysResourceServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/service/ISysResourceService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/CredentialsMatcher.java" />
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/RedisCacheManager.java" />
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/service/IUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/MyMatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/MyRememberFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="45" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#1335#1341#0" expanded="true" />
-            <element signature="e#1341#1347#0" expanded="true" />
-            <element signature="e#1347#1353#0" expanded="true" />
-            <element signature="e#1353#1359#0" expanded="true" />
-            <element signature="e#1359#1365#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/resources/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/handler/mybatis/GeneralTypeHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/conf/RedisConfig.java">
+    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/starter/Startup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="265">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#146#170#1" expanded="true" />
-            <element signature="e#340#356#0" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-mybatis/src/main/java/com/king/dao/SysUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-mybatis/src/main/java/com/king/dao/TestMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/entity/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/service/ClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="64" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="14" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-mybatis/src/main/java/com/king/dao/ClientMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-entity/src/main/java/com/king/sys/Oauth2Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-mybatis/src/main/resources/mapper/sys/ClientMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="9" column="61" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/service/impl/ClientServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/service/impl/AuthorizeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/service/AuthorizeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/resources/templates/auth2_success.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/controller/DemoIndex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        <state relative-caret-position="227">
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1323#1324#0" expanded="true" />
+            <element signature="e#1347#1348#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/utils/I18nUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/utils/RedisUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="96" column="19" selection-start-line="96" selection-start-column="19" selection-end-line="96" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/constant/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/mavenLocalRepository/org/apache/shiro/shiro-web/1.4.0/shiro-web-1.4.0.jar!/org/apache/shiro/web/servlet/Cookie.class">
+    <entry file="jar://D:/mavenLocalRepository/org/springframework/spring-web/5.2.1.RELEASE/spring-web-5.2.1.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="58" column="11" lean-forward="true" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/constant/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/shiro/MyRememberFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-entity/src/main/java/com/king/sys/SysResource.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-entity/src/main/java/com/king/sys/SysRole.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-business/src/main/java/com/king/sys/service/ISysResourceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-business/src/main/java/com/king/sys/service/ISysRoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-business/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-business/src/main/java/com/king/sys/service/impl/SysRoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-business/src/main/java/com/king/sys/service/impl/SysResourceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/ShiroConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="e#1280#1281#0" expanded="true" />
-            <element signature="e#1318#1319#0" expanded="true" />
-            <element signature="e#4591#4592#0" expanded="true" />
-            <element signature="e#4646#4647#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="148" column="16" lean-forward="true" selection-start-line="148" selection-start-column="16" selection-end-line="148" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/test/java/com/king/Test.java">
+    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/MyRememberFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/conf/DruidConfigration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-entity/src/main/java/com/king/enums/ActionEnum.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-entity/src/main/java/com/king/enums/DataTypeEnum.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-entity/src/main/java/com/king/enums/SexEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-entity/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-entity/src/main/java/com/king/enums/BaseEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/handler/mybatis/GeneralTypeHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="144">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/MyRealm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        <state relative-caret-position="1577">
+          <caret line="83" column="117" selection-start-line="83" selection-start-column="117" selection-end-line="83" selection-end-column="117" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/MyMatcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        <state relative-caret-position="144">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chq-entity/src/main/java/com/king/sys/TestDto.java">
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/shiro/MyMatcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        <state relative-caret-position="144">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-business/src/main/java/com/king/sys/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#930#931#0" expanded="true" />
+            <element signature="e#987#988#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/shiro/MyRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-business/src/main/java/com/king/sys/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2048">
+          <caret line="116" column="23" selection-start-line="116" selection-start-column="23" selection-end-line="116" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/starter/Startup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chq-admin/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="121" column="21" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
+        <state relative-caret-position="76">
+          <caret line="118" column="21" lean-forward="true" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/starter/Startup.java">
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/UserInfoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        <state relative-caret-position="-839">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/AccessTokenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-435">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/resources/mapper/sys/TestMapper.xml">
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/AuthorizeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        <state relative-caret-position="-873">
+          <caret line="95" column="24" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/oauth/controller/AuthCodeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/oauth/controller/GetUserInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/oauth/controller/AccessTokenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="45" column="34" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chq-admin/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="61" column="52" selection-start-line="61" selection-start-column="52" selection-end-line="61" selection-end-column="52" />
+        <state relative-caret-position="109">
+          <caret line="61" column="44" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chq-mybatis/src/main/resources/mapper/sys/TestMapper.xml">
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/shiro/ShiroConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-mybatis/src/main/java/com/king/dao/TestMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        <state relative-caret-position="521">
+          <caret line="158" column="28" lean-forward="true" selection-start-line="158" selection-start-column="28" selection-end-line="158" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/controller/LoginController.java">
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/resources/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        <state relative-caret-position="171">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chq-mybatis/pom.xml">
+    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/sys/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state relative-caret-position="-361">
+          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="91" column="25" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#2935#2936#0" expanded="true" />
+            <element signature="e#2965#2966#0" expanded="true" />
+            <element signature="e#1995#1996#0" expanded="true" />
+            <element signature="e#2025#2026#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

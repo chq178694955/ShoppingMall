@@ -56,6 +56,8 @@
         <module>chq-admin</module>
         <module>chq-entity</module>
         <module>chq-mybatis</module>
+        <module>chq-oauth2server</module>
+        <module>chq-business</module>
     </modules>
 
     <!-- 编译管理 jdk版本和字符集编码 -->

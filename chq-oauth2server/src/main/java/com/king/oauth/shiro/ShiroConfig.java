@@ -1,7 +1,7 @@
-package com.king.shiro;
+package com.king.oauth.shiro;
 
 import at.pollux.thymeleaf.shiro.dialect.ShiroDialect;
-import com.king.constant.Constants;
+import com.king.oauth.constant.Constants;
 import org.apache.shiro.authc.credential.CredentialsMatcher;
 import org.apache.shiro.cache.CacheManager;
 import org.apache.shiro.session.mgt.SessionManager;
@@ -154,8 +154,7 @@ public class ShiroConfig {
         linkedHashMap.put("/fonts/**", "anon");
         linkedHashMap.put("/img/**", "anon");
         linkedHashMap.put("/js/**", "anon");
-        linkedHashMap.put("/oauth-client/**", "anon");//过滤掉授权验证请求地址
-        linkedHashMap.put("/authSuc", "anon");//过滤授权成功回调页面
+        linkedHashMap.put("/oauth-server/**", "anon");//过滤掉授权验证请求地址
 
         linkedHashMap.put("/**", "user");//需要进行权限验证
         bean.setFilterChainDefinitionMap(linkedHashMap);
