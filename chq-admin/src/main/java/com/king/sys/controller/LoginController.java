@@ -1,14 +1,13 @@
 package com.king.sys.controller;
 
-import com.king.constant.Constants;
-import com.king.sys.dto.SysUser;
+import com.king.dao.TestMapper;
+import com.king.sys.TestDto;
 import com.king.sys.service.IUserService;
 import com.king.utils.RedisUtil;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.IncorrectCredentialsException;
 import org.apache.shiro.authc.UnknownAccountException;
 import org.apache.shiro.authc.UsernamePasswordToken;
-import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.Subject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -16,6 +15,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
+
+import java.util.List;
 
 /**
  * @创建人 chq
@@ -29,12 +30,15 @@ public class LoginController {
     private RedisUtil redisUtil;
 
     @Autowired
+    private TestMapper testMapper;
+
+    @Autowired
     private IUserService userService;
 
     @RequestMapping(value="/login",method = RequestMethod.GET)
-
     public String toLogin(){
         redisUtil.set("aabbcc","123abc");
+        List<TestDto> testDtos = testMapper.findAll();
         return "login";
     }
 

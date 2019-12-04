@@ -27,7 +27,7 @@ import java.util.List;
 public class MyRealm extends AuthorizingRealm {
 
     @Autowired
-    private IUserService userService;
+    protected IUserService userService;
 
     @Autowired
     private ISysRoleService sysRoleService;

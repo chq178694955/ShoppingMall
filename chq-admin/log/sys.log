@@ -1,4 +1,13 @@
-2019-12-03 17:21:19,831 INFO (StartupInfoLogger.java:55)- Starting Test on LAPTOP-3H9KE96D with PID 97332 (started by 17869 in D:\projects\ShoppingMall\chq-admin)
-2019-12-03 17:21:19,833 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-03 17:21:19,834 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-03 17:21:21,202 INFO (StartupInfoLogger.java:61)- Started Test in 1.733 seconds (JVM running for 2.355)
+2019-12-04 14:45:53,067 INFO (StartupInfoLogger.java:55)- Starting Test on LAPTOP-3H9KE96D with PID 131140 (started by 17869 in D:\projects\ShoppingMall\chq-admin)
+2019-12-04 14:45:53,075 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-04 14:45:53,076 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-04 14:45:57,561 INFO (StartupInfoLogger.java:61)- Started Test in 5.202 seconds (JVM running for 6.185)
+2019-12-04 15:00:51,895 INFO (StartupInfoLogger.java:55)- Starting Test on LAPTOP-3H9KE96D with PID 133828 (started by 17869 in D:\projects\ShoppingMall\chq-admin)
+2019-12-04 15:00:51,897 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-04 15:00:51,898 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-04 15:02:05,439 INFO (StartupInfoLogger.java:55)- Starting Test on LAPTOP-3H9KE96D with PID 125392 (started by 17869 in D:\projects\ShoppingMall\chq-admin)
+2019-12-04 15:02:05,440 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-04 15:02:05,441 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-04 15:03:25,797 INFO (StartupInfoLogger.java:55)- Starting Test on LAPTOP-3H9KE96D with PID 132280 (started by 17869 in D:\projects\ShoppingMall\chq-admin)
+2019-12-04 15:03:25,798 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-04 15:03:25,799 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default

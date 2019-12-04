@@ -1,16 +1,45 @@
 server:
+  # web端口
   port: 8099
 logging:
+  # 日志
   config: classpath:logback-boot.xml
 spring:
+  datasource:
+    # jdbc连接
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/shopping_mall?characterEncoding=utf8&serverTimezone=GMT%2B8
+    username: root
+    password:
+    # druid数据源
+    type: com.alibaba.druid.pool.DruidDataSource
+    initialSize: 1
+    minIdle: 3
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 30000
+    validationQuery: select 'x'
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    filters: stat,wall,slf4j
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+    useGlobalDataSourceStat: true
+
+  # 国际化
   messages:
     basename: i18n/messages,i18n/common
+  # web页面模板
   thymeleaf:
     mode: HTML5
     cache: false
     encoding: UTF-8
     prefix: classpath:/templates/
     suffix: .html
+  # redis配置
   redis:
     database: 0
     host: 127.0.0.1
@@ -23,4 +52,13 @@ spring:
         max-idle: 8
         min-idle: 0
     timeout: 3000
+  aop:
+    auto: true
+    proxy-target-class: true
+
+# mybatis配置
+mybatis:
+  type-handlers-package: com.king.handler.mybatis
+  mapper-locations: classpath*:mapper/**/*Mapper.xml
+
 

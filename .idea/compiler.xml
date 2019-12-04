@@ -13,6 +13,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="chq-admin" />
         <module name="chq-common" />
+        <module name="chq-entity" />
+        <module name="chq-mybatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
