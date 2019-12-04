@@ -4,7 +4,6 @@ import at.pollux.thymeleaf.shiro.dialect.ShiroDialect;
 import com.king.constant.Constants;
 import org.apache.shiro.authc.credential.CredentialsMatcher;
 import org.apache.shiro.cache.CacheManager;
-import org.apache.shiro.cache.MemoryConstrainedCacheManager;
 import org.apache.shiro.session.mgt.SessionManager;
 import org.apache.shiro.spring.LifecycleBeanPostProcessor;
 import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;
@@ -13,8 +12,12 @@ import org.apache.shiro.web.mgt.CookieRememberMeManager;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
 import org.apache.shiro.web.servlet.SimpleCookie;
 import org.apache.shiro.web.session.mgt.DefaultWebSessionManager;
+import org.crazycake.shiro.RedisCacheManager;
+import org.crazycake.shiro.RedisManager;
+import org.crazycake.shiro.RedisSessionDAO;
 import org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -44,17 +47,50 @@ public class ShiroConfig {
         return myRealm;
     }
 
+    @Value("${spring.redis.host}")
+    public String redisHost;
+    @Value("${spring.redis.port}")
+    public Integer redisPort;
+
+    @Bean
+    public RedisManager redisManager(){
+        RedisManager redisManager = new RedisManager();
+        redisManager.setHost(redisHost);
+        redisManager.setPort(redisPort);
+        redisManager.setExpire(1800);// 配置缓存过期时间
+        redisManager.setTimeout(0);
+        //redisManager.setPassword();//为空可以不配置
+        return redisManager;
+    }
+
+    /**
+     * RedisSessionDAO shiro sessionDao层的实现 通过redis
+     * 使用的是shiro-redis开源插件
+     */
+    @Bean
+    public RedisSessionDAO redisSessionDAO() {
+        RedisSessionDAO redisSessionDAO = new RedisSessionDAO();
+        redisSessionDAO.setRedisManager(redisManager());
+        return redisSessionDAO;
+    }
+
     //配置缓存验证器
     @Bean
     public CacheManager cacheManager(){
-        return new MemoryConstrainedCacheManager();
+        //内存缓存管理器
+        //return new MemoryConstrainedCacheManager();
+
+        //redis缓存管理器
+        RedisCacheManager redisCacheManager = new RedisCacheManager();
+        redisCacheManager.setRedisManager(redisManager());
+        return redisCacheManager;
     }
 
     //配置记住我Cookie对象参数，rememberMeCookie()方法是设置Cookie的生成模版，比如cookie的name，cookie的有效时间等等
     @Bean
     public SimpleCookie rememberMeCookie(){
         SimpleCookie simpleCookie = new SimpleCookie("rememberMe");
-        simpleCookie.setMaxAge(10);
+        simpleCookie.setMaxAge(10 * 60);
         return simpleCookie;
     }
 
@@ -62,6 +98,7 @@ public class ShiroConfig {
     @Bean
     public CookieRememberMeManager rememberMeManager(){
         CookieRememberMeManager cookieRememberMeManager = new CookieRememberMeManager();
+        cookieRememberMeManager.setCipherKey("chq-king-cookies".getBytes());//cookie key 加密，长度必须16位
         cookieRememberMeManager.setCookie(rememberMeCookie());
         return cookieRememberMeManager;
     }
@@ -77,6 +114,7 @@ public class ShiroConfig {
         DefaultWebSessionManager sessionManager = new DefaultWebSessionManager();
         sessionManager.setGlobalSessionTimeout(1800);
         sessionManager.setCacheManager(cacheManager());
+        sessionManager.setSessionDAO(redisSessionDAO());
         sessionManager.getSessionIdCookie().setName(Constants.COOKIE_KEY);
         return sessionManager;
     }
@@ -104,7 +142,7 @@ public class ShiroConfig {
         bean.setSecurityManager(securityManager);
 
         Map<String, Filter> filterMap=new LinkedHashMap<String,Filter>();
-        filterMap.put("MyRememberFilter",myRememberFilter());
+        filterMap.put("myRememberFilter",myRememberFilter());
 
         LinkedHashMap<String, String> linkedHashMap = new LinkedHashMap<String, String>();
         /*
@@ -123,8 +161,10 @@ public class ShiroConfig {
     }
 
     //配置shiro的生命周期
+    //使用springboot整合shiro时，@value注解无法读取application.yml中的配置
+    //解决方法:将LifecycleBeanPostProcessor的配置方法改成静态的就可以了
     @Bean
-    public LifecycleBeanPostProcessor lifecycleBeanPostProcessor() {
+    public static LifecycleBeanPostProcessor lifecycleBeanPostProcessor() {
         return new LifecycleBeanPostProcessor();
     }
 
