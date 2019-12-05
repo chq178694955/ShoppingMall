@@ -56,6 +56,11 @@ spring:
     auto: true
     proxy-target-class: true
 
+  # 关闭浏览器默认小图标
+  mvc:
+    favicon:
+      enabled: false
+
 # mybatis配置
 mybatis:
   type-handlers-package: com.king.oauth.handler.mybatis

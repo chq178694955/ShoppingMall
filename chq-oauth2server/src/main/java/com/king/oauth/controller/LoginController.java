@@ -1,6 +1,7 @@
 package com.king.oauth.controller;
 
 import com.king.sys.service.IUserService;
+import com.king.utils.I18nUtils;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.IncorrectCredentialsException;
 import org.apache.shiro.authc.UnknownAccountException;
@@ -41,6 +42,7 @@ public class LoginController {
     public ModelAndView login(@RequestParam("account") String account, @RequestParam("password") String password,
                                @RequestParam("redirect_uri")String redirect_uri, @RequestParam("response_type")String response_type, @RequestParam("client_id")String client_id) {
         ModelAndView m = new ModelAndView();
+
         //添加用户认证信息
         Subject subject = SecurityUtils.getSubject();
         UsernamePasswordToken uToken = new UsernamePasswordToken(account, password);
@@ -51,12 +53,12 @@ public class LoginController {
             subject.login(uToken);
 
         } catch (UnknownAccountException e) {
-            m.addObject("result", "用户不存在");
-            m.setViewName("login");
+            m.addObject("result", I18nUtils.get("com.king.system.login.tip.noaccount"));
+            m.setViewName("redirect:/login?clientId=" + client_id + "&redirect_uri=" + redirect_uri + "&response_type="+response_type);
             return m;
         } catch (IncorrectCredentialsException e) {
-            m.addObject("result", "密码错误");
-            m.setViewName("login");
+            m.addObject("result", I18nUtils.get("com.king.system.login.tip.passerr"));
+            m.setViewName("redirect:/login?clientId=" + client_id + "&redirect_uri=" + redirect_uri + "&response_type="+response_type);
             return m;
         }
 

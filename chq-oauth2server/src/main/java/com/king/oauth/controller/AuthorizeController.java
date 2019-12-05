@@ -2,8 +2,8 @@ package com.king.oauth.controller;
 
 import com.king.oauth.service.AuthorizeService;
 import com.king.oauth.service.ClientService;
-import com.king.oauth.utils.RedisUtil;
 import com.king.sys.Oauth2Client;
+import com.king.utils.RedisUtil;
 import org.apache.oltu.oauth2.as.issuer.MD5Generator;
 import org.apache.oltu.oauth2.as.issuer.OAuthIssuerImpl;
 import org.apache.oltu.oauth2.as.request.OAuthAuthzRequest;

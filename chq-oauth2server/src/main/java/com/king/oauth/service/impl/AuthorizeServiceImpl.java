@@ -2,8 +2,8 @@ package com.king.oauth.service.impl;
 
 import com.king.dao.ClientMapper;
 import com.king.oauth.service.AuthorizeService;
-import com.king.oauth.utils.RedisUtil;
 import com.king.sys.Oauth2Client;
+import com.king.utils.RedisUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
