@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org" xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -8,6 +8,9 @@
 <div class="login-box-body">
     <p class="login-box-msg">登录更精彩！！！</p>
     <form action="login" method="post">
+        <input type="hidden" name="redirect_uri" th:value="${#httpServletRequest.getParameter('redirect_uri')}"/>
+        <input type="hidden" name="response_type" th:value="${#httpServletRequest.getParameter('response_type')}"/>
+        <input type="hidden" name="client_id" th:value="${#httpServletRequest.getParameter('clientId')}"/>
         <div class="form-group has-feedback">
             <input type="phone" class="form-control" placeholder="请输入手机号" name="account">
             <span class="glyphicon glyphicon-envelope form-control-feedback"></span>

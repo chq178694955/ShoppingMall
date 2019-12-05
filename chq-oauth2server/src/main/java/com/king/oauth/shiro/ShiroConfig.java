@@ -1,10 +1,10 @@
 package com.king.oauth.shiro;
 
 import at.pollux.thymeleaf.shiro.dialect.ShiroDialect;
-import com.king.oauth.constant.Constants;
 import org.apache.shiro.authc.credential.CredentialsMatcher;
 import org.apache.shiro.cache.CacheManager;
 import org.apache.shiro.session.mgt.SessionManager;
+import org.apache.shiro.session.mgt.eis.JavaUuidSessionIdGenerator;
 import org.apache.shiro.spring.LifecycleBeanPostProcessor;
 import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
@@ -44,7 +44,15 @@ public class ShiroConfig {
     public MyRealm myRealm(@Qualifier("credentialsMatcher")CredentialsMatcher credentialsMatcher){
         MyRealm myRealm = new MyRealm();
         myRealm.setCredentialsMatcher(credentialsMatcher);
+        myRealm.setCachingEnabled(false);
         return myRealm;
+    }
+
+    //回话ID生成器
+    @Bean
+    public JavaUuidSessionIdGenerator javaUuidSessionIdGenerator(){
+        JavaUuidSessionIdGenerator javaUuidSessionIdGenerator = new JavaUuidSessionIdGenerator();
+        return javaUuidSessionIdGenerator;
     }
 
     @Value("${spring.redis.host}")
@@ -90,7 +98,7 @@ public class ShiroConfig {
     @Bean
     public SimpleCookie rememberMeCookie(){
         SimpleCookie simpleCookie = new SimpleCookie("rememberMe");
-        simpleCookie.setMaxAge(10 * 60);
+        simpleCookie.setMaxAge(-1);
         return simpleCookie;
     }
 
@@ -98,7 +106,7 @@ public class ShiroConfig {
     @Bean
     public CookieRememberMeManager rememberMeManager(){
         CookieRememberMeManager cookieRememberMeManager = new CookieRememberMeManager();
-        cookieRememberMeManager.setCipherKey("chq-king-cookies".getBytes());//cookie key 加密，长度必须16位
+        cookieRememberMeManager.setCipherKey("cao-king-cookies".getBytes());//cookie key 加密，长度必须16位
         cookieRememberMeManager.setCookie(rememberMeCookie());
         return cookieRememberMeManager;
     }
@@ -112,10 +120,13 @@ public class ShiroConfig {
     @Bean
     public SessionManager sessionManager() {
         DefaultWebSessionManager sessionManager = new DefaultWebSessionManager();
-        sessionManager.setGlobalSessionTimeout(1800);
+        sessionManager.setGlobalSessionTimeout(1800000);
+        sessionManager.setDeleteInvalidSessions(true);
         sessionManager.setCacheManager(cacheManager());
         sessionManager.setSessionDAO(redisSessionDAO());
-        sessionManager.getSessionIdCookie().setName(Constants.COOKIE_KEY);
+        sessionManager.setSessionIdCookieEnabled(true);
+//        sessionManager.setSessionIdCookie(rememberMeCookie());
+        sessionManager.setSessionIdUrlRewritingEnabled(false);//隐藏jsessionid
         return sessionManager;
     }
 
@@ -154,7 +165,13 @@ public class ShiroConfig {
         linkedHashMap.put("/fonts/**", "anon");
         linkedHashMap.put("/img/**", "anon");
         linkedHashMap.put("/js/**", "anon");
-        linkedHashMap.put("/oauth-server/**", "anon");//过滤掉授权验证请求地址
+
+        linkedHashMap.put("/login", "authc");//拦截登录
+        linkedHashMap.put("/oauth-server/authorize", "anon");
+        linkedHashMap.put("/oauth-server/accessToken", "anon");
+        linkedHashMap.put("/oauth-server/userInfo", "anon");
+
+//        linkedHashMap.put("/oauth-server/**", "anon");//过滤掉授权验证请求地址
 
         linkedHashMap.put("/**", "user");//需要进行权限验证
         bean.setFilterChainDefinitionMap(linkedHashMap);
@@ -162,7 +179,7 @@ public class ShiroConfig {
         // 如果不设置默认会自动寻找Web工程根目录下的"/login.jsp"页面
         bean.setLoginUrl("/login");
         // 登录成功后要跳转的链接
-        bean.setSuccessUrl("/index");
+//        bean.setSuccessUrl("/index");
         return bean;
     }
 

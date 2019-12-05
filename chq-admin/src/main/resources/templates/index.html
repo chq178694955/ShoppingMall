@@ -1,10 +1,21 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org" xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
 <head>
+    <!-- 绝对路径获取方式
+     ${#httpServletRequest.getScheme() + '://' + #httpServletRequest.getServerName() + ':' + #request.getServerPort()  + #request.getContextPath() + '/'}
+     -->
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
-<h1>首页</h1>
+<shiro:guest>
+    欢迎游客访问，<a th:href="${#httpServletRequest.getScheme() + '://' + #httpServletRequest.getServerName() + ':' + #request.getServerPort()  + #request.getContextPath() + '/'}oauth2-login">点击登录</a><br/>
+</shiro:guest>
+<shiro:user>
+    欢迎[<shiro:principal/>]登录<br/>
+</shiro:user>
+<shiro:hasRole name="admin">
+    您有角色admin
+</shiro:hasRole>
 </body>
 </html>

@@ -1,460 +1,932 @@
-2019-12-04 09:20:33,710 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 106760 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 09:20:33,720 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 09:20:33,721 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 09:20:36,519 INFO (StartupInfoLogger.java:61)- Started Startup in 3.76 seconds (JVM running for 7.566)
-2019-12-04 09:25:47,525 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 53476 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 09:25:47,581 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 09:25:47,582 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 09:25:50,124 INFO (StartupInfoLogger.java:61)- Started Startup in 3.703 seconds (JVM running for 5.196)
-2019-12-04 09:29:13,811 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 110768 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 09:29:13,821 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 09:29:13,823 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 09:29:16,887 INFO (StartupInfoLogger.java:61)- Started Startup in 4.43 seconds (JVM running for 6.504)
-2019-12-04 09:32:53,790 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 14048 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 09:32:53,796 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 09:32:53,797 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 09:32:55,885 INFO (StartupInfoLogger.java:61)- Started Startup in 3.138 seconds (JVM running for 4.274)
-2019-12-04 09:33:33,394 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 114020 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 09:33:33,399 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 09:33:33,400 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 09:33:35,705 INFO (StartupInfoLogger.java:61)- Started Startup in 3.311 seconds (JVM running for 4.42)
-2019-12-04 09:34:21,065 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 94892 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 09:34:21,070 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 09:34:21,071 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 09:34:23,994 INFO (StartupInfoLogger.java:61)- Started Startup in 3.969 seconds (JVM running for 5.188)
-2019-12-04 09:34:47,012 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 111728 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 09:34:47,023 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 09:34:47,024 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 09:34:49,467 INFO (StartupInfoLogger.java:61)- Started Startup in 3.638 seconds (JVM running for 5.11)
-2019-12-04 09:35:51,597 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 60776 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 09:35:51,620 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 09:35:51,625 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 09:35:55,282 INFO (StartupInfoLogger.java:61)- Started Startup in 5.134 seconds (JVM running for 7.175)
-2019-12-04 09:48:23,618 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 115908 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 09:48:23,623 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 09:48:23,623 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 09:48:26,197 INFO (StartupInfoLogger.java:61)- Started Startup in 3.702 seconds (JVM running for 5.015)
-2019-12-04 09:48:42,630 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 116524 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 09:48:42,636 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 09:48:42,636 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 09:48:46,412 INFO (StartupInfoLogger.java:61)- Started Startup in 4.716 seconds (JVM running for 5.718)
-2019-12-04 09:51:04,380 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 95500 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 09:51:04,386 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 09:51:04,387 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 09:51:07,974 INFO (StartupInfoLogger.java:61)- Started Startup in 4.565 seconds (JVM running for 5.928)
-2019-12-04 09:53:34,187 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 113220 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 09:53:34,192 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 09:53:34,193 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 09:53:36,287 INFO (StartupInfoLogger.java:61)- Started Startup in 3.124 seconds (JVM running for 4.236)
-2019-12-04 09:54:19,296 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 40896 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 09:54:19,301 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 09:54:19,302 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 09:54:21,228 INFO (StartupInfoLogger.java:61)- Started Startup in 2.882 seconds (JVM running for 3.976)
-2019-12-04 09:57:16,328 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 111812 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 09:57:16,342 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 09:57:16,344 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 09:57:18,648 INFO (StartupInfoLogger.java:61)- Started Startup in 3.361 seconds (JVM running for 4.397)
-2019-12-04 09:58:45,451 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 115632 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 09:58:45,457 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 09:58:45,458 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 09:58:49,585 INFO (StartupInfoLogger.java:61)- Started Startup in 5.424 seconds (JVM running for 7.575)
-2019-12-04 09:59:23,981 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 104676 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 09:59:23,987 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 09:59:23,988 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 09:59:26,061 INFO (StartupInfoLogger.java:61)- Started Startup in 3.172 seconds (JVM running for 4.314)
-2019-12-04 10:00:18,675 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 116000 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 10:00:18,680 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 10:00:18,681 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 10:00:22,680 INFO (StartupInfoLogger.java:61)- Started Startup in 4.925 seconds (JVM running for 5.946)
-2019-12-04 10:02:46,166 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 79496 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 10:02:46,174 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 10:02:46,175 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 10:02:48,406 INFO (StartupInfoLogger.java:61)- Started Startup in 3.313 seconds (JVM running for 4.553)
-2019-12-04 10:04:15,565 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 115364 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 10:04:15,571 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 10:04:15,572 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 10:04:19,200 INFO (StartupInfoLogger.java:61)- Started Startup in 5.01 seconds (JVM running for 6.037)
-2019-12-04 10:58:12,924 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 106036 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 10:58:12,929 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 10:58:12,929 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 10:58:15,979 INFO (StartupInfoLogger.java:61)- Started Startup in 4.196 seconds (JVM running for 5.976)
-2019-12-04 11:04:01,159 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 118448 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 11:04:01,165 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 11:04:01,165 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 11:04:04,046 INFO (StartupInfoLogger.java:61)- Started Startup in 4.123 seconds (JVM running for 5.346)
-2019-12-04 11:14:32,358 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 120268 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 11:14:32,366 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 11:14:32,368 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 11:15:59,472 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 119176 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 11:15:59,484 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 11:15:59,485 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 11:16:02,343 INFO (StartupInfoLogger.java:61)- Started Startup in 3.749 seconds (JVM running for 4.832)
-2019-12-04 11:20:33,934 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 119968 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 11:20:33,938 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 11:20:33,938 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 11:20:37,432 INFO (StartupInfoLogger.java:61)- Started Startup in 4.457 seconds (JVM running for 5.57)
-2019-12-04 11:23:31,700 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 120744 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 11:23:31,706 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 11:23:31,708 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 11:23:34,631 INFO (StartupInfoLogger.java:61)- Started Startup in 3.963 seconds (JVM running for 5.112)
-2019-12-04 11:33:45,043 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 117088 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 11:33:45,048 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 11:33:45,049 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 11:33:48,280 INFO (StartupInfoLogger.java:61)- Started Startup in 4.158 seconds (JVM running for 5.372)
-2019-12-04 11:34:45,627 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 120276 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 11:34:45,627 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 11:34:45,627 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 11:34:48,169 INFO (StartupInfoLogger.java:61)- Started Startup in 3.32 seconds (JVM running for 4.23)
-2019-12-04 11:35:52,330 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 119380 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 11:35:52,335 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 11:35:52,336 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 11:35:54,913 INFO (StartupInfoLogger.java:61)- Started Startup in 3.512 seconds (JVM running for 4.51)
-2019-12-04 11:40:54,949 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 120184 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 11:40:54,949 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 11:40:54,949 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 11:44:11,075 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 116888 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 11:44:11,075 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 11:44:11,075 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 11:44:16,871 INFO (StartupInfoLogger.java:61)- Started Startup in 6.568 seconds (JVM running for 7.5)
-2019-12-04 11:44:53,042 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 109276 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 11:44:53,042 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 11:44:53,042 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 11:44:55,399 INFO (StartupInfoLogger.java:61)- Started Startup in 3.102 seconds (JVM running for 4.062)
-2019-12-04 13:31:34,766 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 120860 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 13:31:34,771 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 13:31:34,772 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 13:31:38,997 INFO (StartupInfoLogger.java:61)- Started Startup in 5.288 seconds (JVM running for 6.564)
-2019-12-04 13:51:38,274 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 127456 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 13:51:38,278 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 13:51:38,279 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 14:06:18,530 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 128572 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 14:06:18,533 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 14:06:18,534 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 14:06:51,402 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 126100 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 14:06:51,408 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 14:06:51,408 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 14:08:47,795 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 126164 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 14:08:47,800 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 14:08:47,801 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 14:09:38,756 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 127664 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 14:09:38,761 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 14:09:38,762 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 14:09:41,905 INFO (StartupInfoLogger.java:61)- Started Startup in 3.933 seconds (JVM running for 4.856)
-2019-12-04 14:11:05,953 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 113884 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 14:11:05,959 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 14:11:05,960 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 14:11:08,890 INFO (StartupInfoLogger.java:61)- Started Startup in 3.85 seconds (JVM running for 4.935)
-2019-12-04 14:55:52,266 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 132288 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 14:55:52,269 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 14:55:52,270 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 14:57:44,861 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 132724 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 14:57:44,866 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 14:57:44,867 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 14:57:54,020 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 133072 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 14:57:54,027 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 14:57:54,028 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 14:59:35,963 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 133620 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 14:59:35,967 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 14:59:35,967 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 15:03:46,037 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 128648 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 15:03:46,040 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 15:03:46,040 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 15:09:04,012 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 134060 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 15:09:04,018 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 15:09:04,019 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 15:10:14,338 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 133136 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 15:10:14,345 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 15:10:14,352 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 15:13:59,644 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 132244 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 15:13:59,649 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 15:13:59,650 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 15:14:02,842 INFO (StartupInfoLogger.java:61)- Started Startup in 4.008 seconds (JVM running for 4.937)
-2019-12-04 15:15:43,828 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 134284 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 15:15:43,832 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 15:15:43,833 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 15:20:31,235 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 134964 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 15:20:31,240 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 15:20:31,241 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 15:21:13,861 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 133596 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 15:21:13,867 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 15:21:13,868 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 15:21:29,641 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 134552 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 15:21:29,644 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 15:21:29,645 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 15:23:09,152 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 134472 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 15:23:09,156 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 15:23:09,157 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 15:28:27,712 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 134380 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 15:28:27,720 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 15:28:27,721 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 15:29:44,938 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 135840 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 15:29:44,943 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 15:29:44,944 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 15:32:20,936 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 135640 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 15:32:20,941 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 15:32:20,942 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 15:32:24,114 INFO (StartupInfoLogger.java:61)- Started Startup in 4.055 seconds (JVM running for 4.967)
-2019-12-04 15:33:34,454 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 134432 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 15:33:34,458 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 15:33:34,459 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 15:33:37,423 INFO (StartupInfoLogger.java:61)- Started Startup in 3.847 seconds (JVM running for 4.774)
-2019-12-04 15:36:11,309 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 134252 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 15:36:11,315 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 15:36:11,315 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 15:36:14,297 INFO (StartupInfoLogger.java:61)- Started Startup in 4.102 seconds (JVM running for 5.099)
-2019-12-04 15:37:37,144 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 128656 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 15:37:37,148 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 15:37:37,149 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 15:37:40,064 INFO (StartupInfoLogger.java:61)- Started Startup in 3.676 seconds (JVM running for 4.72)
-2019-12-04 15:38:28,790 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 134156 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 15:38:28,796 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 15:38:28,797 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 15:38:31,926 INFO (StartupInfoLogger.java:61)- Started Startup in 3.975 seconds (JVM running for 4.908)
-2019-12-04 15:41:11,289 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 133096 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 15:41:11,293 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 15:41:11,293 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 15:41:14,635 INFO (StartupInfoLogger.java:61)- Started Startup in 4.347 seconds (JVM running for 5.399)
-2019-12-04 15:42:35,120 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 134544 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 15:42:35,127 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 15:42:35,127 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 15:42:38,398 INFO (StartupInfoLogger.java:61)- Started Startup in 4.228 seconds (JVM running for 5.138)
-2019-12-04 15:45:17,892 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 137160 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 15:45:17,897 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 15:45:17,898 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 15:45:21,058 INFO (StartupInfoLogger.java:61)- Started Startup in 4.088 seconds (JVM running for 5.003)
-2019-12-04 15:50:04,611 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 132848 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 15:50:04,615 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 15:50:04,616 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 15:50:08,055 INFO (StartupInfoLogger.java:61)- Started Startup in 4.315 seconds (JVM running for 5.323)
-2019-12-04 15:51:23,093 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 134092 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 15:51:23,097 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 15:51:23,098 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 15:51:26,760 INFO (StartupInfoLogger.java:61)- Started Startup in 4.22 seconds (JVM running for 6.927)
-2019-12-04 15:52:10,619 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 131164 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 15:52:10,625 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 15:52:10,626 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 15:52:13,615 INFO (StartupInfoLogger.java:61)- Started Startup in 3.826 seconds (JVM running for 4.69)
-2019-12-04 15:55:01,553 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 118816 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 15:55:01,559 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 15:55:01,560 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 15:55:04,755 INFO (StartupInfoLogger.java:61)- Started Startup in 4.09 seconds (JVM running for 5.342)
-2019-12-04 15:56:03,557 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 131804 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 15:56:03,561 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 15:56:03,562 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 15:56:06,892 INFO (StartupInfoLogger.java:61)- Started Startup in 4.133 seconds (JVM running for 5.071)
-2019-12-04 15:57:49,120 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 137520 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 15:57:49,126 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 15:57:49,128 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 15:57:52,556 INFO (StartupInfoLogger.java:61)- Started Startup in 4.286 seconds (JVM running for 5.168)
-2019-12-04 15:57:55,668 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,user_name from t_test 
-2019-12-04 15:57:55,765 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-04 15:57:55,792 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 6
-2019-12-04 15:59:25,336 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 128628 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 15:59:25,342 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 15:59:25,343 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 15:59:28,791 INFO (StartupInfoLogger.java:61)- Started Startup in 4.332 seconds (JVM running for 5.328)
-2019-12-04 15:59:30,902 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,user_name from t_test 
-2019-12-04 15:59:31,006 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-04 15:59:31,039 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 6
-2019-12-04 16:50:25,986 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 142604 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 16:50:25,990 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 16:50:25,990 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 16:53:06,231 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 143288 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 16:53:06,237 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 16:53:06,237 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 16:55:27,688 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 143716 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 16:55:27,693 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 16:55:27,694 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 16:55:29,979 INFO (StartupInfoLogger.java:61)- Started Startup in 3.172 seconds (JVM running for 4.211)
-2019-12-04 18:43:23,157 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 87308 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 18:43:23,160 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 18:43:23,161 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 18:43:25,559 INFO (StartupInfoLogger.java:61)- Started Startup in 3.179 seconds (JVM running for 4.808)
-2019-12-04 18:58:33,348 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 147588 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 18:58:33,352 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 18:58:33,353 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 18:58:35,805 INFO (StartupInfoLogger.java:61)- Started Startup in 3.367 seconds (JVM running for 4.559)
-2019-12-04 18:58:47,864 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 148300 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 18:58:47,867 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 18:58:47,867 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 19:05:28,209 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 139088 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 19:05:28,218 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 19:05:28,219 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 19:06:10,286 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 147948 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 19:06:10,292 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 19:06:10,293 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 19:07:23,105 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 142672 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 19:07:23,109 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 19:07:23,110 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 19:07:26,775 INFO (StartupInfoLogger.java:61)- Started Startup in 4.528 seconds (JVM running for 5.582)
-2019-12-04 19:09:02,107 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 19:09:02,358 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 19:09:02,565 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 19:30:49,889 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 150400 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 19:30:49,893 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 19:30:49,894 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 19:33:29,676 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 147980 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 19:33:29,681 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 19:33:29,682 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 19:35:02,138 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 145900 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 19:35:02,142 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 19:35:02,143 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 19:35:05,357 INFO (StartupInfoLogger.java:61)- Started Startup in 4.023 seconds (JVM running for 4.972)
-2019-12-04 19:35:18,320 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 86304 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 19:35:18,325 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 19:35:18,325 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 19:37:01,611 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 148472 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 19:37:01,615 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 19:37:01,616 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 19:40:51,339 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 149840 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 19:40:51,344 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 19:40:51,345 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 19:40:54,642 INFO (StartupInfoLogger.java:61)- Started Startup in 4.12 seconds (JVM running for 5.058)
-2019-12-04 19:41:03,855 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 146556 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 19:41:03,861 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 19:41:03,862 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 19:41:07,428 INFO (StartupInfoLogger.java:61)- Started Startup in 4.517 seconds (JVM running for 5.655)
-2019-12-04 19:41:27,432 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 19:41:27,503 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 19:41:27,537 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 19:41:27,543 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 19:41:27,544 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 19:41:27,545 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 19:43:07,272 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 19:43:07,273 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 19:43:07,278 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 19:43:07,279 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 19:43:07,280 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 19:43:07,281 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 19:43:18,892 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 19:43:18,893 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 19:43:18,895 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 19:43:18,896 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 19:43:18,897 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 19:43:18,898 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 19:45:09,903 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 19:45:09,904 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 19:45:09,906 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 19:45:09,907 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 19:45:09,907 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 19:45:09,909 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 19:51:04,864 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 151068 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 19:51:04,867 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 19:51:04,868 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 19:51:08,105 INFO (StartupInfoLogger.java:61)- Started Startup in 4.283 seconds (JVM running for 5.376)
-2019-12-04 19:51:14,246 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 19:51:14,269 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 19:51:14,292 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 19:51:14,294 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 19:51:14,306 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 19:51:14,307 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 19:52:08,553 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 19:52:08,554 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 19:52:08,558 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 19:52:08,558 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 19:52:08,560 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 19:52:08,561 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 19:52:35,796 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 19:52:35,798 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 19:52:35,800 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 19:52:35,801 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 19:52:35,802 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 19:52:35,803 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 19:53:17,576 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 19:53:17,577 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 19:53:17,579 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 19:53:17,582 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 19:53:17,584 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 19:53:17,588 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 19:53:35,612 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 152408 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 19:53:35,617 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 19:53:35,617 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 19:53:39,527 INFO (StartupInfoLogger.java:61)- Started Startup in 5.231 seconds (JVM running for 6.423)
-2019-12-04 19:53:42,637 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 19:53:42,657 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 19:53:42,676 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 19:53:42,678 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 19:53:42,678 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 19:53:42,679 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 19:54:43,536 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 19:54:43,537 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 19:54:43,543 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 19:54:43,545 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 19:54:43,545 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 19:54:43,546 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 19:55:28,645 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 19:55:28,646 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 19:55:28,647 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 19:55:28,648 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 19:55:28,649 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 19:55:28,653 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 19:56:27,782 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 19:56:27,783 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 19:56:27,785 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 19:56:27,786 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 19:56:27,787 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 19:56:27,792 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 19:58:19,427 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 19:58:19,428 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 19:58:19,431 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 19:58:19,433 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 19:58:19,435 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 19:58:19,439 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 19:59:44,762 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 19:59:44,763 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 19:59:44,765 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 19:59:44,766 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 19:59:44,766 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 19:59:44,770 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 20:00:20,894 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 20:00:20,895 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 20:00:20,896 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 20:00:20,897 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 20:00:20,897 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 20:00:20,899 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 20:01:24,180 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 151880 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 20:01:24,186 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 20:01:24,187 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 20:01:28,546 INFO (StartupInfoLogger.java:61)- Started Startup in 5.295 seconds (JVM running for 6.428)
-2019-12-04 20:01:33,184 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 20:01:33,207 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 20:01:33,228 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 20:01:33,230 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 20:01:33,230 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 20:01:33,232 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 20:03:01,930 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 20:03:01,931 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 20:03:01,933 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 20:03:01,934 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 20:03:01,934 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 20:03:01,935 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 20:04:53,176 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 147464 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 20:04:53,181 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 20:04:53,183 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 20:04:56,746 INFO (StartupInfoLogger.java:61)- Started Startup in 4.538 seconds (JVM running for 5.54)
-2019-12-04 20:05:03,369 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 149592 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 20:05:03,375 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 20:05:03,376 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 20:05:07,028 INFO (StartupInfoLogger.java:61)- Started Startup in 4.58 seconds (JVM running for 5.579)
-2019-12-04 20:08:03,463 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 149764 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 20:08:03,468 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 20:08:03,468 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 20:08:06,792 INFO (StartupInfoLogger.java:61)- Started Startup in 4.451 seconds (JVM running for 5.549)
-2019-12-04 20:09:38,437 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 151844 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 20:09:38,443 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 20:09:38,444 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 20:09:42,316 INFO (StartupInfoLogger.java:61)- Started Startup in 5.049 seconds (JVM running for 6.192)
-2019-12-04 20:10:29,836 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 150472 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 20:10:29,846 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 20:10:29,847 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 20:10:33,027 INFO (StartupInfoLogger.java:61)- Started Startup in 4.235 seconds (JVM running for 5.129)
-2019-12-04 20:11:26,777 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 152144 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-04 20:11:26,781 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-04 20:11:26,781 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-04 20:11:30,705 INFO (StartupInfoLogger.java:61)- Started Startup in 5.187 seconds (JVM running for 6.272)
-2019-12-04 20:11:46,982 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 20:11:47,008 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 20:11:47,034 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-04 20:11:47,036 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-04 20:11:47,036 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
-2019-12-04 20:11:47,037 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:03:29,330 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 150280 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 09:03:29,338 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 09:03:29,338 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 09:03:36,414 INFO (StartupInfoLogger.java:61)- Started Startup in 7.845 seconds (JVM running for 11.073)
+2019-12-05 09:03:56,422 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 140240 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 09:03:56,429 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 09:03:56,430 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 09:04:02,058 INFO (StartupInfoLogger.java:61)- Started Startup in 6.938 seconds (JVM running for 9.025)
+2019-12-05 09:05:17,502 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:05:17,539 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:05:17,610 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:05:17,612 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:05:17,612 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:05:17,618 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:06:59,710 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 143304 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 09:06:59,717 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 09:06:59,718 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 09:07:04,027 INFO (StartupInfoLogger.java:61)- Started Startup in 5.642 seconds (JVM running for 7.112)
+2019-12-05 09:07:51,610 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:07:51,659 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:07:51,726 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:07:51,727 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:07:51,727 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:07:51,727 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:08:49,574 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 124364 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 09:08:49,578 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 09:08:49,578 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 09:08:52,980 INFO (StartupInfoLogger.java:61)- Started Startup in 4.629 seconds (JVM running for 6.44)
+2019-12-05 09:09:01,350 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:09:01,352 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:09:01,353 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:09:01,354 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:09:01,354 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:09:01,355 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:09:38,504 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:09:38,510 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:09:38,523 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:09:49,167 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:09:49,172 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:09:49,188 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:13:40,645 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 153412 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 09:13:40,652 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 09:13:40,652 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 09:13:44,415 INFO (StartupInfoLogger.java:61)- Started Startup in 4.861 seconds (JVM running for 5.992)
+2019-12-05 09:13:51,253 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 154428 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 09:13:51,259 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 09:13:51,260 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 09:13:54,664 INFO (StartupInfoLogger.java:61)- Started Startup in 4.553 seconds (JVM running for 6.178)
+2019-12-05 09:13:59,021 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:13:59,068 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:13:59,090 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:13:59,092 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:13:59,093 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:13:59,094 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:15:15,686 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 86392 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 09:15:15,694 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 09:15:15,695 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 09:15:19,293 INFO (StartupInfoLogger.java:61)- Started Startup in 4.559 seconds (JVM running for 5.611)
+2019-12-05 09:15:27,441 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 154504 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 09:15:27,446 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 09:15:27,448 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 09:15:30,817 INFO (StartupInfoLogger.java:61)- Started Startup in 4.518 seconds (JVM running for 6.216)
+2019-12-05 09:15:37,333 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:15:37,358 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:15:37,383 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:15:37,384 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:15:37,385 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:15:37,386 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:15:40,960 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:15:40,962 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:15:40,967 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:15:40,970 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:15:40,972 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:15:40,976 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:22:44,730 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 108428 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 09:22:44,730 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 09:22:44,730 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 09:22:49,559 INFO (StartupInfoLogger.java:61)- Started Startup in 5.997 seconds (JVM running for 7.859)
+2019-12-05 09:23:11,544 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 158096 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 09:23:11,555 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 09:23:11,559 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 09:23:15,775 INFO (StartupInfoLogger.java:61)- Started Startup in 5.403 seconds (JVM running for 6.759)
+2019-12-05 09:23:45,678 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:23:45,699 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:23:45,719 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:23:45,721 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:23:45,721 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:23:45,721 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:25:37,227 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 47284 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 09:25:37,233 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 09:25:37,235 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 09:25:40,712 INFO (StartupInfoLogger.java:61)- Started Startup in 4.509 seconds (JVM running for 5.678)
+2019-12-05 09:25:49,010 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 158728 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 09:25:49,034 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 09:25:49,038 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 09:25:52,591 INFO (StartupInfoLogger.java:61)- Started Startup in 4.661 seconds (JVM running for 5.812)
+2019-12-05 09:25:58,211 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:25:58,233 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:25:58,269 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:25:58,272 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:25:58,272 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:25:58,274 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:26:24,345 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:26:24,351 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:26:24,353 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:26:24,354 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:26:24,355 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:26:24,357 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:42:54,680 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 141416 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 09:42:54,687 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 09:42:54,688 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 09:42:58,719 INFO (StartupInfoLogger.java:61)- Started Startup in 5.228 seconds (JVM running for 6.497)
+2019-12-05 09:43:12,010 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 149792 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 09:43:12,049 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 09:43:12,051 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 09:43:16,417 INFO (StartupInfoLogger.java:61)- Started Startup in 5.53 seconds (JVM running for 6.846)
+2019-12-05 09:43:26,102 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:43:26,149 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:43:26,206 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:43:26,213 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:43:26,214 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:43:26,216 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:43:32,397 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:43:32,398 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:43:32,401 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:43:32,401 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:43:32,401 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:43:32,407 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:44:18,143 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:44:18,143 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:44:18,144 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:44:18,145 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:44:18,145 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:44:18,146 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:44:23,208 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:44:23,210 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:44:23,214 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:44:23,215 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:44:23,216 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:44:23,219 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:44:35,331 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:44:35,332 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:44:35,333 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:44:35,334 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:44:35,335 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:44:35,337 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:48:11,423 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:48:11,428 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:48:11,433 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:48:11,434 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:48:11,435 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:48:11,436 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:50:57,600 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 159808 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 09:50:57,600 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 09:50:57,600 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 09:51:02,427 INFO (StartupInfoLogger.java:61)- Started Startup in 6.092 seconds (JVM running for 7.641)
+2019-12-05 09:51:10,277 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 159892 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 09:51:10,282 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 09:51:10,283 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 09:51:14,975 INFO (StartupInfoLogger.java:61)- Started Startup in 5.833 seconds (JVM running for 7.207)
+2019-12-05 09:51:16,379 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:51:16,439 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:51:16,493 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:51:16,496 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:51:16,496 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:51:16,501 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:52:57,637 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:52:57,638 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:52:57,641 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:52:57,641 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:52:57,642 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:52:57,643 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:53:17,847 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:53:17,847 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:53:17,850 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:53:17,851 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:53:17,853 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:53:17,855 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:54:30,538 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:54:30,538 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:54:30,545 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:54:30,546 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:54:30,547 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:54:30,548 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:55:02,679 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:55:02,681 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:55:02,684 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 09:55:02,687 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 09:55:02,690 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 09:55:02,694 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 10:01:18,867 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 161212 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 10:01:18,871 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 10:01:18,872 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 10:01:22,799 INFO (StartupInfoLogger.java:61)- Started Startup in 5.519 seconds (JVM running for 7.061)
+2019-12-05 10:01:25,802 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 10:01:25,840 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 10:01:25,893 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 10:01:25,898 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 10:01:25,901 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 10:01:25,906 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 10:01:27,846 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 10:01:27,847 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 10:01:27,850 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 10:01:27,852 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 10:01:27,853 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 10:01:27,855 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 10:01:40,190 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 10:01:40,196 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 10:01:40,204 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 10:01:46,317 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 10:01:46,324 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 10:01:46,343 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 10:01:58,376 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 10:01:58,378 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 10:01:58,383 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 10:01:59,983 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 10:01:59,987 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 10:01:59,996 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 10:05:21,593 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 10:05:21,593 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 10:05:21,598 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 10:05:21,599 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 10:05:21,600 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 10:05:21,601 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 10:05:38,014 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 10:05:38,014 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 10:05:38,016 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 10:05:38,017 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 10:05:38,017 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 10:05:38,019 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 10:08:33,332 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 161748 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 10:08:33,388 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 10:08:33,392 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 10:08:37,034 INFO (StartupInfoLogger.java:61)- Started Startup in 4.675 seconds (JVM running for 5.94)
+2019-12-05 10:08:43,212 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 10:08:43,252 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 10:08:43,298 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 10:08:43,302 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 10:08:43,303 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 10:08:43,304 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 10:08:47,550 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 10:08:47,554 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 10:08:47,556 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 10:14:48,117 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 160568 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 10:14:48,121 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 10:14:48,122 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 10:14:51,940 INFO (StartupInfoLogger.java:61)- Started Startup in 5.077 seconds (JVM running for 6.419)
+2019-12-05 10:15:12,879 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 160636 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 10:15:12,882 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 10:15:12,883 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 10:15:16,393 INFO (StartupInfoLogger.java:61)- Started Startup in 4.545 seconds (JVM running for 5.864)
+2019-12-05 10:15:46,869 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 10:15:46,887 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 10:15:46,906 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 10:15:46,907 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 10:15:46,909 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 10:15:46,910 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 10:19:34,535 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 10:19:34,536 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 10:19:34,539 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 10:19:34,541 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 10:19:34,542 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 10:19:34,543 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 10:19:39,855 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 10:19:39,856 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 10:19:39,857 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 10:19:39,946 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 10:19:39,946 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 10:19:39,950 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 10:21:42,988 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 152364 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 10:21:42,993 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 10:21:42,995 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 10:21:47,055 INFO (StartupInfoLogger.java:61)- Started Startup in 5.283 seconds (JVM running for 6.461)
+2019-12-05 10:21:53,606 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 162268 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 10:21:53,614 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 10:21:53,616 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 10:21:57,155 INFO (StartupInfoLogger.java:61)- Started Startup in 5.025 seconds (JVM running for 6.353)
+2019-12-05 10:22:04,879 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 10:22:04,917 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 10:22:04,963 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 10:22:04,969 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 10:22:04,969 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 10:22:04,972 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 10:22:09,518 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 10:22:09,518 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 10:22:09,519 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 10:22:09,616 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 10:22:09,616 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 10:22:09,618 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 10:23:40,824 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 10:23:40,825 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 10:23:40,826 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 10:23:40,826 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 10:23:40,830 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 10:23:40,833 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 10:23:44,549 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 10:23:44,550 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 10:23:44,552 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 10:24:09,658 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 10:24:09,659 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 10:24:09,663 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 11:07:33,702 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 162836 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 11:07:33,707 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 11:07:33,708 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 11:10:31,478 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 161908 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 11:10:31,482 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 11:10:31,483 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 11:11:59,535 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 164424 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 11:11:59,543 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 11:11:59,544 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 11:14:04,842 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 164648 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 11:14:04,847 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 11:14:04,848 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 11:14:08,720 INFO (StartupInfoLogger.java:61)- Started Startup in 5.042 seconds (JVM running for 6.174)
+2019-12-05 11:14:41,893 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 164460 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 11:14:41,900 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 11:14:41,902 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 11:14:47,739 INFO (StartupInfoLogger.java:61)- Started Startup in 7.393 seconds (JVM running for 8.723)
+2019-12-05 11:22:08,562 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 164760 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 11:22:08,569 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 11:22:08,569 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 11:22:12,566 INFO (StartupInfoLogger.java:61)- Started Startup in 5.126 seconds (JVM running for 6.373)
+2019-12-05 11:22:20,730 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 164296 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 11:22:20,735 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 11:22:20,735 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 11:22:24,675 INFO (StartupInfoLogger.java:61)- Started Startup in 5.109 seconds (JVM running for 6.481)
+2019-12-05 11:29:52,784 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 165492 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 11:29:52,789 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 11:29:52,790 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 11:29:57,380 INFO (StartupInfoLogger.java:61)- Started Startup in 5.776 seconds (JVM running for 7.159)
+2019-12-05 11:30:07,720 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 77644 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 11:30:07,724 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 11:30:07,724 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 11:30:11,228 INFO (StartupInfoLogger.java:61)- Started Startup in 4.577 seconds (JVM running for 5.977)
+2019-12-05 11:39:00,045 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 161500 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 11:39:00,049 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 11:39:00,050 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 11:39:03,617 INFO (StartupInfoLogger.java:61)- Started Startup in 4.678 seconds (JVM running for 6.1)
+2019-12-05 11:41:03,642 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 165400 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 11:41:03,649 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 11:41:03,652 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 11:41:07,309 INFO (StartupInfoLogger.java:61)- Started Startup in 4.647 seconds (JVM running for 5.77)
+2019-12-05 12:48:14,526 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 159196 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 12:48:14,533 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 12:48:14,533 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 12:48:19,953 INFO (StartupInfoLogger.java:61)- Started Startup in 6.177 seconds (JVM running for 7.673)
+2019-12-05 12:50:30,583 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 132292 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 12:50:30,590 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 12:50:30,590 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 12:50:34,393 INFO (StartupInfoLogger.java:61)- Started Startup in 5.058 seconds (JVM running for 6.282)
+2019-12-05 12:50:58,164 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 164240 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 12:50:58,170 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 12:50:58,172 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 12:51:02,597 INFO (StartupInfoLogger.java:61)- Started Startup in 5.586 seconds (JVM running for 6.657)
+2019-12-05 12:51:14,072 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 12:51:14,094 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 12:51:14,132 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 12:51:14,134 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 12:51:14,134 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 12:51:14,136 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 12:51:35,013 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 12:51:35,014 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 12:51:35,015 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 12:51:35,016 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 12:51:35,016 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 12:51:35,017 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:01:39,132 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:01:39,133 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:01:39,145 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:01:39,146 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:01:39,146 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:01:39,147 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:05:35,052 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 160052 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 13:05:35,058 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 13:05:35,059 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 13:05:38,866 INFO (StartupInfoLogger.java:61)- Started Startup in 4.824 seconds (JVM running for 5.972)
+2019-12-05 13:05:45,767 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 166608 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 13:05:45,776 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 13:05:45,778 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 13:05:50,271 INFO (StartupInfoLogger.java:61)- Started Startup in 5.775 seconds (JVM running for 7.124)
+2019-12-05 13:06:04,626 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:06:04,651 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:06:04,676 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:06:04,677 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:06:04,678 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:06:04,679 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:06:13,911 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:06:13,912 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:06:13,917 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:06:19,097 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:06:19,098 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:06:19,100 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:14:27,140 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:14:27,141 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:14:27,145 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:14:37,606 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:14:37,606 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:14:37,608 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:15:43,025 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:15:43,026 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:15:43,029 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:15:43,030 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:15:43,031 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:15:43,033 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:18:48,390 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:18:48,391 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:18:48,394 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:18:48,396 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:18:48,397 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:18:48,400 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:21:06,458 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:21:06,460 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:21:06,463 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:21:07,016 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:21:07,017 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:21:07,018 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:21:28,557 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:21:28,559 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:21:28,564 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:21:28,567 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:21:28,569 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:21:28,572 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:41:48,601 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:41:48,603 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:41:48,615 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:41:48,622 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:41:48,625 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:41:48,635 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:41:58,675 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:41:58,680 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:41:58,686 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:42:02,610 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:42:02,611 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:42:02,613 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:43:28,886 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 167296 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 13:43:28,901 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 13:43:28,901 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 13:43:32,260 INFO (StartupInfoLogger.java:61)- Started Startup in 4.328 seconds (JVM running for 5.33)
+2019-12-05 13:43:40,108 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:43:40,131 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:43:40,154 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:43:40,157 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:43:40,157 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:43:40,158 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:43:45,529 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:43:45,531 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:43:45,536 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:43:45,538 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:43:45,539 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:43:45,541 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:44:56,060 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 164928 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 13:44:56,060 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 13:44:56,060 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 13:44:59,319 INFO (StartupInfoLogger.java:61)- Started Startup in 4.163 seconds (JVM running for 5.304)
+2019-12-05 13:45:13,426 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:45:13,458 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:45:13,500 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:45:13,501 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:45:13,502 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:45:13,503 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:45:24,608 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:45:24,609 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:45:24,612 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:45:26,148 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:45:26,150 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:45:26,151 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:51:55,405 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:51:55,408 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:51:56,933 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:51:56,938 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:51:56,939 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:52:03,562 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:52:03,563 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:52:04,816 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:52:04,820 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:52:04,821 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:52:04,827 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:52:04,837 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:52:21,367 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:52:21,369 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:52:21,374 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 13:53:18,411 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 13:53:18,412 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 13:53:18,413 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:04:16,747 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 165068 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 14:04:16,763 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 14:04:16,763 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 14:04:20,408 INFO (StartupInfoLogger.java:61)- Started Startup in 4.69 seconds (JVM running for 5.809)
+2019-12-05 14:04:28,492 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 165008 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 14:04:28,508 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 14:04:28,508 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 14:04:31,946 INFO (StartupInfoLogger.java:61)- Started Startup in 4.429 seconds (JVM running for 5.515)
+2019-12-05 14:04:39,871 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:04:39,896 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:04:39,922 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:04:39,926 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:04:39,927 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:04:39,928 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:04:44,540 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:04:44,541 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:04:44,542 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:04:44,543 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:04:44,543 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:04:44,543 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:06:43,350 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:06:43,351 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:06:43,352 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:06:43,354 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:06:43,354 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:06:43,355 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:07:02,684 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:07:02,685 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:07:02,687 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:07:40,798 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:07:40,799 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:07:40,802 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:11:06,659 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:11:06,664 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:11:06,665 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:11:06,666 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:11:06,666 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:11:06,667 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:11:29,218 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:11:29,218 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:11:29,219 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:11:58,067 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:11:58,068 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:11:58,069 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:12:09,844 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:12:09,844 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:12:09,845 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:12:20,824 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:12:20,824 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:12:20,825 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:19:41,301 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:19:41,303 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:19:41,306 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:19:41,308 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:19:41,310 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:19:41,318 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:19:55,038 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:19:55,039 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:19:55,041 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:19:57,134 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:19:57,135 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:19:57,136 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:20:06,046 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:20:06,047 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:20:06,048 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:20:20,863 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:20:20,872 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:20:20,873 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:28:34,831 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 163184 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 14:28:34,831 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 14:28:34,831 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 14:28:38,720 INFO (StartupInfoLogger.java:61)- Started Startup in 5.002 seconds (JVM running for 6.57)
+2019-12-05 14:28:56,637 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:28:56,664 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:28:56,693 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:29:09,201 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:29:09,204 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:29:09,209 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:30:31,188 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:30:31,189 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:30:31,193 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:30:35,878 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:30:35,879 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:30:35,880 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:33:34,120 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:33:34,121 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:33:34,122 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:33:40,156 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:33:40,157 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:33:40,159 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:38:22,638 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:38:22,639 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:38:22,641 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:38:29,015 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:38:29,018 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:38:29,023 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:39:16,852 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:39:16,853 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:39:16,855 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:39:22,204 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:39:22,205 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:39:22,206 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:45:19,154 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:45:19,155 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:45:19,157 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:45:19,158 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:45:19,159 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:45:19,160 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:52:33,195 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:52:33,195 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:52:33,197 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:52:33,199 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:52:33,200 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:52:33,202 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:53:53,101 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 164016 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 14:53:53,105 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 14:53:53,105 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 14:53:57,137 INFO (StartupInfoLogger.java:61)- Started Startup in 5.355 seconds (JVM running for 6.56)
+2019-12-05 14:53:58,531 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:53:58,558 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:53:58,596 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:53:58,598 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:53:58,598 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:53:58,599 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:54:06,005 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:54:06,006 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:54:06,009 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:54:06,010 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:54:06,010 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:54:06,011 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:54:29,067 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:54:29,069 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:54:29,072 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 14:54:30,802 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 14:54:30,803 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 14:54:30,809 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 15:07:40,935 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 166996 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 15:07:40,935 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 15:07:40,935 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 15:07:44,802 INFO (StartupInfoLogger.java:61)- Started Startup in 4.874 seconds (JVM running for 5.96)
+2019-12-05 15:07:56,359 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 15:07:56,387 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 15:07:56,417 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 15:07:56,419 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 15:07:56,420 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 15:07:56,421 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 15:08:06,116 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 15:08:06,117 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 15:08:06,118 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 15:08:06,120 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 15:08:06,121 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 15:08:06,122 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 15:12:43,755 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 166376 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 15:12:43,755 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 15:12:43,755 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 15:12:47,163 INFO (StartupInfoLogger.java:61)- Started Startup in 4.344 seconds (JVM running for 5.363)
+2019-12-05 15:12:57,827 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 169852 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 15:12:57,836 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 15:12:57,837 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 15:13:02,321 INFO (StartupInfoLogger.java:61)- Started Startup in 6.53 seconds (JVM running for 8.025)
+2019-12-05 15:21:04,753 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 15:21:04,782 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 15:21:04,810 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 15:21:04,814 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 15:21:04,815 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 15:21:04,816 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 15:24:19,306 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 163344 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 15:24:19,306 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 15:24:19,306 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 15:24:23,042 INFO (StartupInfoLogger.java:61)- Started Startup in 4.596 seconds (JVM running for 6.003)
+2019-12-05 15:24:30,975 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 169420 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 15:24:30,990 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 15:24:30,990 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 15:24:35,553 INFO (StartupInfoLogger.java:61)- Started Startup in 5.646 seconds (JVM running for 6.843)
+2019-12-05 15:24:44,221 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 15:24:44,251 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 15:24:44,276 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 15:24:44,279 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 15:24:44,279 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 15:24:44,280 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 15:25:54,575 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 15:25:54,575 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 15:25:54,576 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 15:25:54,577 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 15:25:54,578 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 15:25:54,581 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 15:27:49,493 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 162960 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 15:27:49,493 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 15:27:49,493 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 15:27:53,090 INFO (StartupInfoLogger.java:61)- Started Startup in 4.718 seconds (JVM running for 6.018)
+2019-12-05 15:28:00,281 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 170104 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 15:28:00,296 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 15:28:00,296 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 15:28:04,069 INFO (StartupInfoLogger.java:61)- Started Startup in 5.03 seconds (JVM running for 6.179)
+2019-12-05 15:28:11,159 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 15:28:11,185 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 15:28:11,220 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 15:28:11,221 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 15:28:11,222 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 15:28:11,222 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 15:30:57,654 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 170136 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 15:30:57,669 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 15:30:57,669 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 15:31:01,401 INFO (StartupInfoLogger.java:61)- Started Startup in 4.692 seconds (JVM running for 5.722)
+2019-12-05 15:31:10,739 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 148920 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 15:31:10,739 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 15:31:10,739 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 15:31:14,283 INFO (StartupInfoLogger.java:61)- Started Startup in 4.456 seconds (JVM running for 5.486)
+2019-12-05 15:31:26,103 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 15:31:26,142 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 15:31:26,172 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 15:31:26,174 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 15:31:26,174 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 15:31:26,175 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 15:35:39,742 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 170092 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 15:35:39,757 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 15:35:39,757 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 15:35:45,436 INFO (StartupInfoLogger.java:61)- Started Startup in 6.819 seconds (JVM running for 7.992)
+2019-12-05 15:38:52,790 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 138384 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 15:38:52,794 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 15:38:52,795 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 15:38:56,285 INFO (StartupInfoLogger.java:61)- Started Startup in 4.395 seconds (JVM running for 5.411)
+2019-12-05 15:39:03,519 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 170496 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 15:39:03,524 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 15:39:03,525 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 15:39:07,110 INFO (StartupInfoLogger.java:61)- Started Startup in 4.5 seconds (JVM running for 5.474)
+2019-12-05 15:39:13,987 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 15:39:14,009 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 15:39:14,031 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 15:39:14,033 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 15:39:14,033 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 15:39:14,034 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 15:40:22,126 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 15:40:22,128 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 15:40:22,132 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 15:40:24,622 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 15:40:24,625 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 15:40:24,630 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 15:50:01,475 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 170004 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 15:50:01,479 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 15:50:01,479 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 15:50:04,942 INFO (StartupInfoLogger.java:61)- Started Startup in 4.427 seconds (JVM running for 5.492)
+2019-12-05 15:50:13,551 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 171468 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 15:50:13,557 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 15:50:13,558 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 15:50:17,201 INFO (StartupInfoLogger.java:61)- Started Startup in 4.701 seconds (JVM running for 5.972)
+2019-12-05 15:50:47,639 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 15:50:47,886 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 15:50:48,083 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 15:50:50,828 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 15:50:50,830 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 15:50:50,834 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 15:54:18,338 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 15:54:18,341 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 15:54:18,348 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 15:54:20,161 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 15:54:20,163 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 15:54:20,166 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 15:59:50,674 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 15:59:50,675 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 15:59:50,679 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 15:59:51,616 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 15:59:51,620 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 15:59:51,627 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 16:15:11,376 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 170812 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 16:15:11,380 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 16:15:11,380 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 16:15:15,046 INFO (StartupInfoLogger.java:61)- Started Startup in 4.659 seconds (JVM running for 6.058)
+2019-12-05 16:15:22,559 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 165884 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 16:15:22,566 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 16:15:22,567 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 16:15:26,206 INFO (StartupInfoLogger.java:61)- Started Startup in 4.633 seconds (JVM running for 5.647)
+2019-12-05 16:15:39,782 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 16:15:39,809 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 16:15:39,837 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 16:15:39,840 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 16:15:39,842 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 16:15:39,843 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 16:29:25,593 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 172416 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 16:29:25,597 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 16:29:25,598 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 16:29:29,905 INFO (StartupInfoLogger.java:61)- Started Startup in 5.265 seconds (JVM running for 6.806)
+2019-12-05 16:29:37,658 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 173112 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 16:29:37,661 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 16:29:37,662 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 16:29:41,130 INFO (StartupInfoLogger.java:61)- Started Startup in 4.486 seconds (JVM running for 5.83)
+2019-12-05 16:29:59,670 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 16:29:59,922 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 16:30:00,189 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 16:30:01,131 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 16:30:01,133 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 16:30:01,136 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 16:34:20,314 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 172392 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 16:34:20,317 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 16:34:20,318 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 16:34:23,862 INFO (StartupInfoLogger.java:61)- Started Startup in 4.504 seconds (JVM running for 5.732)
+2019-12-05 16:34:33,899 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 173732 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 16:34:33,906 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 16:34:33,907 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 16:34:37,655 INFO (StartupInfoLogger.java:61)- Started Startup in 4.609 seconds (JVM running for 5.637)
+2019-12-05 16:35:12,239 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 16:35:12,493 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 16:35:12,705 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 16:35:14,563 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 16:35:14,564 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 16:35:14,568 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 16:41:27,385 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 171812 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 16:41:27,388 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 16:41:27,389 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 16:41:31,123 INFO (StartupInfoLogger.java:61)- Started Startup in 4.653 seconds (JVM running for 5.938)
+2019-12-05 16:41:39,443 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 171304 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 16:41:39,447 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 16:41:39,448 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 16:41:42,831 INFO (StartupInfoLogger.java:61)- Started Startup in 4.224 seconds (JVM running for 5.196)
+2019-12-05 16:42:09,887 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 16:42:10,197 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 16:42:10,402 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 16:42:11,620 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 16:42:11,621 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 16:42:11,622 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 16:51:27,555 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 175836 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 16:51:27,560 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 16:51:27,560 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 16:51:31,236 INFO (StartupInfoLogger.java:61)- Started Startup in 5.206 seconds (JVM running for 6.643)
+2019-12-05 16:52:13,214 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 168608 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 16:52:13,219 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 16:52:13,220 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 16:52:16,599 INFO (StartupInfoLogger.java:61)- Started Startup in 4.297 seconds (JVM running for 5.272)
+2019-12-05 16:52:40,719 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 16:52:40,740 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 16:52:40,787 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 16:52:40,789 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 16:52:40,790 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 16:52:40,791 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 16:54:32,657 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 16:54:32,658 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 16:54:32,659 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 16:54:32,660 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 16:54:32,660 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 16:54:32,661 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 16:56:26,825 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 16:56:26,826 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 16:56:26,828 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 16:56:26,829 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 16:56:26,829 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 16:56:26,831 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 16:57:42,502 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 16:57:42,503 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 16:57:42,505 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 16:57:42,506 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 16:57:42,507 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 16:57:42,510 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 17:00:55,107 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 175744 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 17:00:55,111 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 17:00:55,112 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 17:00:58,314 INFO (StartupInfoLogger.java:61)- Started Startup in 4.109 seconds (JVM running for 5.168)
+2019-12-05 17:01:06,426 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 175920 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 17:01:06,431 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 17:01:06,432 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 17:01:09,971 INFO (StartupInfoLogger.java:61)- Started Startup in 4.412 seconds (JVM running for 5.37)
+2019-12-05 17:03:53,908 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 172232 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 17:03:53,912 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 17:03:53,912 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 17:03:57,554 INFO (StartupInfoLogger.java:61)- Started Startup in 4.556 seconds (JVM running for 5.582)
+2019-12-05 17:04:08,650 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 167080 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 17:04:08,657 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 17:04:08,658 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 17:04:12,103 INFO (StartupInfoLogger.java:61)- Started Startup in 4.301 seconds (JVM running for 5.29)
+2019-12-05 17:04:28,182 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 17:04:28,206 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 17:04:28,240 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 17:04:28,243 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 17:04:28,244 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 17:04:28,245 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 17:05:48,703 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 17:05:48,704 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 17:05:48,705 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 17:05:48,706 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 17:05:48,706 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 17:05:48,707 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 17:05:56,502 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 17:05:56,502 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 17:05:56,503 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 17:06:23,679 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 17:06:23,679 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 17:06:23,680 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 17:08:11,841 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 17:08:11,843 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 17:08:11,845 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 17:08:11,846 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 17:08:11,847 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 17:08:11,851 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 17:08:17,003 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 17:08:17,004 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 17:08:17,005 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 17:09:17,103 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 17:09:17,104 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 17:09:17,106 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 17:13:56,087 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 17:13:56,088 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 17:13:56,089 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 17:13:56,090 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 17:13:56,090 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 17:13:56,091 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 17:14:05,543 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 17:14:05,544 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 17:14:05,545 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 17:15:40,641 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 17:15:40,643 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 17:15:40,648 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 17:21:16,160 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 17:21:16,161 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 17:21:16,163 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 17:21:16,166 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 17:21:16,169 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 17:21:16,176 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 17:21:21,097 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 17:21:21,099 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 17:21:21,102 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 17:21:30,361 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 17:21:30,366 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 17:21:30,372 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 17:21:31,826 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_secret = ? 
+2019-12-05 17:21:31,829 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: d8346ea2-6017-43ed-ad68-19c0f971738b(String)
+2019-12-05 17:21:31,836 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 17:31:12,237 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 176616 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 17:31:12,242 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 17:31:12,243 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 17:31:16,339 INFO (StartupInfoLogger.java:61)- Started Startup in 5.204 seconds (JVM running for 6.887)
+2019-12-05 17:31:44,101 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 173120 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-05 17:31:44,105 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-05 17:31:44,106 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-05 17:31:47,583 INFO (StartupInfoLogger.java:61)- Started Startup in 4.431 seconds (JVM running for 5.512)
+2019-12-05 17:31:57,206 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 17:31:57,229 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 17:31:57,258 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 17:31:57,260 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 17:31:57,260 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 17:31:57,261 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 17:32:04,026 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 17:32:04,027 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 17:32:04,028 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 17:32:09,073 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-05 17:32:09,075 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-05 17:32:09,078 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-05 17:32:09,080 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_secret = ? 
+2019-12-05 17:32:09,082 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: d8346ea2-6017-43ed-ad68-19c0f971738b(String)
+2019-12-05 17:32:09,084 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1

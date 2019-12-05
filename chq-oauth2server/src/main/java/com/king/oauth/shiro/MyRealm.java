@@ -81,7 +81,7 @@ public class MyRealm extends AuthorizingRealm {
             //这里返回会报出对应异常
         }else{
             //这里验证authenticationToken和simpleAuthenticationInfo的信息
-            SimpleAuthenticationInfo simpleAuthenticationInfo=new SimpleAuthenticationInfo(account,user.getPassword().toString(),getName());
+            SimpleAuthenticationInfo simpleAuthenticationInfo=new SimpleAuthenticationInfo(account,user.getPassword(),getName());
             return simpleAuthenticationInfo;
         }
         return null;

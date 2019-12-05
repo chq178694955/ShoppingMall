@@ -2,6 +2,8 @@ package com.king.oauth.controller;
 
 import com.king.oauth.service.AuthorizeService;
 import com.king.oauth.service.ClientService;
+import com.king.oauth.utils.RedisUtil;
+import com.king.sys.Oauth2Client;
 import org.apache.oltu.oauth2.as.issuer.MD5Generator;
 import org.apache.oltu.oauth2.as.issuer.OAuthIssuerImpl;
 import org.apache.oltu.oauth2.as.request.OAuthAuthzRequest;
@@ -54,9 +56,14 @@ public class AuthorizeController {
     @Autowired
     private ClientService clientService;
 
+    @Autowired
+    private RedisUtil redisUtil;
+
     @RequestMapping("/authorize")
     public Object authorize(Model model, HttpServletRequest request) throws OAuthSystemException, URISyntaxException {
 
+        String redirect_uri = request.getParameter("redirect_uri");
+        String response_type = request.getParameter("response_type");
 
         try {
             //构建OAuth 授权请求
@@ -78,11 +85,15 @@ public class AuthorizeController {
             Subject subject = SecurityUtils.getSubject();
             //如果用户没有登录,跳转到登录页面
             if(!subject.isAuthenticated()) {
+                //登录失败时跳转到登陆页面
+                Oauth2Client client = clientService.findByClientId(oauthRequest.getClientId());
+                return "redirect:/login?clientId=" + client.getClientId() + "&redirect_uri=" + redirect_uri + "&response_type=" + response_type;
+                /* 忽略请求方式 get 或 post
                 if(!login(subject, request)) {
                     //登录失败时跳转到登陆页面
                     model.addAttribute("client", clientService.findByClientId(oauthRequest.getClientId()));
                     return "login";
-                }
+                }*/
             }
             String username = (String) subject.getPrincipal();
 

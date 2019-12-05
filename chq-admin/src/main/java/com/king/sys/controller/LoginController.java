@@ -30,9 +30,8 @@ public class LoginController {
     @Autowired
     private IUserService userService;
 
-    @RequestMapping(value="/login",method = RequestMethod.GET)
+    @RequestMapping(value="/oauth2-login",method = RequestMethod.GET)
     public String toLogin(){
-        redisUtil.set("aabbcc","123abc");
         return "login";
     }
 
@@ -66,6 +65,11 @@ public class LoginController {
     @RequestMapping(value="/index",method = RequestMethod.GET)
     public String toIndex(){
         return "index";
+    }
+
+    @RequestMapping(value="/oauth2Failure",method = RequestMethod.GET)
+    public String oauth2Failure(){
+        return "oauth2Failure";
     }
 
 
