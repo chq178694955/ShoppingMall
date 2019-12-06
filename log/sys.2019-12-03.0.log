@@ -1,7 +1,0 @@
-2019-12-03 14:36:44,326 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 91796 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-03 14:36:44,359 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-03 14:36:44,360 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-03 14:36:45,804 INFO (StartupInfoLogger.java:61)- Started Startup in 2.143 seconds (JVM running for 3.272)
-2019-12-03 16:22:06,554 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 106796 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-03 16:22:06,558 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-03 16:22:06,558 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default

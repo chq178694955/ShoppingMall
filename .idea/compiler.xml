@@ -12,14 +12,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="chq-admin" />
+        <module name="chq-auth" />
         <module name="chq-business" />
         <module name="chq-common" />
         <module name="chq-entity" />
-        <module name="chq-mybatis" />
         <module name="chq-oauth2server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="chq-mybatis" target="1.8" />
       <module name="common-spring" target="1.5" />
     </bytecodeTargetLevel>
   </component>

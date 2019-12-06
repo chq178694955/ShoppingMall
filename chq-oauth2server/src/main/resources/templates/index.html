@@ -1,10 +1,36 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org" xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
 <head>
+    <!-- 绝对路径获取方式
+     ${#httpServletRequest.getScheme() + '://' + #httpServletRequest.getServerName() + ':' + #request.getServerPort()  + #request.getContextPath() + '/'}
+     -->
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="icon" href="#" th:href="${#httpServletRequest.getScheme() + '://' + #httpServletRequest.getServerName() + ':' + #request.getServerPort()  + #request.getContextPath() + '/images/favicon.ico'}" type="image/x-icon">
+    <link rel="stylesheet" th:href="${#httpServletRequest.getScheme() + '://' + #httpServletRequest.getServerName() + ':' + #request.getServerPort()  + #request.getContextPath() + '/components/easyui1.7.0/themes/black/easyui.css'}" type="text/css">
+    <link rel="stylesheet" th:href="${#httpServletRequest.getScheme() + '://' + #httpServletRequest.getServerName() + ':' + #request.getServerPort()  + #request.getContextPath() + '/components/easyui1.7.0/themes/icon.css'}" type="text/css">
+    <link rel="stylesheet" th:href="${#httpServletRequest.getScheme() + '://' + #httpServletRequest.getServerName() + ':' + #request.getServerPort()  + #request.getContextPath() + '/css/base.css'}" type="text/css">
+    <!--<script th:src="${#httpServletRequest.getScheme() + '://' + #httpServletRequest.getServerName() + ':' + #request.getServerPort()  + #request.getContextPath() + '/js/jquery-3.3.1.min.js'}"></script>-->
+    <script th:src="${#httpServletRequest.getScheme() + '://' + #httpServletRequest.getServerName() + ':' + #request.getServerPort()  + #request.getContextPath() + '/components/easyui1.7.0/jquery.min.js'}"></script>
+    <script th:src="${#httpServletRequest.getScheme() + '://' + #httpServletRequest.getServerName() + ':' + #request.getServerPort()  + #request.getContextPath() + '/components/easyui1.7.0/jquery.easyui.min.js'}"></script>
+    <script th:src="${#httpServletRequest.getScheme() + '://' + #httpServletRequest.getServerName() + ':' + #request.getServerPort()  + #request.getContextPath() + '/components/easyui1.7.0/locale/easyui-lang-' +#locale.language + '_' + #locale.country + '.js'}"></script>
+    <script th:src="${#httpServletRequest.getScheme() + '://' + #httpServletRequest.getServerName() + ':' + #request.getServerPort()  + #request.getContextPath() + '/js/databox.js'}"></script>
+    <script th:src="${#httpServletRequest.getScheme() + '://' + #httpServletRequest.getServerName() + ':' + #request.getServerPort()  + #request.getContextPath() + '/js/api.js'}"></script>
+    <script type="text/javascript" th:inline="javascript">
+        //获取应用绝对路径
+        API.ROOT = [[${#httpServletRequest.getScheme() + '://' + #httpServletRequest.getServerName() + ':' + #request.getServerPort()  + #request.getContextPath() + '/'}]];
+        //获取默认语言
+        API.LANG_COUNTRY = [[${#locale.language+'_'+#locale.country}]];
+        API.loadI18n();
+    </script>
+    <title th:text="#{com.king.system.name}"></title>
 </head>
 <body>
-<h1>首页</h1>
+    <div class="easyui-layout" data-options="fit:true">
+        <div data-options="region:'north'" style="height: 100px;background: red;"></div>
+        <div data-options="region:'center'" style="background: blue;"></div>
+    </div>
 </body>
 </html>

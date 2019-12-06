@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: "Microsoft Yahei",sans-serif;
+    list-style: none;
+    cursor: default;
+}
+
+
+/*行内块元素*/
+input,img {
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    outline-style: none;
+    vertical-align: bottom;
+}
+
+/*行内元素*/
+a,a:active,a:visited{
+    /*下划线和颜色*/
+    text-decoration: none;
+}
+
+table{
+    /*边框合并*/
+    border-collapse:collapse;
+    border-spacing:0;
+}

@@ -1,4 +1,0 @@
-2019-12-05 13:38:10,143 INFO (StartupInfoLogger.java:55)- Starting Test on LAPTOP-3H9KE96D with PID 147228 (started by 17869 in D:\projects\ShoppingMall\chq-admin)
-2019-12-05 13:38:10,158 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-05 13:38:10,174 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-05 13:38:15,928 INFO (StartupInfoLogger.java:61)- Started Test in 6.499 seconds (JVM running for 8.553)

@@ -163,21 +163,22 @@ public class ShiroConfig {
 
         linkedHashMap.put("/css/**", "anon");
         linkedHashMap.put("/fonts/**", "anon");
-        linkedHashMap.put("/img/**", "anon");
+        linkedHashMap.put("/images/**", "anon");
         linkedHashMap.put("/js/**", "anon");
+        linkedHashMap.put("/components/**", "anon");
 
         linkedHashMap.put("/login", "authc");//拦截登录
-        linkedHashMap.put("/oauth-server/authorize", "anon");
-        linkedHashMap.put("/oauth-server/accessToken", "anon");
-        linkedHashMap.put("/oauth-server/userInfo", "anon");
-
-//        linkedHashMap.put("/oauth-server/**", "anon");//过滤掉授权验证请求地址
+        linkedHashMap.put("/loginAdmin", "anon");//拦截管理员登录
+        linkedHashMap.put("/oauth-server/authorize", "anon");//过滤oauth2授权请求
+        linkedHashMap.put("/oauth-server/accessToken", "anon");//过滤oauth2获取访问token请求
+        linkedHashMap.put("/oauth-server/userInfo", "anon");//过滤oauth2获取用户信息请求
+        linkedHashMap.put("/golbalLoadI18n", "anon");//过滤js获取服务端i18n资源文件请求
 
         linkedHashMap.put("/**", "user");//需要进行权限验证
         bean.setFilterChainDefinitionMap(linkedHashMap);
 
         // 如果不设置默认会自动寻找Web工程根目录下的"/login.jsp"页面
-        bean.setLoginUrl("/login");
+        bean.setLoginUrl("/toLoginAdmin");
         // 登录成功后要跳转的链接
 //        bean.setSuccessUrl("/index");
         return bean;
