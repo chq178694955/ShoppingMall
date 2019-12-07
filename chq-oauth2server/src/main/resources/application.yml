@@ -5,6 +5,11 @@ logging:
   # 日志
   config: classpath:logback-boot.xml
 spring:
+  devtools:
+    restart:
+      enabled: false
+      additional-exclude: src/main/java
+      exclude: WEB-INF/**
   datasource:
     # jdbc连接
     driver-class-name: com.mysql.jdbc.Driver

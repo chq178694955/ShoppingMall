@@ -167,8 +167,10 @@ public class ShiroConfig {
         linkedHashMap.put("/js/**", "anon");
         linkedHashMap.put("/components/**", "anon");
 
-        linkedHashMap.put("/login", "authc");//拦截登录
-        linkedHashMap.put("/loginAdmin", "anon");//拦截管理员登录
+        linkedHashMap.put("/login", "anon");//过滤oauth2登录
+        linkedHashMap.put("/loginAdmin", "anon");//过滤管理员登录
+        linkedHashMap.put("/toLogin", "anon");//过滤oauth2登录
+        linkedHashMap.put("/toLoginAdmin", "anon");//过滤管理员登录
         linkedHashMap.put("/oauth-server/authorize", "anon");//过滤oauth2授权请求
         linkedHashMap.put("/oauth-server/accessToken", "anon");//过滤oauth2获取访问token请求
         linkedHashMap.put("/oauth-server/userInfo", "anon");//过滤oauth2获取用户信息请求

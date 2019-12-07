@@ -28,3 +28,9 @@ table{
     border-collapse:collapse;
     border-spacing:0;
 }
+
+/* 覆盖easyui样式 */
+.pannel-header, .pannel-body, .panel-body-noheader{
+    border-width: 0;
+    border-style: none;
+}

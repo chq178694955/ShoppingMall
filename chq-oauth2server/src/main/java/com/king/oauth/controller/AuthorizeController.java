@@ -87,7 +87,7 @@ public class AuthorizeController {
             if(!subject.isAuthenticated()) {
                 //登录失败时跳转到登陆页面
                 Oauth2Client client = clientService.findByClientId(oauthRequest.getClientId());
-                return "redirect:/login?clientId=" + client.getClientId() + "&redirect_uri=" + redirect_uri + "&response_type=" + response_type;
+                return "redirect:/toLogin?clientId=" + client.getClientId() + "&redirect_uri=" + redirect_uri + "&response_type=" + response_type;
                 /* 忽略请求方式 get 或 post
                 if(!login(subject, request)) {
                     //登录失败时跳转到登陆页面

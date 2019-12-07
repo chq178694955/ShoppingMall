@@ -8,7 +8,7 @@ window.API = window.API || {
     //系统需要加载的资源文件名称
     messageNames : ['messages'],
     //初始化资源文件对象
-    initI18n: new DataBox(),
+    I18n: new DataBox(),
     //请求服务端读取资源文件并复制给map对象
     loadI18n: function(){
         $.ajax({
@@ -20,10 +20,14 @@ window.API = window.API || {
                     for(let i = 0;i < result.length ;i++){
                         let key = result[i][0];
                         let val = result[i][1];
-                        API.initI18n.put(key,val);
+                        API.I18n.put(key,val);
                     }
                 }
             }
         })
+    },
+
+    alert: function(title,context){
+        $.messager.alert(title,context);
     }
 }

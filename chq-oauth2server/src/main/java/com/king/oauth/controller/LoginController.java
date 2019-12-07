@@ -35,7 +35,7 @@ public class LoginController {
      * @param response_type
      * @return
      */
-    @RequestMapping(value="/login",method = RequestMethod.GET)
+    @RequestMapping(value="/toLogin",method = RequestMethod.GET)
     public ModelAndView toLogin(Model model, HttpServletRequest request, @ModelAttribute("clientId") String clientId,
                                 @ModelAttribute("redirect_uri") String redirect_uri,
                                 @ModelAttribute("response_type") String response_type){
@@ -71,11 +71,11 @@ public class LoginController {
 
         } catch (UnknownAccountException e) {
             m.addObject("result", I18nUtils.get("com.king.system.login.tip.noaccount"));
-            m.setViewName("redirect:/login?clientId=" + client_id + "&redirect_uri=" + redirect_uri + "&response_type="+response_type);
+            m.setViewName("redirect:/toLogin?clientId=" + client_id + "&redirect_uri=" + redirect_uri + "&response_type="+response_type);
             return m;
         } catch (IncorrectCredentialsException e) {
             m.addObject("result", I18nUtils.get("com.king.system.login.tip.passerr"));
-            m.setViewName("redirect:/login?clientId=" + client_id + "&redirect_uri=" + redirect_uri + "&response_type="+response_type);
+            m.setViewName("redirect:/toLogin?clientId=" + client_id + "&redirect_uri=" + redirect_uri + "&response_type="+response_type);
             return m;
         }
 

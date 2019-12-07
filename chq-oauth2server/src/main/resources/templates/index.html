@@ -18,6 +18,8 @@
     <script th:src="${#httpServletRequest.getScheme() + '://' + #httpServletRequest.getServerName() + ':' + #request.getServerPort()  + #request.getContextPath() + '/components/easyui1.7.0/locale/easyui-lang-' +#locale.language + '_' + #locale.country + '.js'}"></script>
     <script th:src="${#httpServletRequest.getScheme() + '://' + #httpServletRequest.getServerName() + ':' + #request.getServerPort()  + #request.getContextPath() + '/js/databox.js'}"></script>
     <script th:src="${#httpServletRequest.getScheme() + '://' + #httpServletRequest.getServerName() + ':' + #request.getServerPort()  + #request.getContextPath() + '/js/api.js'}"></script>
+    <script th:src="${#httpServletRequest.getScheme() + '://' + #httpServletRequest.getServerName() + ':' + #request.getServerPort()  + #request.getContextPath() + '/js/frame.js'}"></script>
+
     <script type="text/javascript" th:inline="javascript">
         //获取应用绝对路径
         API.ROOT = [[${#httpServletRequest.getScheme() + '://' + #httpServletRequest.getServerName() + ':' + #request.getServerPort()  + #request.getContextPath() + '/'}]];
@@ -29,8 +31,22 @@
 </head>
 <body>
     <div class="easyui-layout" data-options="fit:true">
-        <div data-options="region:'north'" style="height: 100px;background: red;"></div>
-        <div data-options="region:'center'" style="background: blue;"></div>
+        <div class="easyui-layout" data-options="region:'north'" style="height: 45px;">
+            <div data-options="region:'west'" style="width: 200px;text-align: center;">
+                <span th:text="#{com.king.system.name}" style="display:inline-block;line-height: 45px;"></span>
+            </div>
+            <div data-options="region:'center'" style="background: red;"></div>
+            <div data-options="region:'east'" style="width: 300px;text-align: right;">
+                <div style="width: 100%;height: 28px;line-height: 45px; padding: 0 5px;">
+                    <a id="index_btn_logout" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-back'" th:text="#{com.king.system.btn.exit}"></a>
+                </div>
+            </div>
+        </div>
+        <div id="index_resources" class="easyui-accordion" data-options="region:'west'" style="width: 200px;"></div>
+        <div data-options="region:'center'">2</div>
+        <div data-options="region:'south'" style="height: 28px;text-align: center;color: #FFF;">版权所有@2019</div>
     </div>
+
+    <script th:src="${#httpServletRequest.getScheme() + '://' + #httpServletRequest.getServerName() + ':' + #request.getServerPort()  + #request.getContextPath() + '/js/index.js'}"></script>
 </body>
 </html>
