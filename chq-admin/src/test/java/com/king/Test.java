@@ -28,9 +28,10 @@ public class Test {
     @org.junit.Test
     public void test1(){
 
-//        System.out.println("test1");
-//        String sha384Hex=new Sha384Hash("123456").toBase64();
-//        System.out.println(sha384Hex);
+        System.out.println("test1");
+        String sha384Hex=new Sha384Hash("123456").toBase64();
+        System.out.println(sha384Hex);
+        /*
         Locale locale = Locale.getDefault();
         System.out.println(locale.getCountry() + "|" + locale.getLanguage());
         Properties properties = new Properties();
@@ -40,6 +41,7 @@ public class Test {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        */
 
     }
 

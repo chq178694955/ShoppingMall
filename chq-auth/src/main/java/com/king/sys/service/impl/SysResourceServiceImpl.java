@@ -1,7 +1,9 @@
 package com.king.sys.service.impl;
 
+import com.king.dao.SysResourcesMapper;
 import com.king.sys.SysResource;
 import com.king.sys.service.ISysResourceService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -14,14 +16,12 @@ import java.util.List;
  */
 @Service
 public class SysResourceServiceImpl implements ISysResourceService {
+
+    @Autowired
+    private SysResourcesMapper sysResourcesMapper;
+
     @Override
     public List<SysResource> getResourceByRoleId(Long roleId) {
-        List<SysResource> resources = new ArrayList<>();
-        SysResource res = new SysResource();
-        res.setId(1l);
-        res.setName("模块1");
-        res.setPermission("MOD1");
-        resources.add(res);
-        return resources;
+        return sysResourcesMapper.findResourcesByRoleId(roleId);
     }
 }

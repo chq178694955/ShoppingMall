@@ -9,9 +9,13 @@ public class SysResource {
 
     private Long id;
 
+    private Long pid;
+
     private String name;
 
-    private String permission;
+    private String url;
+
+    private int type;
 
     public Long getId() {
         return id;
@@ -19,6 +23,14 @@ public class SysResource {
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    public Long getPid() {
+        return pid;
+    }
+
+    public void setPid(Long pid) {
+        this.pid = pid;
     }
 
     public String getName() {
@@ -29,11 +41,19 @@ public class SysResource {
         this.name = name;
     }
 
-    public String getPermission() {
-        return permission;
+    public String getUrl() {
+        return url;
     }
 
-    public void setPermission(String permission) {
-        this.permission = permission;
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public int getType() {
+        return type;
+    }
+
+    public void setType(int type) {
+        this.type = type;
     }
 }
