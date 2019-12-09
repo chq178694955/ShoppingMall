@@ -55,6 +55,18 @@ window.Frame = window.Frame || {
     refreshTabItem: function(domId,opts){
         let tab = this.Tabs.getTab(domId,opts.title);
         this.Tabs.update(domId,tab,opts);
+    },
+
+    getCurTabId: function(){
+        let domId = 'index_content';
+        let tab = this.Tabs.getSelectedTab(domId);
+        return $(tab).attr('id');
+    },
+
+    getCurTab: function(){
+        let domId = 'index_content';
+        let tab = this.Tabs.getSelectedTab(domId);
+        return tab;
     }
 
 }
@@ -76,6 +88,10 @@ Frame.Tabs = Frame.Tabs || {
         return $('#' + domId).tabs('getTabIndex', tab);
     },
 
+    getSelectedTab: function(domId){
+        return $('#' +domId).tabs('getSelected');
+    },
+
     close: function(domId,title){
         $('#' + domId).tabs('close',title);
     },
@@ -89,6 +105,9 @@ Frame.Tabs = Frame.Tabs || {
 
         if(!this.exists(domId,opts.title)){
             $('#' + domId).tabs('add',opts);
+        }else{
+            //存在则选中当前面板
+            $('#' + domId).tabs('select',opts.title);
         }
     },
 

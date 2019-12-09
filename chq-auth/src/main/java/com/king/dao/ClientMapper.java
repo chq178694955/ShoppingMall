@@ -13,5 +13,11 @@ public interface ClientMapper {
     Oauth2Client findByClientId(String clientId);
     /** 根据clientSecret查询client信息 */
     Oauth2Client findByClientSecret(String clientSecret);
+    /** 新增 **/
+    int add(Oauth2Client client);
+    /** 修改 **/
+    int update(Oauth2Client client);
+    /** 删除 **/
+    int del(Long id);
 
 }

@@ -20,4 +20,29 @@
         select <include refid="baseColumns"/> from oauth2_client where client_secret = #{clientSecret,jdbcType=VARCHAR}
     </select>
 
+    <insert id="add" parameterType="com.king.sys.Oauth2Client" keyProperty="id" useGeneratedKeys="true">
+        insert into oauth2_client(id,client_name,client_id,client_secret)
+        values(#{id,jdbcType=BIGINT},#{clientName,jdbcType=VARCHAR},#{clientId,jdbcType=VARCHAR},#{clientSecret,jdbcType=VARCHAR})
+    </insert>
+
+    <update id="update" parameterType="com.king.sys.Oauth2Client">
+        update oauth2_client
+        <set>
+            <if test="clientName != null and clientName != ''">
+                client_name = #{clientName,jdbcType=VARCHAR},
+            </if>
+            <if test="clientId != null and clientId != ''">
+                client_id = #{clientId,jdbcType=VARCHAR},
+            </if>
+            <if test="clientSecret != null and clientSecret != ''">
+                client_secret = #{clientSecret,jdbcType=VARCHAR},
+            </if>
+        </set>
+        where id = #{id,jdbcType=BIGINT}
+    </update>
+
+    <delete id="del" parameterType="java.lang.Long">
+        delete from oauth2_client where id = #{id,jdbcType=BIGINT}
+    </delete>
+
 </mapper>

@@ -1,0 +1,33 @@
+<div>
+    <a id="btn" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-search'">easyui</a>
+    <shiro:principal/>
+</div>
+<table class="easyui-datagrid" data-options="border:true,fitColumns:true">
+    <thead>
+    <tr>
+        <th data-options="field:'code'">编码</th>
+        <th data-options="field:'name'">名称</th>
+        <th data-options="field:'price'">价格</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>001</td><td>名称1</td><td>2323</td>
+    </tr>
+    <tr>
+        <td>002</td><td>名称2</td><td>4612</td>
+    </tr>
+    </tbody>
+</table>
+
+
+<script>
+    $(document).ready(function(){
+        API.loadJS({id:'FUNC_' + Frame.getCurTabId(),url:'js/sys/clientMgr.js'},function(){
+            const clientMgr = new ClientMgr();
+            clientMgr.init();
+        });
+    });
+
+
+</script>

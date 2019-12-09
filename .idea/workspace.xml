@@ -2,34 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acefd2f6-1f2e-4f88-9727-d37aeca89315" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chq-auth/src/main/java/com/king/dao/SysResourcesMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chq-auth/src/main/java/com/king/dao/SysRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chq-auth/src/main/java/com/king/util/PasswordUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chq-auth/src/main/resources/mapper/sys/SysResourcesMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chq-auth/src/main/resources/mapper/sys/SysRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chq-entity/src/main/java/com/king/enums/SysResourceTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/ResourceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/RoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/response/ResponseResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/resources/templates/sys/resourceMgr.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/resources/templates/sys/roleMgr.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/resources/templates/sys/userMgr.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-auth/src/main/java/com/king/sys/service/IClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-auth/src/main/java/com/king/sys/service/impl/ClientServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-common/src/main/java/com/king/utils/AppUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/ClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/resources/static/js/sys/clientMgr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/resources/templates/sys/clientMgr.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/MyRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/MyRealm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chq-admin/src/test/java/com/king/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/chq-admin/src/test/java/com/king/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chq-auth/src/main/java/com/king/sys/service/impl/SysResourceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/chq-auth/src/main/java/com/king/sys/service/impl/SysResourceServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chq-auth/src/main/java/com/king/sys/service/impl/SysRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/chq-auth/src/main/java/com/king/sys/service/impl/SysRoleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chq-auth/src/main/java/com/king/sys/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/chq-auth/src/main/java/com/king/sys/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chq-entity/src/main/java/com/king/sys/SysResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/chq-entity/src/main/java/com/king/sys/SysResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/shiro/MyRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/shiro/MyRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chq-auth/src/main/java/com/king/dao/ClientMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/chq-auth/src/main/java/com/king/dao/ClientMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chq-auth/src/main/resources/mapper/sys/ClientMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chq-auth/src/main/resources/mapper/sys/ClientMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chq-oauth2server/src/main/resources/i18n/messages_en_US.properties" beforeDir="false" afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/resources/i18n/messages_en_US.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chq-oauth2server/src/main/resources/i18n/messages_zh_CN.properties" beforeDir="false" afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/resources/i18n/messages_zh_CN.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chq-oauth2server/src/main/resources/static/js/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/resources/static/js/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chq-oauth2server/src/main/resources/static/js/frame.js" beforeDir="false" afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/resources/static/js/frame.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chq-oauth2server/src/main/resources/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/resources/static/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chq-oauth2server/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chq-oauth2server/src/main/resources/templates/sys/userMgr.html" beforeDir="false" afterPath="$PROJECT_DIR$/chq-oauth2server/src/main/resources/templates/sys/userMgr.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/resources/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="44" column="43" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="43" />
+            <state relative-caret-position="221">
+              <caret line="42" column="53" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
               <folding>
                 <element signature="e#2#22#0" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -65,7 +52,6 @@
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#shiro:authenticated#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#2#26#0" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -78,52 +64,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/LoginController.java">
+        <entry file="file://$PROJECT_DIR$/chq-auth/src/main/java/com/king/sys/service/IClientService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="190" column="21" selection-start-line="190" selection-start-column="21" selection-end-line="190" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="76">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="57">
-                <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/response/ResponseResult.java">
+        <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/resources/templates/sys/clientMgr.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="25" />
+              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/RoleController.java">
+        <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/resources/static/js/api.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            <state relative-caret-position="79">
+              <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/ResourceController.java">
+        <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/resources/static/js/sys/clientMgr.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -131,26 +102,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/resources/static/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="69" column="42" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
+            <state relative-caret-position="277">
+              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/resources/templates/sys/roleMgr.html">
+        <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/resources/static/js/frame.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="4" selection-start-column="4" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/resources/templates/sys/resourceMgr.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" selection-start-column="8" selection-end-column="8" />
+            <state relative-caret-position="38">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -158,8 +120,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/resources/templates/sys/userMgr.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="8" />
+            <state relative-caret-position="19">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -172,16 +134,14 @@
         <option value="spring-beans.schema" />
         <option value="Enum" />
         <option value="FxmlFile" />
+        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>accessTokenUrl</find>
-      <find>filterMap</find>
       <find>cookieRememberMeManager</find>
       <find>rememberMeManager</find>
       <find>DefaultWebSessionManager</find>
@@ -202,7 +162,6 @@
       <find>king-wrap-center</find>
       <find>I18n</find>
       <find>shiro-core</find>
-      <find>shiro</find>
       <find>findByUserName</find>
       <find>accountStateEnum</find>
       <find>findResourcesByRoleId</find>
@@ -210,6 +169,9 @@
       <find>clickListener</find>
       <find>index_content</find>
       <find>createTabItem</find>
+      <find>SERVER_NAME</find>
+      <find>shiro</find>
+      <find>onreadystatechange</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -224,15 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/chq-common/src/main/java/com/king/utils/RedisUtil.java" />
-        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/service/impl/AuthorizeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/chq-common/src/main/java/com/king/conf/DruidConfigration.java" />
-        <option value="$PROJECT_DIR$/chq-business/pom.xml" />
-        <option value="$PROJECT_DIR$/chq-admin/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/resources/logback-boot.xml" />
-        <option value="$PROJECT_DIR$/chq-admin/src/main/resources/logback-boot.xml" />
-        <option value="$PROJECT_DIR$/chq-common/src/main/java/com/king/conf/LocaleConfig.java" />
         <option value="$PROJECT_DIR$/chq-common/src/main/java/com/king/controller/LocaleController.java" />
         <option value="$PROJECT_DIR$/chq-oauth2server/src/main/resources/static/js/login.js" />
         <option value="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/AuthorizeController.java" />
@@ -259,22 +212,31 @@
         <option value="$PROJECT_DIR$/chq-entity/src/main/java/com/king/enums/SysResourceTypeEnum.java" />
         <option value="$PROJECT_DIR$/chq-entity/src/main/java/com/king/sys/SysResource.java" />
         <option value="$PROJECT_DIR$/chq-auth/src/main/resources/mapper/sys/SysResourcesMapper.xml" />
-        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/resources/static/js/api.js" />
-        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/resources/i18n/messages_zh_CN.properties" />
-        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/resources/i18n/messages_en_US.properties" />
-        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/resources/static/js/frame.js" />
         <option value="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/resources/templates/sys/userMgr.html" />
         <option value="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/RoleController.java" />
         <option value="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/ResourceController.java" />
         <option value="$PROJECT_DIR$/chq-oauth2server/src/main/resources/templates/sys/roleMgr.html" />
         <option value="$PROJECT_DIR$/chq-oauth2server/src/main/resources/templates/sys/resourceMgr.html" />
         <option value="$PROJECT_DIR$/chq-admin/src/main/java/com/king/response/ResponseResult.java" />
         <option value="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/response/ResponseResult.java" />
-        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/resources/static/js/index.js" />
         <option value="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/chq-auth/src/main/java/com/king/sys/service/IClientService.java" />
+        <option value="$PROJECT_DIR$/chq-auth/src/main/java/com/king/sys/service/impl/ClientServiceImpl.java" />
+        <option value="$PROJECT_DIR$/chq-auth/src/main/resources/mapper/sys/ClientMapper.xml" />
+        <option value="$PROJECT_DIR$/chq-auth/src/main/java/com/king/dao/ClientMapper.java" />
+        <option value="$PROJECT_DIR$/chq-common/src/main/java/com/king/utils/GeneratorIdUtils.java" />
+        <option value="$PROJECT_DIR$/chq-common/src/main/java/com/king/utils/AppUtils.java" />
+        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/ClientController.java" />
+        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/resources/static/js/index.js" />
+        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/resources/templates/sys/userMgr.html" />
+        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/resources/static/js/sys/clientMgr.js" />
+        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/resources/static/js/frame.js" />
+        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/resources/i18n/messages_en_US.properties" />
+        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/resources/i18n/messages_zh_CN.properties" />
+        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/resources/templates/sys/clientMgr.html" />
+        <option value="$PROJECT_DIR$/chq-oauth2server/src/main/resources/static/js/api.js" />
       </list>
     </option>
   </component>
@@ -322,8 +284,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -339,6 +299,95 @@
             <path>
               <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
               <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="king" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="king" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="king" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="king" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
               <item name="chq-common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -370,26 +419,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="king" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
-              <item name="chq-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="king" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
-              <item name="chq-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="king" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
@@ -564,6 +593,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingMall" type="462c0819:PsiDirectoryNode" />
+              <item name="chq-oauth2server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -580,6 +620,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -592,7 +634,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575797217260" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575893881266" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../org-sys-root" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -600,12 +642,8 @@
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\projects\ShoppingMall\chq-oauth2server\src\main\resources\templates\sys" />
-      <recent name="D:\projects\ShoppingMall\chq-auth\src\main\resources\mapper\sys" />
-      <recent name="D:\projects\ShoppingMall\chq-oauth2server\src\main\resources\static\components\easyui1.7.0" />
-      <recent name="D:\projects\ShoppingMall\chq-oauth2server\src\main\resources\templates" />
-      <recent name="D:\projects\ShoppingMall\chq-oauth2server\src\main\resources\static\js" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\ShoppingMall\chq-admin\src\main\resources\mapper" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.king.oauth.response" />
@@ -614,8 +652,12 @@
       <recent name="com.king.dao" />
       <recent name="com.king.oauth.conf" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\projects\ShoppingMall\chq-admin\src\main\resources\mapper" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\ShoppingMall\chq-oauth2server\src\main\resources\templates\sys" />
+      <recent name="D:\projects\ShoppingMall\chq-auth\src\main\resources\mapper\sys" />
+      <recent name="D:\projects\ShoppingMall\chq-oauth2server\src\main\resources\static\components\easyui1.7.0" />
+      <recent name="D:\projects\ShoppingMall\chq-oauth2server\src\main\resources\templates" />
+      <recent name="D:\projects\ShoppingMall\chq-oauth2server\src\main\resources\static\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -631,6 +673,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.Startup_server">
+    <configuration name="AppUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.king.utils.AppUtils" />
+      <module name="chq-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.king.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chq-admin" />
       <extension name="coverage">
@@ -646,6 +701,9 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/chq-oauth2server/src/main/resources/static/js/index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
     </configuration>
     <configuration name="Startup_client" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="chq-admin" />
@@ -679,10 +737,14 @@
       <item itemvalue="JUnit.Test.test1" />
       <item itemvalue="Spring Boot.Startup_client" />
       <item itemvalue="Spring Boot.Startup_server" />
+      <item itemvalue="Application.AppUtils" />
+      <item itemvalue="Node.js.index.js" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Startup_server" />
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Application.AppUtils" />
         <item itemvalue="JUnit.Test.test1" />
         <item itemvalue="Spring Boot.Startup_client" />
       </list>
@@ -710,7 +772,9 @@
       <workItem from="1575674796107" duration="4033000" />
       <workItem from="1575753577508" duration="6510000" />
       <workItem from="1575777887965" duration="9977000" />
-      <workItem from="1575791166802" duration="5985000" />
+      <workItem from="1575791166802" duration="6111000" />
+      <workItem from="1575851886431" duration="166000" />
+      <workItem from="1575858274208" duration="15593000" />
     </task>
     <task id="LOCAL-00001" summary="springboot集成mybatis">
       <created>1575446462242</created>
@@ -754,7 +818,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575759972526</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="1.前台框架搭建基本完成">
+      <created>1575797249714</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575797249714</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -790,13 +861,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140705000" />
+    <option name="totallyTimeSpent" value="156590000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20174263" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21045576" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -806,8 +877,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32844576" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3328446" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32844576" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3328446" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -823,7 +894,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.12600537" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.123324394" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -842,7 +913,8 @@
     <MESSAGE value="1.统一认证登录页完成&#10;2.测试国际化&#10;3.抽取配置以及工具类作为公共模块" />
     <MESSAGE value="1.完成授权管理系统单独登录功能&#10;2.集成easyui&#10;3.完成初始化将properties国际化资源文件加载到内存供js使用" />
     <MESSAGE value="1.easyui简单布局&#10;2.修复授权中心系统单独登录引起的oauth2没法使用的bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.easyui简单布局&#10;2.修复授权中心系统单独登录引起的oauth2没法使用的bug" />
+    <MESSAGE value="1.前台框架搭建基本完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.前台框架搭建基本完成" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -855,69 +927,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chq-oauth2server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="41" column="21" selection-start-line="37" selection-start-column="8" selection-end-line="41" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-auth/src/main/java/com/king/util/PasswordUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/utils/PasswordUtil.java" />
-    <entry file="file://$PROJECT_DIR$/chq-auth/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/test/java/com/king/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-entity/src/main/java/com/king/sys/SysRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-auth/src/main/java/com/king/dao/SysRoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-auth/src/main/resources/mapper/sys/SysRoleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-auth/src/main/java/com/king/sys/service/impl/SysRoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
-          <folding>
-            <element signature="e#617#618#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chq-entity/src/main/java/com/king/sys/SysResources.java" />
     <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/shiro/MyRealm.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1066,13 +1075,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/resources/static/js/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chq-auth/src/main/java/com/king/dao/SysResourcesMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1091,29 +1093,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/resources/i18n/messages_en_US.properties">
-      <provider editor-type-id="ResourceBundle" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="24" selection-start-line="24" selection-end-line="24" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/resources/i18n/messages_zh_CN.properties">
-      <provider editor-type-id="ResourceBundle" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/resources/static/js/frame.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="49" column="38" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1136,24 +1115,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/resources/templates/sys/userMgr.html">
+    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/response/ResponseResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="8" />
+        <state relative-caret-position="133">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/RoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="57">
+            <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/ResourceController.java">
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/response/ResponseResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        <state relative-caret-position="361">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1171,24 +1153,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chq-admin/src/main/java/com/king/response/ResponseResult.java">
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        <state relative-caret-position="245">
+          <caret line="100" column="20" lean-forward="true" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/response/ResponseResult.java">
+    <entry file="file://$PROJECT_DIR$/chq-entity/src/main/java/com/king/sys/Oauth2Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="25" />
+        <state relative-caret-position="143">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-auth/src/main/resources/mapper/sys/ClientMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="44" column="65" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-auth/src/main/java/com/king/dao/ClientMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-auth/src/main/java/com/king/sys/service/impl/ClientServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/ResourceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-common/src/main/java/com/king/utils/AppUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="78" column="37" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/ClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-auth/src/main/java/com/king/sys/service/IClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/resources/static/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/resources/static/js/frame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/resources/i18n/messages_zh_CN.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="26" selection-start-line="26" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/resources/i18n/messages_en_US.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="26" selection-start-line="26" selection-end-line="26" selection-end-column="48" />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/resources/static/js/sys/clientMgr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="44" column="43" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="43" />
+        <state relative-caret-position="221">
+          <caret line="42" column="53" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
           <folding>
             <element signature="e#2#22#0" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1197,7 +1298,6 @@
             <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#shiro:authenticated#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#2#26#0" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1208,30 +1308,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/resources/static/js/index.js">
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/resources/static/js/api.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="69" column="42" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
+        <state relative-caret-position="79">
+          <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/java/com/king/oauth/controller/LoginController.java">
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/resources/templates/sys/userMgr.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="190" column="21" selection-start-line="190" selection-start-column="21" selection-end-line="190" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="57">
-            <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/chq-oauth2server/src/main/resources/templates/sys/clientMgr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
         </state>
       </provider>
     </entry>

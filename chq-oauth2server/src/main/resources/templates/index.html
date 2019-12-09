@@ -32,7 +32,7 @@
 </head>
 <body>
     <div class="easyui-layout" data-options="fit:true">
-        <div class="easyui-layout" data-options="region:'north'" style="height: 45px;background-color: blue;border-bottom: 1px solid #000;">
+        <div class="easyui-layout" data-options="region:'north'" style="height: 45px;border-bottom: 1px solid #0E2D5F;">
             <div data-options="region:'west'" style="width: 200px;text-align: center;">
                 <span th:text="#{com.king.system.name}" style="display:inline-block;line-height: 44px;"></span>
             </div>
@@ -47,17 +47,17 @@
             </div>
         </div>
         <div id="index_resources" class="easyui-accordion" data-options="region:'west'" style="width: 200px;"></div>
-        <div class="easyui-layout" data-options="region:'center'" style="border-left:1px solid #000;margin-left:1px;">
-            <div id="index_crumb" data-options="region:'north'" style="height: 28px;background:#000;color:#FFF;line-height: 28px;padding: 0 10px;">
+        <div class="easyui-layout" data-options="region:'center'" style="border-left:1px solid #0E2D5F;margin-left:1px;">
+            <div id="index_crumb" data-options="region:'north'" style="height: 28px;background:#0E2D5F;color:#FFF;line-height: 28px;padding: 0 10px;">
                 当前位置：<b>首页</b>
             </div>
             <div id="index_content" class="easyui-tabs" data-options="region:'center',tabPosition:'bottom'">
-                <div title="首页" style="padding: 10px;">
-                    首页内容
+                <div id="tabItem_0" title="首页" style="padding: 10px;">
+
                 </div>
             </div>
         </div>
-        <div data-options="region:'south'" style="height: 28px;text-align: center;color: #eee;border-top: 1px solid #000;">版权所有@2019</div>
+        <div data-options="region:'south'" style="height: 28px;text-align: center;color: #777;border-top: 1px solid #0E2D5F;">版权所有@2019</div>
     </div>
 
     <script th:src="${#httpServletRequest.getScheme() + '://' + #httpServletRequest.getServerName() + ':' + #request.getServerPort()  + #request.getContextPath() + '/js/index.js'}"></script>
