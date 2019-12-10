@@ -52,7 +52,7 @@ var KingIndex = {
         let text = node.text;
         let url = node.url;
         $.ajax({
-            url: API.ROOT + url,
+            url: API.ROOT + url + '?menuId=' + node.id,
             type: 'get',
             success: function(data){
                 if(data){

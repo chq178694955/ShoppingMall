@@ -1,33 +1,49 @@
-<div>
-    <a id="btn" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-search'">easyui</a>
-    <shiro:principal/>
-</div>
-<table class="easyui-datagrid" data-options="border:true,fitColumns:true">
+<table th:id="dg_clientMgr+${menuId.toString()}" class="easyui-datagrid" data-options="fit:true
+        ,fitColumns:true
+        ,striped:true
+        ,rownumbers:true
+        ,pagination:true
+        ,singleSelect:true">
     <thead>
-    <tr>
-        <th data-options="field:'code'">编码</th>
-        <th data-options="field:'name'">名称</th>
-        <th data-options="field:'price'">价格</th>
-    </tr>
+        <tr>
+            <th data-options="width:100,field:'clientName',align:'center',halign:'center'" th:text="#{com.king.system.client.name}"></th>
+            <th data-options="width:100,field:'clientId',align:'center',halign:'center'" th:text="#{com.king.system.client.key}"></th>
+            <th data-options="width:100,field:'clientSecret',align:'center',halign:'center'" th:text="#{com.king.system.client.secret}"></th>
+        </tr>
     </thead>
-    <tbody>
-    <tr>
-        <td>001</td><td>名称1</td><td>2323</td>
-    </tr>
-    <tr>
-        <td>002</td><td>名称2</td><td>4612</td>
-    </tr>
-    </tbody>
 </table>
-
+<div th:id="dlg_clientMgr+${menuId.toString()}" class="easyui-dialog" data-options="width:460,height:320,closed:true,modal:true">
+    <form th:id="fm_clientMgr+${menuId.toString()}" class="king-form-layout">
+        <div class="king-form-layout-item">
+            <label for="" th:text="#{com.king.system.client.name}"></label>
+            <div class="king-form-layout-item-info">
+                <input type="text" class="easyui-textbox" style="width: 100%;"/>
+            </div>
+        </div>
+        <div class="king-form-layout-item">
+            <label for="" th:text="#{com.king.system.client.key}"></label>
+            <div class="king-form-layout-item-info">
+                <input type="text" class="easyui-textbox" style="width: 100%;"/>
+            </div>
+        </div>
+        <div class="king-form-layout-item">
+            <label for="" th:text="#{com.king.system.client.secret}"></label>
+            <div class="king-form-layout-item-info">
+                <input type="text" class="easyui-textbox" style="width: 100%;"/>
+            </div>
+        </div>
+        <div class="king-form-layout-item-btns">
+            <a th:id="query_clientMgr+${menuId.toString()}" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-ok'" th:text="#{com.king.system.btn.add}"></a>
+            <a th:id="cancel_clientMgr+${menuId.toString()}" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-cancel'" th:text="#{con.king.system.btn.close}"></a>
+        </div>
+    </form>
+</div>
 
 <script>
     $(document).ready(function(){
-        API.loadJS({id:'FUNC_' + Frame.getCurTabId(),url:'js/sys/clientMgr.js'},function(){
+        API.loadJS({id:'FUNC_' + Frame.getCurId(),url:'js/sys/clientMgr.js'},function(){
             const clientMgr = new ClientMgr();
             clientMgr.init();
         });
     });
-
-
 </script>

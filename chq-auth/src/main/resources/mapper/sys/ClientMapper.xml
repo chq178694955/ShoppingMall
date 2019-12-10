@@ -45,4 +45,11 @@
         delete from oauth2_client where id = #{id,jdbcType=BIGINT}
     </delete>
 
+    <select id="find" parameterType="java.util.Map" resultMap="baseResultMap">
+        select <include refid="baseColumns"/> from oauth2_client
+    </select>
+    <select id="findCount" resultType="java.lang.Integer" parameterType="java.util.Map">
+        select count(0) from oauth2_client
+    </select>
+
 </mapper>

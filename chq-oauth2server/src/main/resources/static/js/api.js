@@ -34,7 +34,7 @@ window.API = window.API || {
     //动态加载js文件
     loadJS: function(file,callback){
         if(file && file.id != null && file.url != null){
-            const oldScript = document.getElementById("FUNC_" + Frame.getCurTabId());
+            const oldScript = document.getElementById("FUNC_" + Frame.getCurId());
             if(!oldScript){
                 let script = document.createElement("script");
                 callback = callback || function(){};

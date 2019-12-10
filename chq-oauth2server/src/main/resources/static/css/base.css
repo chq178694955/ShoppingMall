@@ -34,3 +34,36 @@ table{
     border-width: 0;
     border-style: none;
 }
+
+/* form表单样式 */
+.king-form-layout {
+    margin: 10px auto;
+    width: 300px;
+    padding: 20px 0;
+}
+
+.king-form-layout-item {
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.king-form-layout-item label{
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: right;
+    line-height: 30px;
+    margin-right: 5px;
+}
+
+.king-form-layout-item-info{
+    flex: 2;
+    line-height: 30px;
+}
+
+.king-form-layout-item-btns{
+    line-height: 30px;
+    text-align: center;
+}

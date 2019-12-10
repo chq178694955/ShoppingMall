@@ -64,6 +64,9 @@ public class LoginController {
 
     @RequestMapping(value="/index",method = RequestMethod.GET)
     public String toIndex(){
+        Subject subject = SecurityUtils.getSubject();
+        String username = subject.getPrincipal().toString();
+        System.out.println(username);
         return "index";
     }
 

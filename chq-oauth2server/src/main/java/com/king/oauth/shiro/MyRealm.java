@@ -53,8 +53,10 @@ public class MyRealm extends AuthorizingRealm {
                 simpleAuthorizationInfo.addRole(role.getName());
                 List<SysResource> resources = sysResourceService.getResourceByRoleId(role.getId());
                 for(SysResource res : resources){
-                    //将此次遍历到的角色的所有权限拿到，添加·进来
-                    simpleAuthorizationInfo.addStringPermission(res.getName());
+                    //将此次遍历到的角色的所有权限拿到，添加·进来，permission为空表示不需要控制(格式：模块_操作，比如 user_add)
+                    if(res.getPermission() != null){
+                        simpleAuthorizationInfo.addStringPermission(res.getPermission());
+                    }
                 }
             }
             return simpleAuthorizationInfo;

@@ -1,5 +1,10 @@
 window.Frame = window.Frame || {
 
+    createDiv: function(domId){
+        //根据没有功能模块的id在当前panel下面创建两个div，一个供展示列表，一个供展示dialog
+        return "<div id='dg_"+domId+"'></div>" + "<div id='dlg_"+domId+"'></div>";
+    },
+
     menuRoot: [],//存放菜单数据
 
     //创建手风琴对象
@@ -52,15 +57,21 @@ window.Frame = window.Frame || {
         if(typeof(callback) == 'function')callback();
     },
 
-    refreshTabItem: function(domId,opts){
+    refreshTabItem: function(domId,opts,callback){
         let tab = this.Tabs.getTab(domId,opts.title);
-        this.Tabs.update(domId,tab,opts);
+        this.Tabs.update(domId,tab,opts,callback);
     },
 
-    getCurTabId: function(){
+    getCurTab: function(){
         let domId = 'index_content';
         let tab = this.Tabs.getSelectedTab(domId);
         return $(tab).attr('id');
+    },
+
+    getCurId: function(){
+        let tab = this.getCurTab();
+        let tabId = $(tab).panel('options').id;
+        return tabId.substring(tabId.indexOf("_") + 1,tabId.length)
     },
 
     getCurTab: function(){
@@ -111,11 +122,12 @@ Frame.Tabs = Frame.Tabs || {
         }
     },
 
-    update: function(domId,tab,opts){
+    update: function(domId,tab,opts,callback){
         $('#' + domId).tabs('update',{
             tab: tab,
             options: opts
         })
+        if(typeof (callback) == 'function')callback();
     }
 
 }

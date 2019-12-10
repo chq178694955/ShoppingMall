@@ -17,6 +17,8 @@ public class SysResource {
 
     private int type;
 
+    private String permission;
+
     public Long getId() {
         return id;
     }
@@ -55,5 +57,13 @@ public class SysResource {
 
     public void setType(int type) {
         this.type = type;
+    }
+
+    public String getPermission() {
+        return permission;
+    }
+
+    public void setPermission(String permission) {
+        this.permission = permission;
     }
 }

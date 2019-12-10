@@ -1,8 +1,8 @@
 package com.king.oauth.controller;
 
 import com.king.oauth.service.AuthorizeService;
-import com.king.oauth.service.ClientService;
 import com.king.sys.Oauth2Client;
+import com.king.sys.service.IClientService;
 import com.king.utils.RedisUtil;
 import org.apache.oltu.oauth2.as.issuer.MD5Generator;
 import org.apache.oltu.oauth2.as.issuer.OAuthIssuerImpl;
@@ -54,7 +54,7 @@ public class AuthorizeController {
     private AuthorizeService authorizeService;
 
     @Autowired
-    private ClientService clientService;
+    private IClientService clientService;
 
     @Autowired
     private RedisUtil redisUtil;
@@ -86,7 +86,7 @@ public class AuthorizeController {
             //如果用户没有登录,跳转到登录页面
             if(!subject.isAuthenticated()) {
                 //登录失败时跳转到登陆页面
-                Oauth2Client client = clientService.findByClientId(oauthRequest.getClientId());
+                Oauth2Client client = clientService.getClientByKey(oauthRequest.getClientId());
                 return "redirect:/toLogin?clientId=" + client.getClientId() + "&redirect_uri=" + redirect_uri + "&response_type=" + response_type;
                 /* 忽略请求方式 get 或 post
                 if(!login(subject, request)) {
