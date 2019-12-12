@@ -63,10 +63,10 @@ mybatis:
 
 # oauth2授权相关
 clientId: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee
-authorizeUrl: http://127.0.0.1:9090/oauth-server/authorize
-redirectUrl: http://127.0.0.1:9080/oauth-client/callbackCode
-response_type: code
 clientSecret: d8346ea2-6017-43ed-ad68-19c0f971738b
+response_type: code
+redirectUrl: http://127.0.0.1:9080/oauth-client/callbackCode
+authorizeUrl: http://127.0.0.1:9090/oauth-server/authorize
 accessTokenUrl: http://127.0.0.1:9090/oauth-server/accessToken
 userInfoUrl: http://127.0.0.1:9090/oauth-server/userInfo
 

@@ -1,20 +1,12 @@
 package com.king.shiro;
 
 import at.pollux.thymeleaf.shiro.dialect.ShiroDialect;
-import org.apache.shiro.authc.credential.CredentialsMatcher;
-import org.apache.shiro.cache.CacheManager;
-import org.apache.shiro.session.mgt.SessionManager;
-import org.apache.shiro.session.mgt.eis.JavaUuidSessionIdGenerator;
+import org.apache.oltu.oauth2.common.OAuth;
+import org.apache.shiro.cache.ehcache.EhCacheManager;
 import org.apache.shiro.spring.LifecycleBeanPostProcessor;
 import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
-import org.apache.shiro.web.mgt.CookieRememberMeManager;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
-import org.apache.shiro.web.servlet.SimpleCookie;
-import org.apache.shiro.web.session.mgt.DefaultWebSessionManager;
-import org.crazycake.shiro.RedisCacheManager;
-import org.crazycake.shiro.RedisManager;
-import org.crazycake.shiro.RedisSessionDAO;
 import org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
@@ -33,17 +25,26 @@ import java.util.Map;
 @Configuration
 public class ShiroConfig {
 
-    //配置密码验证器
-    @Bean
-    public CredentialsMatcher credentialsMatcher(){
-        return new MyMatcher();
-    }
+    // 注意: /r/n前不能有空格
+    private static final String CRLF = "\r\n";
+
+    @Value("${clientId}")
+    private String clientId;
+    @Value("${clientSecret}")
+    private String clientSecret;
+    @Value("${accessTokenUrl}")
+    private String accessTokenUrl;
+    @Value("${userInfoUrl}")
+    private String userInfoUrl;
+    @Value("${redirectUrl}")
+    private String redirectUrl;
+    @Value("${authorizeUrl}")
+    private String authorizeUrl;
 
     //配置权限验证器
     @Bean
-    public Oauth2Realm oAuth2Realm(@Qualifier("credentialsMatcher")CredentialsMatcher credentialsMatcher){
+    public Oauth2Realm getUserAuthcRealm(){
         Oauth2Realm myRealm = new Oauth2Realm();
-        //myRealm.setCredentialsMatcher(credentialsMatcher);
         myRealm.setCachingEnabled(true);
         myRealm.setAuthenticationCachingEnabled(true);
         myRealm.setAuthenticationCacheName("authenticationCache");
@@ -52,146 +53,62 @@ public class ShiroConfig {
         return myRealm;
     }
 
-    //回话ID生成器
-    @Bean
-    public JavaUuidSessionIdGenerator javaUuidSessionIdGenerator(){
-        JavaUuidSessionIdGenerator javaUuidSessionIdGenerator = new JavaUuidSessionIdGenerator();
-        return javaUuidSessionIdGenerator;
-    }
-
-    @Value("${spring.redis.host}")
-    public String redisHost;
-    @Value("${spring.redis.port}")
-    public Integer redisPort;
-
-    @Bean
-    public RedisManager redisManager(){
-        RedisManager redisManager = new RedisManager();
-        redisManager.setHost(redisHost);
-        redisManager.setPort(redisPort);
-        redisManager.setExpire(1800);// 配置缓存过期时间
-        redisManager.setTimeout(0);
-        //redisManager.setPassword();//为空可以不配置
-        return redisManager;
-    }
-
-    /**
-     * RedisSessionDAO shiro sessionDao层的实现 通过redis
-     * 使用的是shiro-redis开源插件
-     */
-    @Bean
-    public RedisSessionDAO redisSessionDAO() {
-        RedisSessionDAO redisSessionDAO = new RedisSessionDAO();
-        redisSessionDAO.setRedisManager(redisManager());
-        redisSessionDAO.setSessionIdGenerator(javaUuidSessionIdGenerator());
-        return redisSessionDAO;
-    }
-
-    //配置缓存验证器
-    @Bean
-    public CacheManager cacheManager(){
-        //内存缓存管理器
-        //return new MemoryConstrainedCacheManager();
-
-        //redis缓存管理器
-        RedisCacheManager redisCacheManager = new RedisCacheManager();
-        redisCacheManager.setRedisManager(redisManager());
-        return redisCacheManager;
-    }
-
-    //配置记住我Cookie对象参数，rememberMeCookie()方法是设置Cookie的生成模版，比如cookie的name，cookie的有效时间等等
-    @Bean
-    public SimpleCookie rememberMeCookie(){
-        SimpleCookie simpleCookie = new SimpleCookie("rememberMe");
-        simpleCookie.setHttpOnly(true);
-        simpleCookie.setMaxAge(2592000);// 30天，单位：秒
-        return simpleCookie;
-    }
-
-    //配置Cookie管理对象，rememberMeManager()方法是生成rememberMe管理器，而且要将这个rememberMe管理器设置到securityManager中
-    @Bean
-    public CookieRememberMeManager rememberMeManager(){
-        CookieRememberMeManager cookieRememberMeManager = new CookieRememberMeManager();
-        cookieRememberMeManager.setCipherKey("cao-king-cookies".getBytes());//cookie key 加密，长度必须16位
-        cookieRememberMeManager.setCookie(rememberMeCookie());
-        return cookieRememberMeManager;
-    }
-
-
-    //注入自定义记住我过滤器
-    @Bean
-    public MyRememberFilter myRememberFilter(){
-        return new MyRememberFilter();
-    }
-
-    //OAuth2身份验证过滤器
-    @Bean
-    public OAuth2AuthenticationFilter oAuth2AuthenticationFilter(){
-        OAuth2AuthenticationFilter oAuth2AuthenticationFilter = new OAuth2AuthenticationFilter();
-        oAuth2AuthenticationFilter.setAuthcCodeParam("code");
+    public Map<String, Filter> createFilterChainMap() {
+        Map<String, Filter> filters = new LinkedHashMap<>();
+        OAuth2AuthenticationFilter oAuth2AuthenticationFilter =
+                new OAuth2AuthenticationFilter();
+        oAuth2AuthenticationFilter.setAuthcCodeParam(OAuth.OAUTH_CODE);
+        oAuth2AuthenticationFilter.setResponseType(OAuth.OAUTH_CODE);
         oAuth2AuthenticationFilter.setFailureUrl("/oauth2Failure");
-        return oAuth2AuthenticationFilter;
+        oAuth2AuthenticationFilter.setClientId(clientId);
+        oAuth2AuthenticationFilter.setRedirectUrl(redirectUrl);
+        filters.put("oauth2Authc",oAuth2AuthenticationFilter);
+        return filters;
     }
 
-    @Bean
-    public SessionManager sessionManager() {
-        DefaultWebSessionManager sessionManager = new DefaultWebSessionManager();
-        sessionManager.setGlobalSessionTimeout(1800000);
-        sessionManager.setDeleteInvalidSessions(true);
-        sessionManager.setCacheManager(cacheManager());
-        sessionManager.setSessionDAO(redisSessionDAO());
-        sessionManager.setSessionIdCookieEnabled(true);
-        sessionManager.setSessionIdCookie(rememberMeCookie());
-        return sessionManager;
+    @Bean(name="cacheManager")
+    public EhCacheManager createEhcacheManager() {
+        EhCacheManager cacheManager = new EhCacheManager();
+        String path = "classpath:ehcache.xml";
+        cacheManager.setCacheManagerConfigFile(path);
+        return cacheManager;
     }
 
-    //配置securityManager安全管理器，主要起到一个桥梁作用
-    @Bean
-    public DefaultWebSecurityManager securityManager(@Qualifier("oAuth2Realm")Oauth2Realm oAuth2Realm){
-        DefaultWebSecurityManager defaultWebSecurityManager = new DefaultWebSecurityManager();
-        //注入自定义myRealm
-        defaultWebSecurityManager.setRealm(oAuth2Realm);
-        //注入自定义cacheManager
-        defaultWebSecurityManager.setCacheManager(cacheManager());
-        //注入记住我管理器
-        defaultWebSecurityManager.setRememberMeManager(rememberMeManager());
-        //注入自定义sessionManager
-        defaultWebSecurityManager.setSessionManager(sessionManager());
-        return defaultWebSecurityManager;
+    @Bean(name="securityManager")
+    public DefaultWebSecurityManager securityManager() {
+        DefaultWebSecurityManager securityMananger = new DefaultWebSecurityManager();
+        securityMananger.setRealm(getUserAuthcRealm());
+        securityMananger.setCacheManager(createEhcacheManager());
+        // securityMananger.setRememberMeManager(createCookieRemmberMananger());
+        return securityMananger;
     }
 
-    //进行全局配置，Filter工厂。设置对应的过滤条件和跳转条件，有自定义的过滤器，有shiro认证成功后，失败后，退出后等跳转的页面，有静态页面等内容的权限范围
-    @Bean("shiroFilterFactoryBean")
-    public ShiroFilterFactoryBean shiroFilterFactoryBean(@Qualifier("securityManager")DefaultWebSecurityManager securityManager){
-        //shiro对象
-        ShiroFilterFactoryBean bean = new ShiroFilterFactoryBean();
-        bean.setSecurityManager(securityManager);
+    @Bean(name="shiroFilter")
+    public ShiroFilterFactoryBean createShiroSecurityFilterFactory() {
+        ShiroFilterFactoryBean shiroFilter = new ShiroFilterFactoryBean();
+        shiroFilter.setSecurityManager(securityManager());
+        shiroFilter.setLoginUrl(authorizeUrl+"?client_id="+clientId+"&response_type=" + OAuth.OAUTH_CODE +
+                "&redirect_uri=" + redirectUrl);
+        shiroFilter.setSuccessUrl("/");
+        shiroFilter.setFilters(createFilterChainMap());
+        shiroFilter.setFilterChainDefinitions(loadFilterChainDefinitions());
+        return shiroFilter;
+    }
 
-        Map<String, Filter> filterMap=new LinkedHashMap<String,Filter>();
-        filterMap.put("oAuth2AuthenticationFilter",oAuth2AuthenticationFilter());
+    public String loadFilterChainDefinitions() {
+        StringBuffer sb = new StringBuffer();
+        //	sb.append(getFixedAuthRule());//固定权限，采用读取配置文件
+        sb.append("/oauth2Failure = anon").append(CRLF);
+        sb.append("/oauth-client/callbackCode = oauth2Authc").append(CRLF);
+//        sb.append("/oauth-client/callbackCode = anon").append(CRLF);
+//        sb.append("/oauth-client/getCode = anon").append(CRLF);
+//        sb.append("/oauth-client/getUserInfo = anon").append(CRLF);
+        sb.append("/logout = logout").append(CRLF);
 
-        LinkedHashMap<String, String> linkedHashMap = new LinkedHashMap<String, String>();
-        /*
-        认证顺序是从上往下执行。
-         */
-        linkedHashMap.put("/logout", "logout");//在这儿配置登出地址，不需要专门去写控制器。
+//        sb.append("/ = oauth2Authc").append(CRLF);
+        sb.append("/** = user").append(CRLF);
 
-        linkedHashMap.put("/css/**", "anon");
-        linkedHashMap.put("/fonts/**", "anon");
-        linkedHashMap.put("/img/**", "anon");
-        linkedHashMap.put("/js/**", "anon");
-        linkedHashMap.put("/oauth-client/**", "anon");//过滤掉授权验证请求地址
-        linkedHashMap.put("/oauth2-login", "oAuth2AuthenticationFilter");//客户端登录页需要过滤器验证
-
-        linkedHashMap.put("/**", "user");//需要进行权限验证
-        bean.setFilterChainDefinitionMap(linkedHashMap);
-        bean.setFilters(filterMap);
-
-        // 如果不设置默认会自动寻找Web工程根目录下的"/login.jsp"页面
-        bean.setLoginUrl("http://localhost:9090/oauth-server/authorize?client_id=c1ebe466-1cdc-4bd3-ab69-77c3561b9dee&response_type=code&redirect_uri=http://127.0.0.1:9080/oauth-client/callbackCode");
-        // 登录成功后要跳转的链接
-        bean.setSuccessUrl("/index");
-        return bean;
+        return sb.toString();
     }
 
     //配置shiro的生命周期

@@ -305,16 +305,13 @@
         <p id="errMsgDesc"></p>
     </div>
     <div id="login_wrap">
-        <input type="hidden" id="errMsg" th:value="${#httpServletRequest.getParameter('result')}"/>
+        <input type="hidden" id="errMsg" th:value="${result}"/>
         <div id="login"><!-- 登录注册切换动画 -->
             <div id="status">
                 <i style="top: 0" th:text="#{com.king.system.title}"></i>
             </div>
             <span>
-                    <form action="login" method="post">
-                        <input type="hidden" name="redirect_uri" th:value="${#httpServletRequest.getParameter('redirect_uri')}"/>
-                        <input type="hidden" name="response_type" th:value="${#httpServletRequest.getParameter('response_type')}"/>
-                        <input type="hidden" name="client_id" th:value="${#httpServletRequest.getParameter('clientId')}"/>
+                    <form action="" method="post">
                         <p class="form"><input type="text" name="account" th:placeholder="#{com.king.system.login.username}"></p>
                         <p class="form"><input type="password" name="password" th:placeholder="#{com.king.system.login.password}"></p>
                         <input type="submit" th:value="#{com.king.system.login}" class="btn" style="margin-right: 20px;">

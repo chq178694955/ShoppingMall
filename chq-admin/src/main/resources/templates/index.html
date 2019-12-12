@@ -9,12 +9,12 @@
 </head>
 <body>
 <shiro:guest>
-    欢迎游客访问，<a th:href="${#httpServletRequest.getScheme() + '://' + #httpServletRequest.getServerName() + ':' + #request.getServerPort()  + #request.getContextPath() + '/'}oauth2-login">点击登录</a><br/>
+    欢迎游客访问，<a th:href="${#httpServletRequest.getScheme() + '://' + #httpServletRequest.getServerName() + ':' + #request.getServerPort()  + #request.getContextPath() + '/auth-client/callbackCode'}">点击登录</a><br/>
 </shiro:guest>
 <shiro:user>
     欢迎[<shiro:principal/>]登录<br/>
 </shiro:user>
-<shiro:hasRole name="admin">
+<shiro:hasRole name="超级管理员">
     您有角色admin
 </shiro:hasRole>
 </body>

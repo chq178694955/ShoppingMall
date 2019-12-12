@@ -1,0 +1,29 @@
+2019-12-12 08:39:01,405 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 11476 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-12 08:39:01,415 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-12 08:39:01,416 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-12 08:39:09,240 INFO (StartupInfoLogger.java:61)- Started Startup in 8.838 seconds (JVM running for 12.308)
+2019-12-12 08:39:25,846 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 16816 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-12 08:39:25,851 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-12 08:39:25,851 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-12 08:39:31,112 INFO (StartupInfoLogger.java:61)- Started Startup in 6.283 seconds (JVM running for 8.216)
+2019-12-12 08:39:47,188 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-12 08:39:47,396 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-12 08:39:47,451 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-12 08:39:47,460 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-12 08:39:47,461 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-12 08:39:47,464 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-12 08:39:51,093 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-12 08:39:51,094 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-12 08:39:51,098 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-12 08:39:51,100 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-12 08:39:51,101 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-12 08:39:51,102 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-12 08:39:51,104 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
+2019-12-12 08:39:51,106 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
+2019-12-12 08:39:51,109 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-12 08:39:57,372 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-12 08:39:57,373 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: c1ebe466-1cdc-4bd3-ab69-77c3561b9dee(String)
+2019-12-12 08:39:57,374 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-12 08:39:57,375 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_secret = ? 
+2019-12-12 08:39:57,376 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: d8346ea2-6017-43ed-ad68-19c0f971738b(String)
+2019-12-12 08:39:57,378 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1

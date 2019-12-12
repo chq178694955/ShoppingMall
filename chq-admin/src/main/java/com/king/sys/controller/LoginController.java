@@ -1,20 +1,7 @@
 package com.king.sys.controller;
 
-import com.king.sys.service.IUserService;
-import com.king.utils.RedisUtil;
-import org.apache.shiro.SecurityUtils;
-import org.apache.shiro.authc.IncorrectCredentialsException;
-import org.apache.shiro.authc.UnknownAccountException;
-import org.apache.shiro.authc.UsernamePasswordToken;
-import org.apache.shiro.subject.Subject;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.servlet.ModelAndView;
-
-import java.util.List;
 
 /**
  * @创建人 chq
@@ -24,56 +11,19 @@ import java.util.List;
 @Controller
 public class LoginController {
 
-    @Autowired
-    private RedisUtil redisUtil;
-
-    @Autowired
-    private IUserService userService;
-
-    @RequestMapping(value="/oauth2-login",method = RequestMethod.GET)
-    public String toLogin(){
-        return "login";
-    }
-
-    @RequestMapping(value = "/login", method = RequestMethod.POST)
-    public ModelAndView login2(@RequestParam("account") String account, @RequestParam("password") String password) {
-        ModelAndView m = new ModelAndView();
-        //添加用户认证信息
-        Subject subject = SecurityUtils.getSubject();
-        UsernamePasswordToken uToken = new UsernamePasswordToken(account, password);
-        //实现记住我
-        uToken.setRememberMe(true);
-        try {
-            //进行验证，报错返回首页，不报错到达成功页面。
-            subject.login(uToken);
-
-        } catch (UnknownAccountException e) {
-            m.addObject("result", "用户不存在");
-            m.setViewName("login");
-            return m;
-        } catch (IncorrectCredentialsException e) {
-            m.addObject("result", "密码错误");
-            m.setViewName("login");
-            return m;
-        }
-
-        //shiro权限验证成功后跳转的界面
-        m.setViewName("redirect:index");
-        return m;
-    }
-
-    @RequestMapping(value="/index",method = RequestMethod.GET)
-    public String toIndex(){
-        Subject subject = SecurityUtils.getSubject();
-        String username = subject.getPrincipal().toString();
-        System.out.println(username);
+    @RequestMapping("/index")
+    public String index(){
         return "index";
     }
 
-    @RequestMapping(value="/oauth2Failure",method = RequestMethod.GET)
-    public String oauth2Failure(){
-        return "oauth2Failure";
+    @RequestMapping("/test")
+    public String test(){
+        return "test";
     }
 
+    @RequestMapping("/oauth2Failure")
+    public String fail(){
+        return "oauth2Failure";
+    }
 
 }

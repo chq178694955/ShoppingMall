@@ -3,9 +3,11 @@ package com.king.shiro;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationToken;
 import org.apache.shiro.subject.Subject;
+import org.apache.shiro.util.ThreadContext;
 import org.apache.shiro.web.filter.AccessControlFilter;
 import org.apache.shiro.web.filter.authc.AuthenticatingFilter;
 import org.apache.shiro.web.filter.authc.AuthenticationFilter;
+import org.apache.shiro.web.subject.WebSubject;
 import org.apache.shiro.web.util.WebUtils;
 import org.springframework.util.StringUtils;
 
@@ -67,7 +69,6 @@ public class OAuth2AuthenticationFilter extends AuthenticatingFilter {
     @Override
     protected boolean onAccessDenied(ServletRequest request, ServletResponse response) throws Exception {
 
-
         String error = request.getParameter("error");
         String errorDescription = request.getParameter("error_description");
         if(!StringUtils.isEmpty(error)) {//如果服务端返回了错误
@@ -84,7 +85,31 @@ public class OAuth2AuthenticationFilter extends AuthenticatingFilter {
             }
         }
 
+        // 执行父类的登录逻辑
+        String successURL = getSuccessUrl();
         return executeLogin(request, response);
+    }
+
+    /**
+     * 登录验证处理，父类本来就有，只是有个bug，按官方给出的方法进行了重写
+     */
+    @Override
+    protected boolean executeLogin(ServletRequest request, ServletResponse response) throws Exception {
+        AuthenticationToken token = this.createToken(request, response);
+        if (token == null) {
+            String msg = "createToken method implementation returned null. A valid non-null AuthenticationToken must be created in order to execute a login attempt.";
+            throw new IllegalStateException(msg);
+        } else {
+            try {
+                //修复bug代码，也算个不小的坑吧
+                Subject subject =  new WebSubject.Builder(request, response).buildSubject();
+                subject.login(token);
+                ThreadContext.bind(subject);
+                return this.onLoginSuccess(token, subject, request, response);
+            } catch (AuthenticationException var5) {
+                return this.onLoginFailure(token, var5, request, response);
+            }
+        }
     }
 
     @Override

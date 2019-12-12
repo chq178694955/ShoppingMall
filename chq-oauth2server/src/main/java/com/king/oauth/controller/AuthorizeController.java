@@ -3,6 +3,7 @@ package com.king.oauth.controller;
 import com.king.oauth.service.AuthorizeService;
 import com.king.sys.Oauth2Client;
 import com.king.sys.service.IClientService;
+import com.king.utils.I18nUtils;
 import com.king.utils.RedisUtil;
 import org.apache.oltu.oauth2.as.issuer.MD5Generator;
 import org.apache.oltu.oauth2.as.issuer.OAuthIssuerImpl;
@@ -62,9 +63,6 @@ public class AuthorizeController {
     @RequestMapping("/authorize")
     public Object authorize(Model model, HttpServletRequest request) throws OAuthSystemException, URISyntaxException {
 
-        String redirect_uri = request.getParameter("redirect_uri");
-        String response_type = request.getParameter("response_type");
-
         try {
             //构建OAuth 授权请求
             OAuthAuthzRequest oauthRequest = new OAuthAuthzRequest(request);
@@ -87,13 +85,12 @@ public class AuthorizeController {
             if(!subject.isAuthenticated()) {
                 //登录失败时跳转到登陆页面
                 Oauth2Client client = clientService.getClientByKey(oauthRequest.getClientId());
-                return "redirect:/toLogin?clientId=" + client.getClientId() + "&redirect_uri=" + redirect_uri + "&response_type=" + response_type;
-                /* 忽略请求方式 get 或 post
+                /* 忽略请求方式 get 或 post*/
                 if(!login(subject, request)) {
                     //登录失败时跳转到登陆页面
-                    model.addAttribute("client", clientService.findByClientId(oauthRequest.getClientId()));
+                    model.addAttribute("client", client);
                     return "login";
-                }*/
+                }
             }
             String username = (String) subject.getPrincipal();
 
@@ -142,30 +139,36 @@ public class AuthorizeController {
             return false;
         }
 
-        String username = request.getParameter("username");
+        String username = request.getParameter("account");
         String password = request.getParameter("password");
 
-        if(StringUtils.isEmpty(username) || StringUtils.isEmpty(password)) {
+        if(StringUtils.isEmpty(username)) {
+            request.setAttribute("result",I18nUtils.get("com.king.system.login.username"));
+            return false;
+        }
+        if(StringUtils.isEmpty(password)){
+            request.setAttribute("result",I18nUtils.get("com.king.system.login.password"));
             return false;
         }
 
         UsernamePasswordToken token = new UsernamePasswordToken(username, password);
 
         try {
+            token.setRememberMe(true);
             subject.login(token);
             return true;
         }catch(Exception e){
 
             if(e instanceof UnknownAccountException){
-                request.setAttribute("msg","用户名或密码错误！");
+                request.setAttribute("result",I18nUtils.get("com.king.system.login.accountOrPassError"));
             }
 
             if(e instanceof IncorrectCredentialsException){
-                request.setAttribute("msg","用户名或密码错误！");
+                request.setAttribute("result",I18nUtils.get("com.king.system.login.accountOrPassError"));
             }
 
             if(e instanceof LockedAccountException){
-                request.setAttribute("msg","账号已被锁定,请联系管理员！");
+                request.setAttribute("result",I18nUtils.get("com.king.system.login.accountLock"));
             }
             return false;
         }
