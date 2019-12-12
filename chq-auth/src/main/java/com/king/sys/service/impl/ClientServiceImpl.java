@@ -39,17 +39,19 @@ public class ClientServiceImpl implements IClientService {
 
     @Override
     public Long addClient(Oauth2Client client) {
-        return null;
+        clientMapper.add(client);
+        return client.getId();
     }
 
     @Override
     public Long modifyClient(Oauth2Client client) {
-        return null;
+        clientMapper.update(client);
+        return client.getId();
     }
 
     @Override
     public void delClient(Long id) {
-
+        clientMapper.del(id);
     }
 
     @Override

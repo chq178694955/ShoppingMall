@@ -25,7 +25,7 @@ var KingIndex = {
         textAry.reverse();//倒序数组
 
         //渲染面包屑导航
-        let strCrumb = '当前位置：' + parentTitle;
+        let strCrumb = API.I18n.get('com.king.system.crumb.curPosition') + parentTitle;
         for(let i=0;i<textAry.length;i++){
             strCrumb += ' >> ' + textAry[i];
         }
@@ -66,6 +66,11 @@ var KingIndex = {
 }
 
 $(document).ready(function(){
+    $('#index_content').tabs({
+        onClose: function(){
+            $('#index_crumb').html(API.I18n.get('com.king.system.crumb.curPosition'));
+        }
+    });
     $('#index_btn_logout').bind('click',function(){
         location.href = API.ROOT + 'logout';
         /*

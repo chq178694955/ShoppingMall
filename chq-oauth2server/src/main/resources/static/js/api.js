@@ -27,8 +27,33 @@ window.API = window.API || {
         })
     },
 
+    isNull: function(obj){
+        if(obj == undefined || obj == 'undefined' || obj == null || obj == '' || obj == 'null'){
+            return true;
+        }else{
+            false;
+        }
+    },
+
+    isNotNull: function(obj){
+        if(obj != undefined && obj != 'undefined' && obj != null && obj != '' && obj != 'null'){
+            return true;
+        }else{
+            false;
+        }
+    },
+
     alert: function(title,context){
         $.messager.alert(title,context);
+    },
+    alertInfo: function(content){
+        $.messager.alert(API.I18n.get('com.king.system.alert.title.info'),content);
+    },
+    alertWarn: function(content){
+        $.messager.alert(API.I18n.get('com.king.system.alert.title.warn'),content);
+    },
+    alertError: function(content){
+        $.messager.alert(API.I18n.get('com.king.system.alert.title.error'),content);
     },
 
     //动态加载js文件

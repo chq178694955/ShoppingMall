@@ -76,11 +76,11 @@ public class ShiroConfig {
 
     @Bean(name="securityManager")
     public DefaultWebSecurityManager securityManager() {
-        DefaultWebSecurityManager securityMananger = new DefaultWebSecurityManager();
-        securityMananger.setRealm(getUserAuthcRealm());
-        securityMananger.setCacheManager(createEhcacheManager());
+        DefaultWebSecurityManager securityManager = new DefaultWebSecurityManager();
+        securityManager.setRealm(getUserAuthcRealm());
+        securityManager.setCacheManager(createEhcacheManager());
         // securityMananger.setRememberMeManager(createCookieRemmberMananger());
-        return securityMananger;
+        return securityManager;
     }
 
     @Bean(name="shiroFilter")

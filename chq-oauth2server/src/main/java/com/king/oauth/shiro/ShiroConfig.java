@@ -40,6 +40,11 @@ public class ShiroConfig {
 
     private static final String MD5 = "md5";
 
+    @Value("${spring.redis.host}")
+    public String redisHost;
+    @Value("${spring.redis.port}")
+    public Integer redisPort;
+
     @Bean(name="hashedCredMatcher")
     public HashedCredentialsMatcher createHashCredentialsMatcher() {
         RetryLimitHashedCredentialsMatcher hcm = new RetryLimitHashedCredentialsMatcher();
@@ -55,21 +60,65 @@ public class ShiroConfig {
         return uar;
     }
 
-    @Bean(name="rememberCookies")
-    public SimpleCookie createSimpleCookies() {
-        SimpleCookie sc = new SimpleCookie("rememberMe");
-        sc.setHttpOnly(true);
-        sc.setMaxAge(5);
-        return sc;
+    @Bean
+    public RedisManager redisManager(){
+        RedisManager redisManager = new RedisManager();
+        redisManager.setHost(redisHost);
+        redisManager.setPort(redisPort);
+        redisManager.setExpire(1800);// 配置缓存过期时间
+        redisManager.setTimeout(0);
+        //redisManager.setPassword();//为空可以不配置
+        return redisManager;
     }
 
-    @Bean(name="cookieRemmberMananger")
-    public CookieRememberMeManager createCookieRemmberMananger() {
-        CookieRememberMeManager crm = new CookieRememberMeManager();
-        crm.setCookie(createSimpleCookies());
-        return crm;
+    /**
+     * RedisSessionDAO shiro sessionDao层的实现 通过redis
+     * 使用的是shiro-redis开源插件
+     */
+    @Bean
+    public RedisSessionDAO redisSessionDAO() {
+        RedisSessionDAO redisSessionDAO = new RedisSessionDAO();
+        redisSessionDAO.setRedisManager(redisManager());
+        return redisSessionDAO;
     }
 
+    //配置记住我Cookie对象参数，rememberMeCookie()方法是设置Cookie的生成模版，比如cookie的name，cookie的有效时间等等
+    @Bean
+    public SimpleCookie rememberMeCookie(){
+        SimpleCookie simpleCookie = new SimpleCookie("rememberMe");
+        simpleCookie.setHttpOnly(true);
+        simpleCookie.setMaxAge(-1);
+        return simpleCookie;
+    }
+
+    //配置Cookie管理对象，rememberMeManager()方法是生成rememberMe管理器，而且要将这个rememberMe管理器设置到securityManager中
+    @Bean
+    public CookieRememberMeManager rememberMeManager(){
+        CookieRememberMeManager cookieRememberMeManager = new CookieRememberMeManager();
+        cookieRememberMeManager.setCipherKey("ser-king-cookies".getBytes());//cookie key 加密，长度必须16位
+        cookieRememberMeManager.setCookie(rememberMeCookie());
+        return cookieRememberMeManager;
+    }
+
+    //注入自定义记住我过滤器
+//    @Bean
+//    public MyRememberFilter myRememberFilter(){
+//        return new MyRememberFilter();
+//    }
+
+    //配置缓存验证器
+    @Bean
+    public CacheManager cacheManager(){
+        //内存缓存管理器
+        //return new MemoryConstrainedCacheManager();
+
+        //redis缓存管理器
+        RedisCacheManager redisCacheManager = new RedisCacheManager();
+        redisCacheManager.setRedisManager(redisManager());
+        return redisCacheManager;
+    }
+
+    /*
     @Bean(name="cacheManager")
     public EhCacheManager createEhcacheManager() {
         EhCacheManager cacheManager = new EhCacheManager();
@@ -77,14 +126,33 @@ public class ShiroConfig {
         cacheManager.setCacheManagerConfigFile(path);
         return cacheManager;
     }
+    */
 
-    @Bean(name="securityMananger")
-    public DefaultWebSecurityManager createSecurityManager() {
-        DefaultWebSecurityManager securityMananger = new DefaultWebSecurityManager();
-        securityMananger.setRealm(getUserAuthcRealm());
-        securityMananger.setCacheManager(createEhcacheManager());
-        securityMananger.setRememberMeManager(createCookieRemmberMananger());
-        return securityMananger;
+    @Bean
+    public SessionManager sessionManager() {
+        DefaultWebSessionManager sessionManager = new DefaultWebSessionManager();
+        sessionManager.setGlobalSessionTimeout(1800000);
+        sessionManager.setDeleteInvalidSessions(true);
+        sessionManager.setCacheManager(cacheManager());
+        sessionManager.setSessionDAO(redisSessionDAO());
+        sessionManager.setSessionIdCookieEnabled(true);
+//        sessionManager.setSessionIdCookie(rememberMeCookie());
+        sessionManager.setSessionIdUrlRewritingEnabled(false);//隐藏jsessionid
+        return sessionManager;
+    }
+
+    @Bean(name="securityManager")
+    public DefaultWebSecurityManager securityManager() {
+        DefaultWebSecurityManager securityManager = new DefaultWebSecurityManager();
+        //注入自定义myRealm
+        securityManager.setRealm(getUserAuthcRealm());
+        //注入自定义cacheManager
+        securityManager.setCacheManager(cacheManager());
+        //注入记住我管理器
+        securityManager.setRememberMeManager(rememberMeManager());
+        //注入自定义sessionManager
+        securityManager.setSessionManager(sessionManager());
+        return securityManager;
     }
 
     /**
@@ -92,6 +160,7 @@ public class ShiroConfig {
      * */
     public Map<String, Filter> createFilterChainMap() {
         Map<String, Filter> filters = new LinkedHashMap<>();
+//        filters.put("rememberMeFilter",myRememberFilter());
         return filters;
     }
 
@@ -122,7 +191,7 @@ public class ShiroConfig {
     @Bean(name="shiroFilter")
     public ShiroFilterFactoryBean createShiroSecurityFilterFactory() {
         ShiroFilterFactoryBean shiroFilter = new ShiroFilterFactoryBean();
-        shiroFilter.setSecurityManager(createSecurityManager());
+        shiroFilter.setSecurityManager(securityManager());
         shiroFilter.setLoginUrl("/toLoginAdmin");
         //shiroFilter.setFilters(createFilterChainMap());
         //注意过滤器配置顺序 不能颠倒
@@ -134,6 +203,7 @@ public class ShiroConfig {
          filterChainDefinitionMap.put("/g/unauthorized", "anon");
          filterChainDefinitionMap.put("/**", "permsFilter");*/
         shiroFilter.setFilterChainDefinitions(loadFilterChainDefinitions());
+        shiroFilter.setFilters(createFilterChainMap());
         return shiroFilter;
     }
 
@@ -156,7 +226,7 @@ public class ShiroConfig {
         return defaultAdvisorAutoProxyCreator;
     }
     @Bean
-    public AuthorizationAttributeSourceAdvisor authorizationAttributeSourceAdvisor(@Qualifier("securityMananger") DefaultWebSecurityManager securityManager) {
+    public AuthorizationAttributeSourceAdvisor authorizationAttributeSourceAdvisor(@Qualifier("securityManager") DefaultWebSecurityManager securityManager) {
         AuthorizationAttributeSourceAdvisor sourceAdvisor = new AuthorizationAttributeSourceAdvisor();
         sourceAdvisor.setSecurityManager(securityManager);
         return sourceAdvisor;

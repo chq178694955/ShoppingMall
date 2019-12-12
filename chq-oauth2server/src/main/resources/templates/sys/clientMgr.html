@@ -1,42 +1,50 @@
-<table th:id="dg_clientMgr+${menuId.toString()}" class="easyui-datagrid" data-options="fit:true
+<div th:id="ly_clientMgr+${menuId.toString()}" class="easyui-layout" data-options="fit:true">
+    <div data-options="region:'center'">
+        <table th:id="dg_clientMgr+${menuId.toString()}" class="easyui-datagrid" data-options="fit:true
         ,fitColumns:true
         ,striped:true
         ,rownumbers:true
         ,pagination:true
         ,singleSelect:true">
-    <thead>
-        <tr>
-            <th data-options="width:100,field:'clientName',align:'center',halign:'center'" th:text="#{com.king.system.client.name}"></th>
-            <th data-options="width:100,field:'clientId',align:'center',halign:'center'" th:text="#{com.king.system.client.key}"></th>
-            <th data-options="width:100,field:'clientSecret',align:'center',halign:'center'" th:text="#{com.king.system.client.secret}"></th>
-        </tr>
-    </thead>
-</table>
-<div th:id="dlg_clientMgr+${menuId.toString()}" class="easyui-dialog" data-options="width:460,height:320,closed:true,modal:true">
-    <form th:id="fm_clientMgr+${menuId.toString()}" class="king-form-layout">
-        <div class="king-form-layout-item">
-            <label for="" th:text="#{com.king.system.client.name}"></label>
-            <div class="king-form-layout-item-info">
-                <input type="text" class="easyui-textbox" style="width: 100%;"/>
+            <thead>
+            <tr>
+                <th data-options="width:100,field:'clientName',align:'center',halign:'center'" th:text="#{com.king.system.client.name}"></th>
+                <th data-options="width:100,field:'clientId',align:'center',halign:'center'" th:text="#{com.king.system.client.key}"></th>
+                <th data-options="width:100,field:'clientSecret',align:'center',halign:'center'" th:text="#{com.king.system.client.secret}"></th>
+            </tr>
+            </thead>
+        </table>
+    </div>
+    <div data-options="region:'south',collapsed:true" style="height: 300px;" th:title="#{com.king.system.attributes.edit.title}">
+        <form th:id="fm_clientMgr+${menuId.toString()}" class="king-form-layout">
+            <input type="hidden" th:id="id+${menuId.toString()}" />
+            <div class="king-form-layout-item">
+                <label th:text="#{com.king.system.client.name}"></label>
+                <div class="king-form-layout-item-info">
+                    <input th:id="clientName+${menuId.toString()}" type="text" class="easyui-textbox" style="width: 100%;"/>
+                </div>
             </div>
-        </div>
-        <div class="king-form-layout-item">
-            <label for="" th:text="#{com.king.system.client.key}"></label>
-            <div class="king-form-layout-item-info">
-                <input type="text" class="easyui-textbox" style="width: 100%;"/>
+            <div class="king-form-layout-item">
+                <label th:text="#{com.king.system.client.key}"></label>
+                <div class="king-form-layout-item-info">
+                    <input th:id="clientKey+${menuId.toString()}" type="text" data-options="editable:false" class="easyui-textbox" style="width: 100%;"/>
+                </div>
             </div>
-        </div>
-        <div class="king-form-layout-item">
-            <label for="" th:text="#{com.king.system.client.secret}"></label>
-            <div class="king-form-layout-item-info">
-                <input type="text" class="easyui-textbox" style="width: 100%;"/>
+            <div class="king-form-layout-item">
+                <label th:text="#{com.king.system.client.secret}"></label>
+                <div class="king-form-layout-item-info">
+                    <input th:id="clientSecret+${menuId.toString()}" type="text" data-options="editable:false" class="easyui-textbox" style="width: 100%;"/>
+                </div>
             </div>
-        </div>
-        <div class="king-form-layout-item-btns">
-            <a th:id="query_clientMgr+${menuId.toString()}" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-ok'" th:text="#{com.king.system.btn.add}"></a>
-            <a th:id="cancel_clientMgr+${menuId.toString()}" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-cancel'" th:text="#{con.king.system.btn.close}"></a>
-        </div>
-    </form>
+            <div class="king-form-layout-item-btns">
+                <label></label><!-- 故意这样布局，按钮排下行 -->
+                <div class="king-form-layout-item-btns">
+                    <a th:id="save_clientMgr+${menuId.toString()}" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-save'" th:text="#{com.king.system.btn.save}"></a>
+                    <a th:id="reset_clientMgr+${menuId.toString()}" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-reload'" th:text="#{com.king.system.btn.reset}"></a>
+                </div>
+            </div>
+        </form>
+    </div>
 </div>
 
 <script>
