@@ -66,24 +66,18 @@ var KingIndex = {
 }
 
 $(document).ready(function(){
+    //tab关闭后相应事件
     $('#index_content').tabs({
-        onClose: function(){
-            $('#index_crumb').html(API.I18n.get('com.king.system.crumb.curPosition'));
+        onClose: function(title,index){
+            //渲染面包屑导航
+            let strCrumb = API.I18n.get('com.king.system.crumb.curPosition');
+            $('#index_crumb').html(strCrumb);
         }
     });
+    //退出
     $('#index_btn_logout').bind('click',function(){
         location.href = API.ROOT + 'logout';
-        /*
-        $.ajax({
-            url:API.ROOT + 'logout',
-            dataType:'json',
-            success: function(result){
-                if(result && result.code == 0){
-                    location.href = API.ROOT ;
-                }
-            }
-        });
-        */
     })
+    //加载菜单
     KingIndex.loadLeftMenus();
 });

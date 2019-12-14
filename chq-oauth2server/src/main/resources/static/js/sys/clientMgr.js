@@ -32,7 +32,7 @@ function ClientMgr() {
     this.save = function(){
         let clientName = $('#clientName' + Frame.getCurId()).textbox('getValue');
         if(API.isNull(clientName)){
-            API.alertError('com.king.system.client.name.empty')
+            API.alertError(API.I18n.get('com.king.system.client.name.empty'))
             return ;
         }
         $.ajax({

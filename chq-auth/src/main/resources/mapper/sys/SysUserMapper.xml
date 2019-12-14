@@ -9,7 +9,10 @@
         <result column="password" property="password" />
         <result column="name" property="name" />
         <result column="id_card_num" property="idCardNum" />
-        <result column="state" property="accountStateEnum" />
+        <result column="state" property="state" />
+
+        <result column="role_id" property="roleId"/>
+        <result column="role_name" property="roleName"/>
     </resultMap>
 
     <sql id="baseColumns">id,username,password,name,id_card_num,state</sql>
@@ -17,6 +20,11 @@
     <select id="findByUserName" resultMap="baseResultMap" parameterType="java.lang.String">
         select <include refid="baseColumns"/> from sys_user where username = #{username,jdbcType=VARCHAR}
     </select>
+
+    <insert id="addSysUser" parameterType="com.king.sys.SysUser" keyProperty="id" useGeneratedKeys="true">
+        insert into sys_user(id,username,password,name,id_card_num,state)
+        values(#{id,jdbcType=BIGINT},#{username,jdbcType=VARCHAR},#{password,jdbcType=VARCHAR},#{name,jdbcType=VARCHAR},#{idCardNum,jdbcType=VARCHAR},#{state,jdbcType=INTEGER})
+    </insert>
 
     <update id="modifySysUser" parameterType="com.king.sys.SysUser">
       update sys_user
@@ -33,11 +41,39 @@
           <if test="idCardNum != null and idCardNum != ''">
               id_card_num = #{idCardNum,jdbcType=VARCHAR},
           </if>
-          <if test="accountStateEnum != null and accountStateEnum != ''">
-              state = #{accountStateEnum,jdbcType=VARCHAR},
+          <if test="state != null and state != ''">
+              state = #{state,jdbcType=INTEGER},
           </if>
-          where id = #{id,jdbcType=BIGINT}
       </set>
+        where id = #{id,jdbcType=BIGINT}
     </update>
+
+    <select id="find" parameterType="java.util.Map" resultMap="baseResultMap">
+        select u.id,u.username,u.password,u.name,u.id_card_num,u.state,e.id as role_id,e.name as role_name
+        from sys_user u
+        inner join sys_user_role r on u.id = r.uid
+        inner join sys_role e on r.rid = e.id
+    </select>
+    <select id="findCount" resultType="java.lang.Integer" parameterType="java.util.Map">
+        select count(0) from sys_user u
+        inner join sys_user_role r on u.id = r.uid
+        inner join sys_role e on r.rid = e.id
+    </select>
+
+    <delete id="delUser" parameterType="java.lang.Long">
+        delete from sys_user where id = #{id,jdbcType=BIGINT}
+    </delete>
+    
+    <insert id="addUserRole" parameterType="com.king.sys.SysUser" keyProperty="id" useGeneratedKeys="true">
+        insert into sys_user_role(uid,rid) values(#{id,jdbcType=BIGINT},#{roleId,jdbcType=BIGINT})
+    </insert>
+
+    <delete id="delUserRole" parameterType="java.lang.Long">
+        delete from sys_user_role where uid = #{userId,jdbcType=BIGINT}
+    </delete>
+
+    <select id="findUserRole" parameterType="java.lang.Long" resultMap="baseResultMap">
+      select uid as id,rid as role_id from sys_user_role where uid = #{userId,jdbcType=BIGINT}
+    </select>
 
 </mapper>

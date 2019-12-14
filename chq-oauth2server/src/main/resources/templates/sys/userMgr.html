@@ -1,1 +1,80 @@
-这是用户管理首页
+<div th:id="ly_userMgr+${menuId.toString()}" class="easyui-layout" data-options="fit:true">
+    <div class="easyui-layout" data-options="region:'center'">
+        <div data-options="region:'center'">
+            <table th:id="dg+${menuId.toString()}" class="easyui-datagrid" data-options="fit:true
+        ,fitColumns:true
+        ,striped:true
+        ,rownumbers:true
+        ,pagination:true
+        ,singleSelect:true">
+                <thead>
+                <tr>
+                    <th data-options="width:100,field:'username',align:'center',halign:'center'" th:text="#{com.king.system.user.username}"></th>
+                    <th data-options="width:100,field:'password',align:'center',halign:'center'" th:text="#{com.king.system.user.password}"></th>
+                    <th data-options="width:100,field:'name',align:'center',halign:'center'" th:text="#{com.king.system.user.name}"></th>
+                    <th data-options="width:100,field:'idCardNum',align:'center',halign:'center'" th:text="#{com.king.system.user.idCardNum}"></th>
+                    <th data-options="width:100,field:'state',align:'center',halign:'center'" th:text="#{com.king.system.user.state}"></th>
+                    <th data-options="width:100,field:'roleName',align:'center',halign:'center'" th:text="#{com.king.system.role.name}"></th>
+                </tr>
+                </thead>
+            </table>
+        </div>
+        <div data-options="region:'south'" style="height: 35%;">
+            <form th:id="fm_userMgr+${menuId.toString()}" class="king-form-layout">
+                <input type="hidden" th:id="id+${menuId.toString()}" />
+                <div class="king-form-layout-item">
+                    <label th:text="#{com.king.system.user.username}"></label>
+                    <div class="king-form-layout-item-info">
+                        <input th:id="username+${menuId.toString()}" type="text" class="easyui-textbox" style="width: 100%;"/>
+                    </div>
+                </div>
+                <div class="king-form-layout-item">
+                    <label th:text="#{com.king.system.user.password}"></label>
+                    <div class="king-form-layout-item-info">
+                        <input th:id="password+${menuId.toString()}" type="text" data-options="" class="easyui-passwordbox" style="width: 100%;"/>
+                    </div>
+                </div>
+                <div class="king-form-layout-item">
+                    <label th:text="#{com.king.system.user.name}"></label>
+                    <div class="king-form-layout-item-info">
+                        <input th:id="name+${menuId.toString()}" type="text" data-options="" class="easyui-textbox" style="width: 100%;"/>
+                    </div>
+                </div>
+                <div class="king-form-layout-item">
+                    <label th:text="#{com.king.system.user.idCardNum}"></label>
+                    <div class="king-form-layout-item-info">
+                        <input th:id="idCardNum+${menuId.toString()}" type="text" data-options="" class="easyui-textbox" style="width: 100%;"/>
+                    </div>
+                </div>
+                <div class="king-form-layout-item">
+                    <label th:text="#{com.king.system.user.state}"></label>
+                    <div class="king-form-layout-item-info">
+                        <select th:id="state+${menuId.toString()}" data-options="panelHeight:'auto'" class="easyui-combobox" style="width: 100%;"></select>
+                    </div>
+                </div>
+                <div class="king-form-layout-item">
+                    <label th:text="#{com.king.system.role.name}"></label>
+                    <div class="king-form-layout-item-info">
+                        <select th:id="role+${menuId.toString()}" data-options="panelHeight:'auto',valueField:'id',textField:'name'" class="easyui-combobox" style="width: 100%;"></select>
+                    </div>
+                </div>
+                <div class="king-form-layout-item-btns">
+                    <label></label><!-- 故意这样布局，按钮排下行 -->
+                    <div class="king-form-layout-item-btns">
+                        <a th:id="save+${menuId.toString()}" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-save'" th:text="#{com.king.system.btn.save}"></a>
+                        <a th:id="reset+${menuId.toString()}" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-reload'" th:text="#{com.king.system.btn.reset}"></a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(){
+        API.loadJS({id:'FUNC_' + Frame.getCurId(),url:'js/sys/userMgr.js'},function(){
+            const userMgr = new UserMgr();
+            userMgr.init();
+        });
+    });
+</script>
