@@ -19,4 +19,10 @@ public interface ISysRoleService {
 
     List<SysRole> getAll();
 
+    Long addRole(SysRole role);
+
+    Long modifyRole(SysRole role);
+
+    void delRole(Long roleId);
+
 }

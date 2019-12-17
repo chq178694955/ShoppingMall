@@ -18,5 +18,29 @@
         select <include refid="baseColumns"/> from sys_resources where id in (select res_id from sys_role_resources where role_id = #{roleId,jdbcType=BIGINT})
     </select>
 
+    <select id="findAll" resultMap="baseResultMap">
+        select <include refid="baseColumns"/> from sys_resources order by id
+    </select>
+
+    <insert id="add" parameterType="com.king.sys.SysResource" keyProperty="id" useGeneratedKeys="true">
+        insert into sys_resources (<include refid="baseColumns" />)
+        values(#{id,jdbcType=BIGINT},#{name,jdbcType=VARCHAR},#{url,jdbcType=VARCHAR},#{type,jdbcType=INTEGER},#{pid,jdbcType=BIGINT},#{permission,jdbcType=VARCHAR})
+    </insert>
+
+    <update id="update" parameterType="com.king.sys.SysResource">
+        update sys_resources
+        <set>
+            <if test="name != null and name != ''">name = #{name,jdbcType=VARCHAR},</if>
+            <if test="url != null and url != ''">url = #{url,jdbcType=VARCHAR},</if>
+            <if test="type != null and type != ''">type = #{type,jdbcType=INTEGER},</if>
+            <if test="pid != null and pid != ''">pid = #{pid,jdbcType=BIGINT},</if>
+            <if test="permission != null and permission != ''">permission = #{permission,jdbcType=VARCHAR},</if>
+        </set>
+        where id = #{id,jdbcType=BIGINT}
+    </update>
+
+    <delete id="del" parameterType="java.lang.Long">
+        delete from sys_resources where id = #{id,jdbcType=BIGINT}
+    </delete>
 
 </mapper>

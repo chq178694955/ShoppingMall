@@ -24,4 +24,26 @@ public class SysResourceServiceImpl implements ISysResourceService {
     public List<SysResource> getResourceByRoleId(Long roleId) {
         return sysResourcesMapper.findResourcesByRoleId(roleId);
     }
+
+    @Override
+    public List<SysResource> findAll() {
+        return sysResourcesMapper.findAll();
+    }
+
+    @Override
+    public Long addResource(SysResource res) {
+        sysResourcesMapper.add(res);
+        return res.getId();
+    }
+
+    @Override
+    public Long modifyResource(SysResource res) {
+        sysResourcesMapper.update(res);
+        return res.getId();
+    }
+
+    @Override
+    public void delResource(Long id) {
+        sysResourcesMapper.del(id);
+    }
 }

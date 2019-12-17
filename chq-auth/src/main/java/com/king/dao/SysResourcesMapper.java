@@ -14,4 +14,12 @@ public interface SysResourcesMapper {
 
     List<SysResource> findResourcesByRoleId(Long roleId);
 
+    List<SysResource> findAll();
+
+    int add(SysResource res);
+
+    int update(SysResource res);
+
+    int del(Long id);
+
 }

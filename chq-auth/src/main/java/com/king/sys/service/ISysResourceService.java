@@ -13,4 +13,12 @@ public interface ISysResourceService {
 
     List<SysResource> getResourceByRoleId(Long roleId);
 
+    List<SysResource> findAll();
+
+    Long addResource(SysResource res);
+
+    Long modifyResource(SysResource res);
+
+    void delResource(Long id);
+
 }

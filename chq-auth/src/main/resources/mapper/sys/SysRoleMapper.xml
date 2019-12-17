@@ -18,15 +18,23 @@
         select <include refid="baseColumns"/> from sys_role where id in (select rid from sys_user_role where uid = #{userId,jdbcType=BIGINT})
     </select>
 
-    <update id="modifySysUser" parameterType="com.king.sys.SysRole">
+    <insert id="add" parameterType="com.king.sys.SysRole" keyProperty="id" useGeneratedKeys="true">
+        insert into sys_role(<include refid="baseColumns"/>) values(#{id,jdbcType=BIGINT},#{name,jdbcType=VARCHAR})
+    </insert>
+
+    <update id="update" parameterType="com.king.sys.SysRole">
       update sys_role
       <set>
           <if test="name != null and name != ''">
               name = #{name,jdbcType=VARCHAR},
           </if>
-          where id = #{id,jdbcType=BIGINT}
       </set>
+        where id = #{id,jdbcType=BIGINT}
     </update>
+
+    <delete id="del" parameterType="java.lang.Long">
+        delete from sys_role where id = #{roleId,jdbcType=BIGINT}
+    </delete>
 
     <select id="find" parameterType="java.util.Map" resultMap="baseResultMap">
         select <include refid="baseColumns"/> from sys_role
@@ -34,5 +42,16 @@
     <select id="findCount" resultType="java.lang.Integer" parameterType="java.util.Map">
         select count(0) from sys_role
     </select>
+
+    <delete id="delRoleResources" parameterType="java.lang.Long">
+        delete from sys_role_resources where role_id = #{roleId}
+    </delete>
+
+    <insert id="insertRoleResources" parameterType="java.util.Map">
+        insert into sys_role_resources (role_id,res_id) values
+        <foreach collection="resourceIds" item="resId" separator=",">
+            (#{roleId},#{resId})
+        </foreach>
+    </insert>
 
 </mapper>

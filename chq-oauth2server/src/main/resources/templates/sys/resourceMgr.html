@@ -1,1 +1,59 @@
-这是资源管理首页
+<div class="easyui-layout" data-options="fit:true">
+    <div data-options="region:'west'" style="width: 30%;">
+        <div th:id="tree+${menuId}"></div>
+    </div>
+    <div data-options="region:'center'">
+        <form th:id="fm+${menuId.toString()}" class="king-form-layout">
+            <input type="hidden" th:id="pid+${menuId}" />
+            <input type="hidden" th:id="id+${menuId.toString()}" />
+            <div class="king-form-layout-item">
+                <label th:text="#{com.king.system.resource.parentName}"></label>
+                <div class="king-form-layout-item-info">
+                    <input th:id="parentName+${menuId.toString()}" data-options="editable:false" type="text" class="easyui-textbox" style="width: 100%;"/>
+                </div>
+            </div>
+            <div class="king-form-layout-item">
+                <label th:text="#{com.king.system.resource.name}"></label>
+                <div class="king-form-layout-item-info">
+                    <input th:id="name+${menuId.toString()}" type="text" class="easyui-textbox" style="width: 100%;"/>
+                </div>
+            </div>
+            <div class="king-form-layout-item">
+                <label th:text="#{com.king.system.resource.url}"></label>
+                <div class="king-form-layout-item-info">
+                    <input th:id="url+${menuId.toString()}" type="text" class="easyui-textbox" style="width: 100%;"/>
+                </div>
+            </div>
+            <div class="king-form-layout-item">
+                <label th:text="#{com.king.system.resource.type}"></label>
+                <div class="king-form-layout-item-info">
+                    <select th:id="type+${menuId.toString()}" type="text" class="easyui-combobox" style="width: 100%;"
+                        data-options="panelHeight:'auto',valueField:'dictNo',textField:'dictDesc'"></select>
+                </div>
+            </div>
+            <div class="king-form-layout-item">
+                <label th:text="#{com.king.system.resource.permission}"></label>
+                <div class="king-form-layout-item-info">
+                    <input th:id="permission+${menuId.toString()}" type="text" class="easyui-textbox" style="width: 100%;"/>
+                </div>
+            </div>
+            <div class="king-form-layout-item-btns">
+                <label></label><!-- 故意这样布局，按钮排下行 -->
+                <div class="king-form-layout-item-btns">
+                    <a th:id="add+${menuId.toString()}" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-add'" th:text="#{com.king.system.btn.add}"></a>
+                    <a th:id="save+${menuId.toString()}" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-save'" th:text="#{com.king.system.btn.save}"></a>
+                    <a th:id="del+${menuId.toString()}" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-remove'" th:text="#{com.king.system.btn.del}"></a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(){
+        API.loadJS({id:'FUNC_' + Frame.getCurId(),url:'js/sys/resourceMgr.js'},function(){
+            const resourceMgr = new ResourceMgr();
+            resourceMgr.init();
+        });
+    });
+</script>

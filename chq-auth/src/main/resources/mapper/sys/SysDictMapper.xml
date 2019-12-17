@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.king.dao.SysDictMapper">
+
+    <resultMap type="com.king.sys.SysDict" id="baseResultMap">
+        <id column="dict_sn" property="dictSn" />
+        <result column="class_no" property="classNo" />
+        <result column="dict_no" property="dictNo" />
+        <result column="dict_desc" property="dictDesc" />
+        <result column="disp_order" property="dispOrder" />
+        <result column="parent_sn" property="parentSn" />
+        <result column="use_flag" property="useFlag"/>
+    </resultMap>
+
+    <sql id="baseColumns">dict_sn,class_no,dict_no,dict_desc,disp_order,parent_sn,use_flag</sql>
+
+    <select id="findById" resultMap="baseResultMap" parameterType="java.lang.Long">
+        select <include refid="baseColumns"/> from sys_dict where dict_sn = #{dictSn,jdbcType=BIGINT}
+    </select>
+
+    <select id="findDictByClass" resultMap="baseResultMap" parameterType="java.lang.Integer">
+        select <include refid="baseColumns"/> from sys_dict where class_no = #{classNo,jdbcType=INTEGER} and dict_no != -1 and use_flag = 1
+    </select>
+
+    <select id="findDictByParent" resultMap="baseResultMap" parameterType="java.lang.Long">
+        select <include refid="baseColumns"/> from sys_dict where parent_sn = #{parentSn,jdbcType=BIGINT} and use_flag = 1
+    </select>
+
+    <insert id="add" parameterType="com.king.sys.SysDict" keyProperty="id" useGeneratedKeys="true">
+        insert into sys_dict(dict_sn,class_no,dict_no,dict_desc,disp_order,parent_sn,use_flag)
+        values(#{dictSn,jdbcType=BIGINT},#{classNo,jdbcType=INTEGER},#{dictNo,jdbcType=INTEGER},#{dictDesc,jdbcType=VARCHAR},#{dispOrder,jdbcType=INTEGER},#{parentSn,jdbcType=BIGINT},#{useFlag,jdbcType=INTEGER})
+    </insert>
+
+    <update id="update" parameterType="com.king.sys.SysUser">
+      update sys_dict
+      <set>
+          <if test="classNo != null and classNo != ''">
+              class_no = #{classNo,jdbcType=INTEGER},
+          </if>
+          <if test="dictNo != null and dictNo != ''">
+              dict_no = #{dictNo,jdbcType=INTEGER},
+          </if>
+          <if test="dictDesc != null and dictDesc != ''">
+              dict_desc = #{dictDesc,jdbcType=VARCHAR},
+          </if>
+          <if test="dispOrder != null and dispOrder != ''">
+              disp_order = #{dispOrder,jdbcType=INTEGER},
+          </if>
+          <if test="parentSn != null and parentSn != ''">
+              parent_sn = #{parentSn,jdbcType=BIGINT},
+          </if>
+          <if test="useFlag != null and useFlag != ''">
+              use_flag = #{useFlag,jdbcType=INTEGER},
+          </if>
+      </set>
+        where dict_sn = #{dictSn,jdbcType=BIGINT}
+    </update>
+
+    <delete id="del" parameterType="java.lang.Long">
+        delete from sys_dict where dict_sn = #{dictSn,jdbcType=BIGINT}
+    </delete>
+
+    <delete id="delByParentSn" parameterType="java.lang.Long">
+        delete from sys_dict where parent_sn = #{parentSn,jdbcType=BIGINT}
+    </delete>
+
+</mapper>

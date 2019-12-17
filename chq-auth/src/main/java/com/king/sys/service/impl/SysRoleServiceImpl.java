@@ -10,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -42,5 +43,36 @@ public class SysRoleServiceImpl implements ISysRoleService {
     @Override
     public List<SysRole> getAll() {
         return sysRoleMapper.find(null);
+    }
+
+    @Override
+    public Long addRole(SysRole role) {
+        sysRoleMapper.add(role);
+        if(role.getId() > 0 && role.getResourceIds().size() > 0){
+            Map<String,Object> params = new HashMap<>();
+            params.put("roleId",role.getId());
+            params.put("resourceIds",role.getResourceIds());
+            sysRoleMapper.delRoleResources(role.getId());
+            sysRoleMapper.insertRoleResources(params);
+        }
+        return role.getId();
+    }
+
+    @Override
+    public Long modifyRole(SysRole role) {
+        sysRoleMapper.update(role);
+        if(role.getId() > 0 && role.getResourceIds().size() > 0){
+            Map<String,Object> params = new HashMap<>();
+            params.put("roleId",role.getId());
+            params.put("resourceIds",role.getResourceIds());
+            sysRoleMapper.delRoleResources(role.getId());
+            sysRoleMapper.insertRoleResources(params);
+        }
+        return role.getId();
+    }
+
+    @Override
+    public void delRole(Long roleId) {
+        sysRoleMapper.del(roleId);
     }
 }

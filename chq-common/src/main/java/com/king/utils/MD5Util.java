@@ -53,7 +53,7 @@ public class MD5Util {
     }
 
     public static void main(String[] args) {
-        String msg = MD5Util.encode("123456");
+        String msg = MD5Util.encode("000000");
         System.out.println(msg);
     }
 }
