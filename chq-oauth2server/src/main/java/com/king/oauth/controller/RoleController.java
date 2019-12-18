@@ -1,6 +1,5 @@
 package com.king.oauth.controller;
 
-import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.king.base.Page;
 import com.king.sys.SysRole;
@@ -56,11 +55,15 @@ public class RoleController extends BaseController{
         if(!StringUtils.isEmpty(name)){
             role.setName(name);
         }
-        JSONArray nodes = JSONArray.parseArray(checkNodes);
+
         Set<Long> ids = new HashSet<>();
-        for(int i=0;i<nodes.size();i++){
-            ids.add(nodes.getJSONObject(i).getLongValue("id"));
+        if(!StringUtils.isEmpty(checkNodes)){
+            String[] strs = checkNodes.split(",");
+            for(String s : strs){
+                ids.add(Long.parseLong(s));
+            }
         }
+
         role.setResourceIds(ids);
 
         JSONObject result = new JSONObject();

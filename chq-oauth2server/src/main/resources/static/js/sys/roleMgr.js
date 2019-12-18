@@ -48,6 +48,15 @@ function RoleMgr(){
     this.save = function(){
         let name = $('#name' + Frame.getCurId()).textbox('getValue');
         let checkNodes = $('#tree' + Frame.getCurId()).tree('getChecked');
+        let checkNodeIds = '';
+        for(let i=0;i<checkNodes.length;i++){
+            if(i == 0){
+                checkNodeIds += checkNodes[i].id;
+            }else{
+                checkNodeIds += ',' + checkNodes[i].id;
+            }
+
+        }
 
         if(API.isNull(name)){
             API.alertError(API.I18n.get('com.king.system.role.name.empty'));
@@ -58,7 +67,7 @@ function RoleMgr(){
             data:{
                 id: $('#id' + Frame.getCurId()).val(),
                 name: name,
-                checkNodes: JSON.stringify(checkNodes)
+                checkNodes: checkNodeIds
             },
             success: function(result){
                 if(API.isNotNull(result)){
@@ -72,6 +81,7 @@ function RoleMgr(){
                 }
             }
         });
+
     }
 
     this.add = function(){

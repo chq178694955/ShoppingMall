@@ -1,591 +1,178 @@
-2019-12-17 11:39:02,326 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 928 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-17 11:39:02,334 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-17 11:39:02,335 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-17 11:39:07,480 INFO (StartupInfoLogger.java:61)- Started Startup in 6.179 seconds (JVM running for 8.059)
-2019-12-17 11:39:17,485 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-17 11:39:17,626 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-17 11:39:17,660 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 11:39:17,720 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-17 11:39:17,721 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-17 11:39:17,723 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 11:39:17,725 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
-2019-12-17 11:39:17,729 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 11:39:17,732 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 11:39:17,734 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 11:39:17,735 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 11:39:17,742 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 11:39:19,463 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select dict_sn,class_no,dict_no,dict_desc,disp_order,parent_sn,use_flag from sys_dict where class_no = ? and dict_no != -1 and use_flag = 1 
-2019-12-17 11:39:19,470 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 300(Integer)
-2019-12-17 11:39:19,474 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 3
-2019-12-17 13:16:39,271 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-17 13:16:39,274 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-17 13:16:39,282 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 13:16:39,295 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-17 13:16:39,296 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-17 13:16:39,297 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 13:16:39,298 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
-2019-12-17 13:16:39,299 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 13:16:39,301 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 13:16:39,302 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 13:16:39,303 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 13:16:39,310 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 13:16:43,455 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select dict_sn,class_no,dict_no,dict_desc,disp_order,parent_sn,use_flag from sys_dict where class_no = ? and dict_no != -1 and use_flag = 1 
-2019-12-17 13:16:43,457 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 300(Integer)
-2019-12-17 13:16:43,464 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 3
-2019-12-17 13:19:38,484 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-17 13:19:38,486 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-17 13:19:38,488 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 13:19:38,490 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
-2019-12-17 13:19:38,491 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 13:19:38,493 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 13:19:38,494 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 13:19:38,495 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 13:19:38,509 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 13:19:40,134 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 13:19:40,145 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 13:19:40,147 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 13:19:40,149 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select dict_sn,class_no,dict_no,dict_desc,disp_order,parent_sn,use_flag from sys_dict where class_no = ? and dict_no != -1 and use_flag = 1 
-2019-12-17 13:19:40,150 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 300(Integer)
-2019-12-17 13:19:40,152 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 13:19:40,153 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 3
-2019-12-17 13:19:40,163 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 13:19:40,172 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 13:27:14,208 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-17 13:27:14,214 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-17 13:27:14,218 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 13:27:14,219 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
-2019-12-17 13:27:14,221 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 13:27:14,223 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 13:27:14,227 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 13:27:14,230 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 13:27:14,235 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 13:27:15,606 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 13:27:15,608 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 13:27:15,610 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 13:27:15,613 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 13:27:15,614 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 13:27:15,616 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select dict_sn,class_no,dict_no,dict_desc,disp_order,parent_sn,use_flag from sys_dict where class_no = ? and dict_no != -1 and use_flag = 1 
-2019-12-17 13:27:15,617 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 300(Integer)
-2019-12-17 13:27:15,618 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 13:27:15,620 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 3
-2019-12-17 13:27:15,976 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 13:27:15,976 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select dict_sn,class_no,dict_no,dict_desc,disp_order,parent_sn,use_flag from sys_dict where class_no = ? and dict_no != -1 and use_flag = 1 
-2019-12-17 13:27:15,977 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 13:27:15,977 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 300(Integer)
-2019-12-17 13:27:15,978 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 13:27:15,979 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 13:27:15,980 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 3
-2019-12-17 13:27:15,981 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 13:27:15,984 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 13:27:53,363 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-17 13:27:53,364 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-17 13:27:53,365 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 13:27:53,366 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
-2019-12-17 13:27:53,366 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 13:27:53,367 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 13:27:53,369 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 13:27:53,369 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 13:27:53,373 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 13:27:54,873 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 13:27:54,875 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 13:27:54,875 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select dict_sn,class_no,dict_no,dict_desc,disp_order,parent_sn,use_flag from sys_dict where class_no = ? and dict_no != -1 and use_flag = 1 
-2019-12-17 13:27:54,876 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 300(Integer)
-2019-12-17 13:27:54,877 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 13:27:54,880 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 13:27:54,881 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 13:27:54,884 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 3
-2019-12-17 13:27:54,884 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 13:30:47,398 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-17 13:30:47,399 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-17 13:30:47,400 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 13:30:47,402 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
-2019-12-17 13:30:47,402 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 13:30:47,407 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 13:30:47,409 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 13:30:47,410 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 13:30:47,414 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 13:30:56,669 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 13:30:56,670 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 13:30:56,672 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 13:30:56,676 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 13:30:56,677 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 13:30:56,679 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 13:30:56,679 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select dict_sn,class_no,dict_no,dict_desc,disp_order,parent_sn,use_flag from sys_dict where class_no = ? and dict_no != -1 and use_flag = 1 
-2019-12-17 13:30:56,680 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 300(Integer)
-2019-12-17 13:30:56,686 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 3
-2019-12-17 13:31:57,727 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-17 13:31:57,728 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-17 13:31:57,730 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 13:31:57,731 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
-2019-12-17 13:31:57,731 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 13:31:57,733 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 13:31:57,736 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 13:31:57,737 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 13:31:57,741 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 13:31:59,162 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 13:31:59,163 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 13:31:59,165 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 13:31:59,167 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 13:31:59,167 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 13:31:59,170 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 13:31:59,173 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select dict_sn,class_no,dict_no,dict_desc,disp_order,parent_sn,use_flag from sys_dict where class_no = ? and dict_no != -1 and use_flag = 1 
-2019-12-17 13:31:59,174 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 300(Integer)
-2019-12-17 13:31:59,177 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 3
-2019-12-17 13:34:00,534 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-17 13:34:00,535 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-17 13:34:00,536 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 13:34:00,537 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
-2019-12-17 13:34:00,538 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 13:34:00,540 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 13:34:00,543 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 13:34:00,546 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 13:34:00,548 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 13:34:01,888 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 13:34:01,889 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 13:34:01,894 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 13:34:01,896 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 13:34:01,897 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 13:34:01,901 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 13:34:01,920 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select dict_sn,class_no,dict_no,dict_desc,disp_order,parent_sn,use_flag from sys_dict where class_no = ? and dict_no != -1 and use_flag = 1 
-2019-12-17 13:34:01,921 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 300(Integer)
-2019-12-17 13:34:01,926 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 3
-2019-12-17 13:34:05,544 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 13:34:05,544 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 13:34:05,546 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 13:34:05,548 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 13:34:05,549 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 13:34:05,552 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 13:41:47,641 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 872 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-17 13:41:47,644 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-17 13:41:47,645 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-17 13:41:51,969 INFO (StartupInfoLogger.java:61)- Started Startup in 4.957 seconds (JVM running for 7.333)
-2019-12-17 13:42:24,340 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-17 13:42:24,525 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-17 13:42:24,571 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 13:42:24,577 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
-2019-12-17 13:42:24,580 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 13:42:24,582 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 13:42:24,584 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 13:42:24,586 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 13:42:24,589 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 13:42:26,698 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 13:42:26,700 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 13:42:26,703 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 13:42:26,708 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select dict_sn,class_no,dict_no,dict_desc,disp_order,parent_sn,use_flag from sys_dict where class_no = ? and dict_no != -1 and use_flag = 1 
-2019-12-17 13:42:26,714 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 13:42:26,717 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 300(Integer)
-2019-12-17 13:42:26,719 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 13:42:26,722 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 3
-2019-12-17 13:42:26,727 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 13:43:37,093 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-17 13:43:37,094 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-17 13:43:37,097 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 13:43:37,099 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
-2019-12-17 13:43:37,101 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 13:43:37,105 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 13:43:37,106 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 13:43:37,108 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 13:43:37,111 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 13:43:38,595 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 13:43:38,597 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 13:43:38,601 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 13:43:38,602 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 13:43:38,603 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select dict_sn,class_no,dict_no,dict_desc,disp_order,parent_sn,use_flag from sys_dict where class_no = ? and dict_no != -1 and use_flag = 1 
-2019-12-17 13:43:38,603 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 13:43:38,604 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 300(Integer)
-2019-12-17 13:43:38,608 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 13:43:38,608 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 3
-2019-12-17 13:45:41,159 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-17 13:45:41,162 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-17 13:45:41,165 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 13:45:41,166 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
-2019-12-17 13:45:41,167 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 13:45:41,169 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 13:45:41,170 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 13:45:41,171 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 13:45:41,177 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 13:45:42,472 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 13:45:42,473 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 13:45:42,476 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 13:45:42,476 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select dict_sn,class_no,dict_no,dict_desc,disp_order,parent_sn,use_flag from sys_dict where class_no = ? and dict_no != -1 and use_flag = 1 
-2019-12-17 13:45:42,477 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 300(Integer)
-2019-12-17 13:45:42,480 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 13:45:42,481 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 3
-2019-12-17 13:45:42,481 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 13:45:42,484 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 13:46:11,495 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-17 13:46:11,496 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-17 13:46:11,500 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 13:46:11,501 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
-2019-12-17 13:46:11,502 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 13:46:11,504 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 13:46:11,505 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 13:46:11,506 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 13:46:11,509 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 13:46:13,291 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 13:46:13,293 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 13:46:13,295 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select dict_sn,class_no,dict_no,dict_desc,disp_order,parent_sn,use_flag from sys_dict where class_no = ? and dict_no != -1 and use_flag = 1 
-2019-12-17 13:46:13,296 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 13:46:13,297 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 300(Integer)
-2019-12-17 13:46:13,298 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 13:46:13,298 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 13:46:13,303 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 3
-2019-12-17 13:46:13,305 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 13:47:30,052 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-17 13:47:30,053 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-17 13:47:30,055 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 13:47:30,058 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
-2019-12-17 13:47:30,060 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 13:47:30,062 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 13:47:30,063 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 13:47:30,064 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 13:47:30,067 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 13:47:32,175 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 13:47:32,176 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 13:47:32,178 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 13:47:32,180 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 13:47:32,181 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 13:47:32,183 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select dict_sn,class_no,dict_no,dict_desc,disp_order,parent_sn,use_flag from sys_dict where class_no = ? and dict_no != -1 and use_flag = 1 
-2019-12-17 13:47:32,183 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 300(Integer)
-2019-12-17 13:47:32,184 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 13:47:32,185 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 3
-2019-12-17 13:48:23,186 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-17 13:48:23,187 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-17 13:48:23,188 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 13:48:23,189 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
-2019-12-17 13:48:23,190 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 13:48:23,192 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 13:48:23,193 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 13:48:23,194 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 13:48:23,198 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 13:48:25,301 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 13:48:25,302 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 13:48:25,303 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select dict_sn,class_no,dict_no,dict_desc,disp_order,parent_sn,use_flag from sys_dict where class_no = ? and dict_no != -1 and use_flag = 1 
-2019-12-17 13:48:25,304 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 13:48:25,305 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 300(Integer)
-2019-12-17 13:48:25,305 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 13:48:25,307 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 13:48:25,310 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 13:48:25,311 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 3
-2019-12-17 13:59:12,960 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-17 13:59:12,961 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-17 13:59:12,962 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 13:59:12,963 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
-2019-12-17 13:59:12,963 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 13:59:12,965 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 13:59:12,968 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 13:59:12,968 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 13:59:12,970 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 13:59:14,372 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 13:59:14,373 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 13:59:14,376 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 13:59:14,377 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 13:59:14,378 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 13:59:14,384 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 13:59:14,390 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select dict_sn,class_no,dict_no,dict_desc,disp_order,parent_sn,use_flag from sys_dict where class_no = ? and dict_no != -1 and use_flag = 1 
-2019-12-17 13:59:14,391 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 300(Integer)
-2019-12-17 13:59:14,395 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 3
-2019-12-17 14:04:51,402 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-17 14:04:51,404 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-17 14:04:51,410 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 14:04:51,413 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
-2019-12-17 14:04:51,414 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 14:04:51,417 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 14:04:51,419 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 14:04:51,421 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 14:04:51,424 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 14:04:52,723 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 14:04:52,725 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 14:04:52,727 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 14:04:52,729 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 14:04:52,730 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 14:04:52,734 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 14:04:52,740 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select dict_sn,class_no,dict_no,dict_desc,disp_order,parent_sn,use_flag from sys_dict where class_no = ? and dict_no != -1 and use_flag = 1 
-2019-12-17 14:04:52,742 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 300(Integer)
-2019-12-17 14:04:52,746 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 3
-2019-12-17 14:05:32,868 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-17 14:05:32,869 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-17 14:05:32,872 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 14:05:32,874 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
-2019-12-17 14:05:32,874 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 14:05:32,876 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 14:05:32,878 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 14:05:32,880 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 14:05:32,882 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 14:05:34,791 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 14:05:34,795 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 14:05:34,798 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 14:05:34,800 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 14:05:34,800 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 14:05:34,805 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 14:05:34,865 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select dict_sn,class_no,dict_no,dict_desc,disp_order,parent_sn,use_flag from sys_dict where class_no = ? and dict_no != -1 and use_flag = 1 
-2019-12-17 14:05:34,867 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 300(Integer)
-2019-12-17 14:05:34,870 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 3
-2019-12-17 14:12:19,250 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-17 14:12:19,251 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-17 14:12:19,252 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 14:12:19,253 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
-2019-12-17 14:12:19,254 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 14:12:19,255 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 14:12:19,256 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 14:12:19,257 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 14:12:19,259 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 14:12:20,692 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 14:12:20,694 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 14:12:20,696 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 14:12:20,697 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 14:12:20,698 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 14:12:20,701 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select dict_sn,class_no,dict_no,dict_desc,disp_order,parent_sn,use_flag from sys_dict where class_no = ? and dict_no != -1 and use_flag = 1 
-2019-12-17 14:12:20,701 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 300(Integer)
-2019-12-17 14:12:20,701 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 14:12:20,703 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 3
-2019-12-17 14:40:56,544 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 17420 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-17 14:40:56,553 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-17 14:40:56,555 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-17 14:41:00,509 INFO (StartupInfoLogger.java:61)- Started Startup in 5.049 seconds (JVM running for 6.236)
-2019-12-17 14:41:44,058 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-17 14:41:44,196 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-17 14:41:44,229 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 14:41:44,280 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-17 14:41:44,281 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-17 14:41:44,283 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 14:41:44,285 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
-2019-12-17 14:41:44,288 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 14:41:44,291 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 14:41:44,292 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 14:41:44,294 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 14:41:44,298 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 14:41:46,149 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 14:41:46,151 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 14:41:46,154 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 14:41:46,155 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select dict_sn,class_no,dict_no,dict_desc,disp_order,parent_sn,use_flag from sys_dict where class_no = ? and dict_no != -1 and use_flag = 1 
-2019-12-17 14:41:46,158 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 14:41:46,162 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 14:41:46,163 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 300(Integer)
-2019-12-17 14:41:46,166 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 3
-2019-12-17 14:41:46,169 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 14:43:44,388 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-17 14:43:44,390 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-17 14:43:44,394 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 14:43:44,395 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
-2019-12-17 14:43:44,398 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 14:43:44,402 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 14:43:44,403 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 14:43:44,404 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 14:43:44,407 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 14:43:45,744 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 14:43:45,747 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 14:43:45,752 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 14:43:45,754 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select dict_sn,class_no,dict_no,dict_desc,disp_order,parent_sn,use_flag from sys_dict where class_no = ? and dict_no != -1 and use_flag = 1 
-2019-12-17 14:43:45,754 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 14:43:45,755 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 300(Integer)
-2019-12-17 14:43:45,755 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 14:43:45,758 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 3
-2019-12-17 14:43:45,759 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 14:44:00,490 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: insert into sys_resources ( id,name,url,type,pid,permission ) values(?,?,?,?,?,?) 
-2019-12-17 14:44:00,498 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null, null, null, 0(Integer), 9(Long), null
-2019-12-17 14:45:07,745 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: insert into sys_resources ( id,name,url,type,pid,permission ) values(?,?,?,?,?,?) 
-2019-12-17 14:45:07,746 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null, null, null, 0(Integer), 9(Long), null
-2019-12-17 14:45:34,768 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: insert into sys_resources ( id,name,url,type,pid,permission ) values(?,?,?,?,?,?) 
-2019-12-17 14:45:34,770 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null, APP管理(String), #(String), 0(Integer), 9(Long), AAA(String)
-2019-12-17 14:45:34,775 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
-2019-12-17 14:45:34,801 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 14:45:34,801 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 14:45:34,803 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 14:45:34,805 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 14:45:34,806 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 14:45:34,817 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 11
-2019-12-17 14:46:42,134 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: insert into sys_resources ( id,name,url,type,pid,permission ) values(?,?,?,?,?,?) 
-2019-12-17 14:46:42,136 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null, APP123(String), #(String), -1(Integer), 11(Long), BBB(String)
-2019-12-17 14:46:42,147 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
-2019-12-17 14:46:42,167 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 14:46:42,168 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 14:46:42,170 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 14:46:42,174 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 14:46:42,175 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 14:46:42,182 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 12
-2019-12-17 14:50:31,808 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: update sys_resources SET name = ?, url = ?, type = ?, pid = ?, permission = ? where id = ? 
-2019-12-17 14:50:31,813 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: APP1231(String), #(String), -1(Integer), 12(Long), BBB(String), null
-2019-12-17 14:50:31,815 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 0
-2019-12-17 14:51:28,296 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: update sys_resources SET name = ?, url = ?, type = ?, pid = ?, permission = ? where id = ? 
-2019-12-17 14:51:28,297 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: APP1231(String), #(String), -1(Integer), 12(Long), BBB(String), null
-2019-12-17 14:51:28,298 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 0
-2019-12-17 14:52:11,044 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: update sys_resources SET name = ?, url = ?, type = ?, pid = ?, permission = ? where id = ? 
-2019-12-17 14:52:11,046 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: APP1231(String), #(String), -1(Integer), 12(Long), BBB(String), null
-2019-12-17 14:52:11,048 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 0
-2019-12-17 14:52:46,699 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: update sys_resources SET name = ?, url = ?, type = ?, pid = ?, permission = ? where id = ? 
-2019-12-17 14:52:46,701 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: APP1231(String), #(String), -1(Integer), 12(Long), BBB(String), null
-2019-12-17 14:52:46,703 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 0
-2019-12-17 14:53:08,991 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: update sys_resources SET name = ?, url = ?, type = ?, pid = ?, permission = ? where id = ? 
-2019-12-17 14:53:08,992 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: APP1231(String), #(String), -1(Integer), 12(Long), BBB(String), 12(Long)
-2019-12-17 14:53:09,002 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
-2019-12-17 14:53:09,024 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 14:53:09,025 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 14:53:09,027 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 14:53:09,030 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 14:53:09,031 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 14:53:09,035 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 12
-2019-12-17 16:28:40,215 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 1256 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-17 16:28:40,221 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-17 16:28:40,222 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-17 16:28:47,083 INFO (StartupInfoLogger.java:61)- Started Startup in 7.939 seconds (JVM running for 9.208)
-2019-12-17 16:28:53,157 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-17 16:28:53,310 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-17 16:28:53,349 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 16:28:53,411 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-17 16:28:53,412 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-17 16:28:53,413 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 16:28:53,415 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
-2019-12-17 16:28:53,419 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 16:28:53,424 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 16:28:53,426 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 16:28:53,427 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 16:28:53,435 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 16:28:55,353 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 16:28:55,355 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 16:28:55,358 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 16:28:55,359 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select dict_sn,class_no,dict_no,dict_desc,disp_order,parent_sn,use_flag from sys_dict where class_no = ? and dict_no != -1 and use_flag = 1 
-2019-12-17 16:28:55,363 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 16:28:55,365 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 300(Integer)
-2019-12-17 16:28:55,370 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 16:28:55,373 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 3
-2019-12-17 16:28:55,376 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 12
-2019-12-17 16:30:16,688 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: insert into sys_resources ( id,name,url,type,pid,permission ) values(?,?,?,?,?,?) 
-2019-12-17 16:30:16,695 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null, dsad(String), #(String), 0(Integer), 11(Long), dasdsa(String)
-2019-12-17 16:30:16,699 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
-2019-12-17 16:30:16,732 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 16:30:16,733 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 16:30:16,734 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 16:30:16,735 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 16:30:16,736 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 16:30:16,740 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 12
-2019-12-17 16:30:21,622 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: update sys_resources SET name = ?, url = ?, pid = ?, permission = ? where id = ? 
-2019-12-17 16:30:21,627 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: dsadaaaa(String), #(String), 11(Long), dasdsa(String), 13(Long)
-2019-12-17 16:30:21,638 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
-2019-12-17 16:30:21,658 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 16:30:21,659 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 16:30:21,661 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 16:30:21,662 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 16:30:21,663 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 16:30:21,665 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 12
-2019-12-17 16:33:06,949 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-17 16:33:06,950 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-17 16:33:06,952 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 16:33:06,953 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
-2019-12-17 16:33:06,954 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 16:33:06,957 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 16:33:06,958 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 16:33:06,961 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 16:33:06,967 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 16:33:08,346 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 16:33:08,347 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 16:33:08,349 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 16:33:08,351 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select dict_sn,class_no,dict_no,dict_desc,disp_order,parent_sn,use_flag from sys_dict where class_no = ? and dict_no != -1 and use_flag = 1 
-2019-12-17 16:33:08,351 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 16:33:08,352 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 16:33:08,352 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 300(Integer)
-2019-12-17 16:33:08,357 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 3
-2019-12-17 16:33:08,358 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 12
-2019-12-17 16:38:32,409 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 1204 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-17 16:38:32,418 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-17 16:38:32,419 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-17 16:38:36,964 INFO (StartupInfoLogger.java:61)- Started Startup in 5.775 seconds (JVM running for 7.147)
-2019-12-17 16:38:42,647 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-17 16:38:42,783 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-17 16:38:42,840 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 16:38:42,849 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
-2019-12-17 16:38:42,863 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 16:38:42,868 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 16:38:42,874 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 16:38:42,877 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 16:38:42,889 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 16:38:46,378 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 16:38:46,381 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 16:38:46,389 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 16:38:46,391 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select dict_sn,class_no,dict_no,dict_desc,disp_order,parent_sn,use_flag from sys_dict where class_no = ? and dict_no != -1 and use_flag = 1 
-2019-12-17 16:38:46,402 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 300(Integer)
-2019-12-17 16:38:46,404 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 16:38:46,407 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 3
-2019-12-17 16:38:46,409 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 16:38:46,427 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 12
-2019-12-17 16:39:26,121 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-17 16:39:26,122 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-17 16:39:26,123 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 16:39:26,124 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
-2019-12-17 16:39:26,125 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 16:39:26,126 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 16:39:26,127 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 16:39:26,128 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 16:39:26,141 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 16:39:27,528 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 16:39:27,529 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 16:39:27,531 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select dict_sn,class_no,dict_no,dict_desc,disp_order,parent_sn,use_flag from sys_dict where class_no = ? and dict_no != -1 and use_flag = 1 
-2019-12-17 16:39:27,535 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 300(Integer)
-2019-12-17 16:39:27,536 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 16:39:27,539 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 16:39:27,541 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 3
-2019-12-17 16:39:27,541 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 16:39:27,547 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 12
-2019-12-17 16:39:46,463 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: delete from sys_resources where id = ? 
-2019-12-17 16:39:46,469 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 13(Long)
-2019-12-17 16:39:46,472 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
-2019-12-17 16:39:46,507 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 16:39:46,508 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 16:39:46,510 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 16:39:46,512 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 16:39:46,513 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 16:39:46,518 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 11
-2019-12-17 16:40:07,279 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: delete from sys_resources where id = ? 
-2019-12-17 16:40:07,282 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 11(Long)
-2019-12-17 16:40:07,286 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
-2019-12-17 16:40:07,310 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 16:40:07,311 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 16:40:07,314 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 16:40:07,317 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 16:40:07,319 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 16:40:07,326 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 16:40:10,420 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-17 16:40:10,423 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-17 16:40:10,425 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 16:40:10,426 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
-2019-12-17 16:40:10,427 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 16:40:10,428 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 16:40:10,429 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 16:40:10,429 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2019-12-17 16:40:10,432 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 16:40:14,826 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM oauth2_client 
-2019-12-17 16:40:14,828 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 16:40:14,841 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 16:40:14,842 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client limit ?,? 
-2019-12-17 16:40:14,844 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
-2019-12-17 16:40:14,845 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 3
-2019-12-17 16:40:14,846 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select count(0) from oauth2_client 
-2019-12-17 16:40:14,847 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 16:40:14,848 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-17 16:40:16,956 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 16:40:16,958 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 16:40:16,958 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select dict_sn,class_no,dict_no,dict_desc,disp_order,parent_sn,use_flag from sys_dict where class_no = ? and dict_no != -1 and use_flag = 1 
-2019-12-17 16:40:16,959 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 300(Integer)
-2019-12-17 16:40:16,959 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 16:40:16,960 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 16:40:16,961 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 16:40:16,961 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 3
-2019-12-17 16:40:16,964 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
-2019-12-17 16:40:27,354 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: insert into sys_resources ( id,name,url,type,pid,permission ) values(?,?,?,?,?,?) 
-2019-12-17 16:40:27,359 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null, 测试(String), #(String), 0(Integer), 9(Long), dadad(String)
-2019-12-17 16:40:27,371 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
-2019-12-17 16:40:27,397 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 16:40:27,398 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 16:40:27,400 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 16:40:27,400 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 16:40:27,401 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 16:40:27,403 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 11
-2019-12-17 16:40:35,476 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: delete from sys_resources where id = ? 
-2019-12-17 16:40:35,477 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 14(Long)
-2019-12-17 16:40:35,480 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
-2019-12-17 16:40:35,502 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) 
-2019-12-17 16:40:35,502 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
-2019-12-17 16:40:35,503 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
-2019-12-17 16:40:35,504 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
-2019-12-17 16:40:35,505 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2019-12-17 16:40:35,507 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 10
+2019-12-18 08:24:32,932 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 1780 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-18 08:24:32,941 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-18 08:24:32,941 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-18 08:24:38,356 INFO (StartupInfoLogger.java:61)- Started Startup in 6.31 seconds (JVM running for 9.674)
+2019-12-18 08:24:58,238 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 16068 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-18 08:24:58,246 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-18 08:24:58,246 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-18 08:25:04,954 INFO (StartupInfoLogger.java:61)- Started Startup in 8.358 seconds (JVM running for 9.722)
+2019-12-18 08:25:06,077 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 08:25:06,392 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 08:25:06,522 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 08:25:06,534 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 08:25:06,540 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 08:25:06,544 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 08:25:11,577 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 08:25:11,579 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 08:25:11,583 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 08:25:11,584 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 08:25:11,584 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 08:25:11,588 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 08:25:11,592 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
+2019-12-18 08:25:11,592 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
+2019-12-18 08:25:11,628 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 08:25:13,487 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 08:25:13,488 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 08:25:13,491 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 08:25:13,491 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_secret = ? 
+2019-12-18 08:25:13,493 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 3180d4fdc4733638bdc4296ef6cf47ed859dbe56(String)
+2019-12-18 08:25:13,495 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 14:47:28,950 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 10896 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-18 14:47:28,954 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-18 14:47:28,954 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-18 14:47:32,924 INFO (StartupInfoLogger.java:61)- Started Startup in 5.046 seconds (JVM running for 6.295)
+2019-12-18 14:48:22,541 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 16776 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-18 14:48:22,545 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-18 14:48:22,547 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-18 14:48:28,678 INFO (StartupInfoLogger.java:61)- Started Startup in 7.072 seconds (JVM running for 8.142)
+2019-12-18 14:48:29,221 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 14:48:29,447 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 14:48:29,494 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 14:48:29,500 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 14:48:29,501 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 14:48:29,504 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 14:48:36,286 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 14:48:36,287 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 14:48:36,289 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 14:48:36,290 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 14:48:36,290 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 14:48:36,291 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 14:48:36,293 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
+2019-12-18 14:48:36,294 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
+2019-12-18 14:48:36,295 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 14:48:37,212 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 14:48:37,212 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 14:48:37,214 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 14:48:37,215 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_secret = ? 
+2019-12-18 14:48:37,216 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 3180d4fdc4733638bdc4296ef6cf47ed859dbe56(String)
+2019-12-18 14:48:37,217 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 14:53:03,255 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 14:53:03,256 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 14:53:03,258 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 14:53:03,259 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 14:53:03,259 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 14:53:03,262 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 14:53:06,465 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 14:53:06,466 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 14:53:06,469 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 14:53:06,470 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 14:53:06,470 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 14:53:06,471 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 14:53:06,472 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
+2019-12-18 14:53:06,473 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
+2019-12-18 14:53:06,474 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 14:53:09,740 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 14:53:09,740 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 14:53:09,742 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 14:53:09,743 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_secret = ? 
+2019-12-18 14:53:09,744 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 3180d4fdc4733638bdc4296ef6cf47ed859dbe56(String)
+2019-12-18 14:53:09,745 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 14:56:04,422 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 14:56:04,422 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 14:56:04,425 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 14:56:04,427 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 14:56:04,428 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 14:56:04,429 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 14:56:07,197 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 14:56:07,197 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 14:56:07,200 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 14:56:07,201 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 14:56:07,201 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 14:56:07,203 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 14:56:07,204 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
+2019-12-18 14:56:07,204 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
+2019-12-18 14:56:07,207 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 14:56:14,518 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 14:56:14,520 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 14:56:14,522 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 14:56:14,525 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_secret = ? 
+2019-12-18 14:56:14,525 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 3180d4fdc4733638bdc4296ef6cf47ed859dbe56(String)
+2019-12-18 14:56:14,527 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 14:59:03,928 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 13832 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-18 14:59:03,933 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-18 14:59:03,934 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-18 14:59:07,264 INFO (StartupInfoLogger.java:61)- Started Startup in 4.727 seconds (JVM running for 5.724)
+2019-12-18 15:05:56,250 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 15:05:56,251 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 15:05:56,253 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 15:05:56,254 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 15:05:56,255 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 15:05:56,256 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 15:05:59,167 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 15:05:59,168 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 15:05:59,170 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 15:05:59,171 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 15:05:59,173 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 15:05:59,173 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 15:05:59,174 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
+2019-12-18 15:05:59,176 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
+2019-12-18 15:05:59,177 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 15:05:59,206 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 15:05:59,207 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 15:05:59,208 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 15:05:59,208 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_secret = ? 
+2019-12-18 15:05:59,209 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 3180d4fdc4733638bdc4296ef6cf47ed859dbe56(String)
+2019-12-18 15:05:59,209 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 15:06:42,147 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 15:06:42,148 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 15:06:42,149 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 15:06:42,150 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 15:06:42,150 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 15:06:42,151 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 15:07:44,471 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 6972 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-18 15:07:44,475 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-18 15:07:44,476 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-18 15:07:49,218 INFO (StartupInfoLogger.java:61)- Started Startup in 5.866 seconds (JVM running for 7.116)
+2019-12-18 15:07:52,018 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 15:07:52,019 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 15:07:52,020 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 15:07:52,021 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 15:07:52,023 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 15:07:52,027 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 15:08:29,443 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 15:08:29,444 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 15:08:29,446 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 15:08:29,448 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 15:08:29,449 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 15:08:29,453 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 15:09:56,584 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 17312 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2019-12-18 15:09:56,591 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-18 15:09:56,592 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-18 15:10:00,311 INFO (StartupInfoLogger.java:61)- Started Startup in 5.073 seconds (JVM running for 6.407)
+2019-12-18 15:10:09,942 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 15:10:09,943 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 15:10:09,945 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 15:10:09,947 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 15:10:09,950 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 15:10:09,955 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 15:11:53,359 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 15:11:53,360 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 15:11:53,361 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 15:11:53,362 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 15:11:53,362 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 15:11:53,363 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 15:11:56,490 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 15:11:56,491 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 15:11:56,493 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 15:11:56,495 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 15:11:56,498 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 15:11:56,500 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 15:11:56,501 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
+2019-12-18 15:11:56,502 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
+2019-12-18 15:11:56,506 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 15:11:56,557 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2019-12-18 15:11:56,558 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2019-12-18 15:11:56,560 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2019-12-18 15:11:56,561 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_secret = ? 
+2019-12-18 15:11:56,561 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 3180d4fdc4733638bdc4296ef6cf47ed859dbe56(String)
+2019-12-18 15:11:56,563 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1

@@ -98,6 +98,14 @@ public class ShiroConfig {
     public String loadFilterChainDefinitions() {
         StringBuffer sb = new StringBuffer();
         //	sb.append(getFixedAuthRule());//固定权限，采用读取配置文件
+
+        sb.append("/css/** = anon").append(CRLF);
+        sb.append("/fonts/** = anon").append(CRLF);
+        sb.append("/images/** = anon").append(CRLF);
+        sb.append("/js/** = anon").append(CRLF);
+        sb.append("/X-admin/** = anon").append(CRLF);
+
+        sb.append("/index = anon").append(CRLF);
         sb.append("/oauth2Failure = anon").append(CRLF);
         sb.append("/oauth-client/callbackCode = oauth2Authc").append(CRLF);
 //        sb.append("/oauth-client/callbackCode = anon").append(CRLF);
