@@ -15,7 +15,7 @@
     <sql id="baseColumns">id,name,url,type,pid,permission</sql>
 
     <select id="findResourcesByRoleId" resultMap="baseResultMap" parameterType="java.lang.Long">
-        select <include refid="baseColumns"/> from sys_resources where id in (select res_id from sys_role_resources where role_id = #{roleId,jdbcType=BIGINT})
+        select <include refid="baseColumns"/> from sys_resources where id in (select res_id from sys_role_resources where role_id = #{roleId,jdbcType=BIGINT}) order by id
     </select>
 
     <select id="findAll" resultMap="baseResultMap">

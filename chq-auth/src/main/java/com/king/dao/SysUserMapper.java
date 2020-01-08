@@ -20,7 +20,7 @@ public interface SysUserMapper {
 
     /** 查询 **/
     List<SysUser> find(Map<String,String> params);
-    Integer findCount(Map<String,String> params);
+    Long findCount(Map<String,String> params);
 
     void delUser(Long id);
 

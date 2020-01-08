@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.king.dao.SysTaskMapper">
+
+    <resultMap type="com.king.sys.SysTask" id="baseResultMap">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="group_name" property="groupName" />
+        <result column="cron_express" property="cronExpress" />
+        <result column="description" property="description" />
+        <result column="current_state" property="currentState" />
+        <result column="default_state" property="defaultState" />
+        <result column="last_time" property="lastTime" />
+    </resultMap>
+
+    <sql id="baseColumns">id,name,group_name,cron_express,description,current_state,default_state,last_time</sql>
+
+    <select id="get" resultMap="baseResultMap" parameterType="java.lang.Long">
+        select <include refid="baseColumns" /> from sys_task where id = #{taskId,jdbcType=BIGINT}
+    </select>
+
+    <select id="find" resultMap="baseResultMap" parameterType="java.util.Map">
+        select <include refid="baseColumns"/> from sys_task
+        <where>
+            <if test="id != null">
+                and id = #{id,jdbcType=BIGINT}
+            </if>
+            <if test="name != null and name != ''">
+                and name = #{name,jdbcType=VARCHAR}
+            </if>
+            <if test="groupName != null and groupName != ''">
+                and group_name = #{groupName,jdbcType=VARCHAR}
+            </if>
+            <if test="currentState != null">
+                and current_state = #{currentState,jdbcType=INTEGER}
+            </if>
+            <if test="startTime != null and startTime != ''">
+                and last_time <![CDATA[ >=  ]]> #{startTime,jdbcType=BIGINT}
+            </if>
+            <if test="endTime != null and endTime != ''">
+                and last_time <![CDATA[ <=  ]]> #{endTime,jdbcType=BIGINT}
+            </if>
+        </where>
+    </select>
+
+    <insert id="add" parameterType="com.king.sys.SysTask" keyProperty="id" useGeneratedKeys="true">
+        insert into sys_task(<include refid="baseColumns"/>)
+        values(#{id,jdbcType=BIGINT},#{name,jdbcType=VARCHAR},#{groupName,jdbcType=VARCHAR},#{cronExpress,jdbcType=VARCHAR},#{description,jdbcType=VARCHAR},#{currentState,jdbcType=INTEGER},#{defaultState,jdbcType=INTEGER},#{lastTime,jdbcType=BIGINT})
+    </insert>
+
+    <update id="update" parameterType="com.king.sys.SysTask">
+      update sys_task
+      <set>
+          <if test="name != null and name != ''">
+              name = #{name,jdbcType=VARCHAR},
+          </if>
+          <if test="groupName != null and groupName != ''">
+              group_name = #{groupName,jdbcType=VARCHAR},
+          </if>
+          <if test="cronExpress != null and cronExpress != ''">
+              cron_express = #{cronExpress,jdbcType=VARCHAR},
+          </if>
+          <if test="description != null and description != ''">
+              description = #{description,jdbcType=VARCHAR},
+          </if>
+          <if test="currentState != null and currentState != ''">
+              current_state = #{currentState,jdbcType=INTEGER},
+          </if>
+          <if test="defaultState != null and defaultState != ''">
+              default_state = #{defaultState,jdbcType=INTEGER},
+          </if>
+          <if test="lastTime != null and lastTime != ''">
+              last_time = #{lastTime,jdbcType=INTEGER},
+          </if>
+      </set>
+        where id = #{id,jdbcType=BIGINT}
+    </update>
+
+    <delete id="delete" parameterType="java.lang.Long">
+        delete from sys_task where id = #{id,jdbcType=BIGINT}
+    </delete>
+
+    <update id="init">
+        update sys_task set current_state = 0
+    </update>
+</mapper>

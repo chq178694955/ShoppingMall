@@ -1,6 +1,7 @@
 package com.king.sys.service.impl;
 
 import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.king.base.Page;
 import com.king.dao.SysUserMapper;
 import com.king.sys.SysUser;
@@ -49,8 +50,9 @@ public class UserServiceImpl implements IUserService {
         //分页设置放在查询之前
         PageHelper.startPage(page.getPageNo(), page.getPageSize());
         List<SysUser> list = sysUserMapper.find(params);
-        Integer totalCount = sysUserMapper.findCount(params);
-        page.setResults(list,totalCount);
+//        Long totalCount = sysUserMapper.findCount(params);
+        PageInfo<SysUser> pageInfo = new PageInfo<SysUser>(list);
+        page.setResults(list,pageInfo.getTotal());
         return page;
     }
 

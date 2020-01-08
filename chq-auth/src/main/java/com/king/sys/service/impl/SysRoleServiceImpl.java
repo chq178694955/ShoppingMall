@@ -35,7 +35,7 @@ public class SysRoleServiceImpl implements ISysRoleService {
         //分页设置放在查询之前
         PageHelper.startPage(page.getPageNo(), page.getPageSize());
         List<SysRole> list = sysRoleMapper.find(params);
-        Integer totalCount = sysRoleMapper.findCount(params);
+        Long totalCount = sysRoleMapper.findCount(params);
         page.setResults(list,totalCount);
         return page;
     }

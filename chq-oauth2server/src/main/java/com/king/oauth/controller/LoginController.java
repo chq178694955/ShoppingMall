@@ -22,10 +22,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @创建人 chq
@@ -100,8 +97,8 @@ public class LoginController {
         if(user != null){
             model.addAttribute("king_user_info",user);
             List<SysRole> roles = sysRoleService.getRolesByUserId(user.getId());
-            Map<Long,Object> topMap = new HashMap<>();
-            Map<Long,Object> childMap = new HashMap<>();
+            Map<Long,Object> topMap = new LinkedHashMap<>();
+            Map<Long,Object> childMap = new LinkedHashMap<>();
             //去重之后的所有菜单
             List<SysResource> topMenus = new ArrayList<>();
             List<SysResource> childMenus = new ArrayList<>();

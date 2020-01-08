@@ -13,9 +13,9 @@ public class Page<T> {
 
     private Integer pageSize;
 
-    private Integer totalCount;
+    private Long totalCount;
 
-    private Integer totalPage;
+    private Long totalPage;
 
     private List<T> datas;
 
@@ -30,7 +30,7 @@ public class Page<T> {
         this.pageSize = pageSize;
     }
 
-    public void setResults(List<T> datas,Integer totalCount){
+    public void setResults(List<T> datas,Long totalCount){
         this.datas = datas;
         this.totalCount = totalCount;
 
@@ -39,7 +39,7 @@ public class Page<T> {
 
     private void calcPages(){
         if(totalCount == null || totalCount == 0){
-            this.totalPage = 0;
+            this.totalPage = 0L;
         }else{
             if(totalCount % pageSize == 0){
                 this.totalPage = totalCount / pageSize;
@@ -65,19 +65,19 @@ public class Page<T> {
         this.pageSize = pageSize;
     }
 
-    public Integer getTotalCount() {
+    public Long getTotalCount() {
         return totalCount;
     }
 
-    public void setTotalCount(Integer totalCount) {
+    public void setTotalCount(Long totalCount) {
         this.totalCount = totalCount;
     }
 
-    public Integer getTotalPage() {
+    public Long getTotalPage() {
         return totalPage;
     }
 
-    public void setTotalPage(Integer totalPage) {
+    public void setTotalPage(Long totalPage) {
         this.totalPage = totalPage;
     }
 

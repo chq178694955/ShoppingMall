@@ -51,8 +51,8 @@
     <select id="find" parameterType="java.util.Map" resultMap="baseResultMap">
         select u.id,u.username,u.password,u.name,u.id_card_num,u.state,e.id as role_id,e.name as role_name
         from sys_user u
-        inner join sys_user_role r on u.id = r.uid
-        inner join sys_role e on r.rid = e.id
+        left join sys_user_role r on u.id = r.uid
+        left join sys_role e on r.rid = e.id
     </select>
     <select id="findCount" resultType="java.lang.Integer" parameterType="java.util.Map">
         select count(0) from sys_user u

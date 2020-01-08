@@ -49,6 +49,13 @@
             <version>1.1.14</version>
         </dependency>
 
+        <!-- quartz任务调度 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-quartz</artifactId>
+            <version>${spring.boot.version}</version>
+        </dependency>
+
         <dependency>
             <groupId>com.king</groupId>
             <artifactId>chq-common</artifactId>

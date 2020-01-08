@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.king.dao.SysTaskLogMapper">
+
+    <resultMap type="com.king.sys.SysTaskLog" id="baseResultMap">
+        <id column="id" property="id" />
+        <result column="task_id" property="taskId" />
+        <result column="action_time" property="actionTime" />
+        <result column="before_state" property="beforeState" />
+        <result column="current_state" property="currentState" />
+        <result column="user_id" property="userId" />
+
+    </resultMap>
+
+    <sql id="baseColumns">id,task_id,action_time,before_state,current_state,user_id</sql>
+
+    <select id="find" resultMap="baseResultMap" parameterType="java.util.Map">
+        select <include refid="baseColumns"/> from sys_task_log
+        <where>
+            <if test="id != null">
+                and id = #{id,jdbcType=BIGINT}
+            </if>
+            <if test="taskId != null and taskId != ''">
+                and task_id = #{taskId,jdbcType=BIGINT}
+            </if>
+            <if test="beforeState != null and beforeState != ''">
+                and before_state = #{beforeState,jdbcType=INTEGER}
+            </if>
+            <if test="currentState != null">
+                and current_state = #{currentState,jdbcType=INTEGER}
+            </if>
+            <if test="userId != null and userId != ''">
+                and user_id = #{userId,jdbcType=BIGINT}
+            </if>
+            <if test="startTime != null and startTime != ''">
+                and action_time <![CDATA[ >=  ]]> #{startTime,jdbcType=BIGINT}
+            </if>
+            <if test="endTime != null and endTime != ''">
+                and action_time <![CDATA[ <=  ]]> #{endTime,jdbcType=BIGINT}
+            </if>
+        </where>
+    </select>
+
+    <insert id="add" parameterType="com.king.sys.SysTask" keyProperty="id" useGeneratedKeys="true">
+        insert into sys_task_log(<include refid="baseColumns"/>)
+        values(#{id,jdbcType=BIGINT},#{taskId,jdbcType=BIGINT},#{actionTime,jdbcType=BIGINT},#{beforeState,jdbcType=INTEGER},#{currentState,jdbcType=INTEGER},#{userId,jdbcType=BIGINT})
+    </insert>
+
+    <delete id="delete" parameterType="java.lang.Long">
+        delete from sys_task_log where id = #{id,jdbcType=BIGINT}
+    </delete>
+
+    <delete id="deleteByTaskId" parameterType="java.lang.Long">
+        delete from sys_task_log where task_id = #{taskId,jdbcType=BIGINT}
+    </delete>
+
+</mapper>

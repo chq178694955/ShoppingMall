@@ -9,7 +9,8 @@ public enum ExceptionEnum {
 
     WARN_PARAMETER("参数错误"),
     WARN_PERMISSIONS("暂无权限"),
-    WARN_SERVER("服务器错误");
+    WARN_SERVER("服务器错误"),
+    TASK_ERROR("任务调度异常");
 
     private final String value;
 

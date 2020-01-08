@@ -59,7 +59,7 @@ public class ClientServiceImpl implements IClientService {
         //分页设置放在查询之前
         PageHelper.startPage(page.getPageNo(), page.getPageSize());
         List<Oauth2Client> list = clientMapper.find(params);
-        Integer totalCount = clientMapper.findCount(params);
+        Long totalCount = clientMapper.findCount(params);
         page.setResults(list,totalCount);
         return page;
     }

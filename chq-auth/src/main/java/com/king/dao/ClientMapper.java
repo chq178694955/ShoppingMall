@@ -24,7 +24,7 @@ public interface ClientMapper {
     int del(Long id);
     /** 查询 **/
     List<Oauth2Client> find(Map<String,String> params);
-    Integer findCount(Map<String,String> params);
+    Long findCount(Map<String,String> params);
 
 
 }

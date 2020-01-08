@@ -19,7 +19,7 @@ public interface SysRoleMapper {
 
     /** 查询 **/
     List<SysRole> find(Map<String,String> params);
-    Integer findCount(Map<String,String> params);
+    Long findCount(Map<String,String> params);
 
     Integer add(SysRole role);
 

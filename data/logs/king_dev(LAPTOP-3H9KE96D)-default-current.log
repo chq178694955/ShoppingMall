@@ -1,178 +1,539 @@
-2019-12-18 08:24:32,932 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 1780 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-18 08:24:32,941 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-18 08:24:32,941 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-18 08:24:38,356 INFO (StartupInfoLogger.java:61)- Started Startup in 6.31 seconds (JVM running for 9.674)
-2019-12-18 08:24:58,238 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 16068 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-18 08:24:58,246 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-18 08:24:58,246 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-18 08:25:04,954 INFO (StartupInfoLogger.java:61)- Started Startup in 8.358 seconds (JVM running for 9.722)
-2019-12-18 08:25:06,077 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 08:25:06,392 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 08:25:06,522 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 08:25:06,534 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 08:25:06,540 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 08:25:06,544 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 08:25:11,577 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 08:25:11,579 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 08:25:11,583 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 08:25:11,584 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 08:25:11,584 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 08:25:11,588 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 08:25:11,592 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-18 08:25:11,592 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-18 08:25:11,628 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 08:25:13,487 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 08:25:13,488 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 08:25:13,491 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 08:25:13,491 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_secret = ? 
-2019-12-18 08:25:13,493 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 3180d4fdc4733638bdc4296ef6cf47ed859dbe56(String)
-2019-12-18 08:25:13,495 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 14:47:28,950 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 10896 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-18 14:47:28,954 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-18 14:47:28,954 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-18 14:47:32,924 INFO (StartupInfoLogger.java:61)- Started Startup in 5.046 seconds (JVM running for 6.295)
-2019-12-18 14:48:22,541 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 16776 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-18 14:48:22,545 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-18 14:48:22,547 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-18 14:48:28,678 INFO (StartupInfoLogger.java:61)- Started Startup in 7.072 seconds (JVM running for 8.142)
-2019-12-18 14:48:29,221 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 14:48:29,447 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 14:48:29,494 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 14:48:29,500 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 14:48:29,501 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 14:48:29,504 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 14:48:36,286 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 14:48:36,287 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 14:48:36,289 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 14:48:36,290 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 14:48:36,290 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 14:48:36,291 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 14:48:36,293 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-18 14:48:36,294 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-18 14:48:36,295 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 14:48:37,212 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 14:48:37,212 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 14:48:37,214 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 14:48:37,215 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_secret = ? 
-2019-12-18 14:48:37,216 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 3180d4fdc4733638bdc4296ef6cf47ed859dbe56(String)
-2019-12-18 14:48:37,217 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 14:53:03,255 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 14:53:03,256 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 14:53:03,258 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 14:53:03,259 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 14:53:03,259 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 14:53:03,262 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 14:53:06,465 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 14:53:06,466 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 14:53:06,469 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 14:53:06,470 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 14:53:06,470 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 14:53:06,471 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 14:53:06,472 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-18 14:53:06,473 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-18 14:53:06,474 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 14:53:09,740 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 14:53:09,740 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 14:53:09,742 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 14:53:09,743 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_secret = ? 
-2019-12-18 14:53:09,744 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 3180d4fdc4733638bdc4296ef6cf47ed859dbe56(String)
-2019-12-18 14:53:09,745 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 14:56:04,422 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 14:56:04,422 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 14:56:04,425 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 14:56:04,427 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 14:56:04,428 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 14:56:04,429 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 14:56:07,197 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 14:56:07,197 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 14:56:07,200 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 14:56:07,201 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 14:56:07,201 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 14:56:07,203 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 14:56:07,204 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-18 14:56:07,204 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-18 14:56:07,207 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 14:56:14,518 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 14:56:14,520 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 14:56:14,522 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 14:56:14,525 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_secret = ? 
-2019-12-18 14:56:14,525 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 3180d4fdc4733638bdc4296ef6cf47ed859dbe56(String)
-2019-12-18 14:56:14,527 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 14:59:03,928 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 13832 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-18 14:59:03,933 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-18 14:59:03,934 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-18 14:59:07,264 INFO (StartupInfoLogger.java:61)- Started Startup in 4.727 seconds (JVM running for 5.724)
-2019-12-18 15:05:56,250 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 15:05:56,251 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 15:05:56,253 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 15:05:56,254 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 15:05:56,255 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 15:05:56,256 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 15:05:59,167 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 15:05:59,168 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 15:05:59,170 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 15:05:59,171 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 15:05:59,173 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 15:05:59,173 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 15:05:59,174 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-18 15:05:59,176 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-18 15:05:59,177 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 15:05:59,206 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 15:05:59,207 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 15:05:59,208 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 15:05:59,208 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_secret = ? 
-2019-12-18 15:05:59,209 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 3180d4fdc4733638bdc4296ef6cf47ed859dbe56(String)
-2019-12-18 15:05:59,209 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 15:06:42,147 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 15:06:42,148 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 15:06:42,149 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 15:06:42,150 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 15:06:42,150 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 15:06:42,151 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 15:07:44,471 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 6972 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-18 15:07:44,475 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-18 15:07:44,476 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-18 15:07:49,218 INFO (StartupInfoLogger.java:61)- Started Startup in 5.866 seconds (JVM running for 7.116)
-2019-12-18 15:07:52,018 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 15:07:52,019 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 15:07:52,020 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 15:07:52,021 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 15:07:52,023 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 15:07:52,027 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 15:08:29,443 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 15:08:29,444 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 15:08:29,446 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 15:08:29,448 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 15:08:29,449 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 15:08:29,453 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 15:09:56,584 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 17312 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2019-12-18 15:09:56,591 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2019-12-18 15:09:56,592 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2019-12-18 15:10:00,311 INFO (StartupInfoLogger.java:61)- Started Startup in 5.073 seconds (JVM running for 6.407)
-2019-12-18 15:10:09,942 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 15:10:09,943 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 15:10:09,945 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 15:10:09,947 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 15:10:09,950 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 15:10:09,955 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 15:11:53,359 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 15:11:53,360 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 15:11:53,361 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 15:11:53,362 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 15:11:53,362 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 15:11:53,363 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 15:11:56,490 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 15:11:56,491 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 15:11:56,493 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 15:11:56,495 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 15:11:56,498 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 15:11:56,500 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 15:11:56,501 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2019-12-18 15:11:56,502 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2019-12-18 15:11:56,506 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 15:11:56,557 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2019-12-18 15:11:56,558 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2019-12-18 15:11:56,560 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2019-12-18 15:11:56,561 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_secret = ? 
-2019-12-18 15:11:56,561 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 3180d4fdc4733638bdc4296ef6cf47ed859dbe56(String)
-2019-12-18 15:11:56,563 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:44:35,663 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 7408 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2020-01-06 14:44:35,671 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-01-06 14:44:35,671 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-01-06 14:44:40,979 INFO (StartupInfoLogger.java:61)- Started Startup in 5.989 seconds (JVM running for 7.959)
+2020-01-06 14:44:58,816 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
+2020-01-06 14:44:58,930 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
+2020-01-06 14:44:58,967 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:44:59,033 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
+2020-01-06 14:44:59,034 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
+2020-01-06 14:44:59,036 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:44:59,037 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
+2020-01-06 14:44:59,040 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
+2020-01-06 14:44:59,065 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:44:59,067 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) order by id 
+2020-01-06 14:44:59,073 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
+2020-01-06 14:44:59,119 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 12
+2020-01-06 14:45:02,813 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 14:45:02,817 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 14:45:02,829 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:45:16,294 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 14:45:16,295 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 14:45:16,298 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:45:54,187 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: insert into sys_task( id,name,group_name,cron_express,description,current_state,default_state,last_time ) values(?,?,?,?,?,?,?,?) 
+2020-01-06 14:45:54,200 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null, sampleJob(String), kingJob(String), 0/10 * * * * ?(String), null, 0(Integer), 0(Integer), 1578293154(Long)
+2020-01-06 14:45:54,203 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 14:45:54,268 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 14:45:54,269 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 14:45:54,270 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:45:54,272 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task limit ?,? 
+2020-01-06 14:45:54,275 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-06 14:45:54,277 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:46:01,364 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task where id = ? 
+2020-01-06 14:46:01,366 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
+2020-01-06 14:46:01,368 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:46:01,413 INFO (SysTaskServiceImpl.java:96)- 定时任务:kingJob.sampleJob-已添加到调度器!
+2020-01-06 14:46:01,416 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: update sys_task SET name = ?, group_name = ?, cron_express = ?, current_state = ?, last_time = ? where id = ? 
+2020-01-06 14:46:01,423 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: sampleJob(String), kingJob(String), 0/10 * * * * ?(String), 1(Integer), 1578293161(Long), 1(Long)
+2020-01-06 14:46:01,425 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 14:46:01,490 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 14:46:01,490 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 14:46:01,492 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:46:01,493 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task limit ?,? 
+2020-01-06 14:46:01,495 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-06 14:46:01,499 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:46:28,500 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task where id = ? 
+2020-01-06 14:46:28,501 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
+2020-01-06 14:46:28,502 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:46:28,545 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: delete from sys_task where id = ? 
+2020-01-06 14:46:28,547 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
+2020-01-06 14:46:28,549 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 14:47:18,786 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 14:47:18,787 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 14:47:18,790 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:47:28,171 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: insert into sys_task( id,name,group_name,cron_express,description,current_state,default_state,last_time ) values(?,?,?,?,?,?,?,?) 
+2020-01-06 14:47:28,173 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null, sampleJob(String), kingJob(String), 0/10 * * * * ?(String), null, 0(Integer), 0(Integer), 1578293248(Long)
+2020-01-06 14:47:28,176 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 14:47:28,226 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 14:47:28,227 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 14:47:28,228 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:47:28,230 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task limit ?,? 
+2020-01-06 14:47:28,230 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-06 14:47:28,233 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:47:35,136 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 14:47:35,137 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 14:47:35,141 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:47:35,145 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task limit ?,? 
+2020-01-06 14:47:35,146 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-06 14:47:35,148 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:47:40,309 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task where id = ? 
+2020-01-06 14:47:40,310 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 2(Long)
+2020-01-06 14:47:40,312 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:47:40,320 INFO (SysTaskServiceImpl.java:96)- 定时任务:kingJob.sampleJob-已添加到调度器!
+2020-01-06 14:47:40,321 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: update sys_task SET name = ?, group_name = ?, cron_express = ?, current_state = ?, last_time = ? where id = ? 
+2020-01-06 14:47:40,322 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: sampleJob(String), kingJob(String), 0/10 * * * * ?(String), 1(Integer), 1578293260(Long), 2(Long)
+2020-01-06 14:47:40,324 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 14:47:40,392 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 14:47:40,393 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 14:47:40,395 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:47:40,397 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task limit ?,? 
+2020-01-06 14:47:40,398 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-06 14:47:40,400 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:47:57,902 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task where id = ? 
+2020-01-06 14:47:57,906 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 2(Long)
+2020-01-06 14:47:57,912 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:48:08,204 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: delete from sys_task where id = ? 
+2020-01-06 14:48:08,206 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 2(Long)
+2020-01-06 14:48:08,210 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 14:48:16,491 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 14:48:16,492 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 14:48:16,493 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:48:54,414 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: insert into sys_task( id,name,group_name,cron_express,description,current_state,default_state,last_time ) values(?,?,?,?,?,?,?,?) 
+2020-01-06 14:48:54,416 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null, sampleJob(String), kingJob(String), 0/10 * * * * ?(String), null, 0(Integer), 0(Integer), 1578293334(Long)
+2020-01-06 14:48:54,427 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 14:48:54,475 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 14:48:54,476 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 14:48:54,477 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:48:54,478 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task limit ?,? 
+2020-01-06 14:48:54,479 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-06 14:48:54,480 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:48:56,180 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task where id = ? 
+2020-01-06 14:48:56,182 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 3(Long)
+2020-01-06 14:48:56,184 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:48:56,201 INFO (SysTaskServiceImpl.java:96)- 定时任务:kingJob.sampleJob-已添加到调度器!
+2020-01-06 14:48:56,205 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: update sys_task SET name = ?, group_name = ?, cron_express = ?, current_state = ?, last_time = ? where id = ? 
+2020-01-06 14:48:56,206 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: sampleJob(String), kingJob(String), 0/10 * * * * ?(String), 1(Integer), 1578293336(Long), 3(Long)
+2020-01-06 14:48:56,209 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 14:48:56,255 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 14:48:56,256 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 14:48:56,257 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:48:56,258 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task limit ?,? 
+2020-01-06 14:48:56,258 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-06 14:48:56,260 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:49:21,148 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task where id = ? 
+2020-01-06 14:49:21,149 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 3(Long)
+2020-01-06 14:49:21,151 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:49:31,531 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: update sys_task SET name = ?, group_name = ?, cron_express = ?, current_state = ?, last_time = ? where id = ? 
+2020-01-06 14:49:31,534 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: sampleJob(String), kingJob(String), 0/10 * * * * ?(String), 2(Integer), 1578293336(Long), 3(Long)
+2020-01-06 14:49:31,537 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 14:49:34,484 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 14:49:34,484 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 14:49:34,485 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:49:34,487 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task limit ?,? 
+2020-01-06 14:49:34,488 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-06 14:49:34,489 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:49:46,706 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task where id = ? 
+2020-01-06 14:49:46,707 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 3(Long)
+2020-01-06 14:49:46,708 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:49:52,151 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: update sys_task SET name = ?, group_name = ?, cron_express = ?, current_state = ?, last_time = ? where id = ? 
+2020-01-06 14:49:52,154 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: sampleJob(String), kingJob(String), 0/10 * * * * ?(String), 3(Integer), 1578293336(Long), 3(Long)
+2020-01-06 14:49:52,157 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 14:49:53,658 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 14:49:53,659 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 14:49:53,660 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:49:53,662 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task limit ?,? 
+2020-01-06 14:49:53,663 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-06 14:49:53,666 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:50:46,919 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 14:50:46,920 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 14:50:46,922 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:50:46,923 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task limit ?,? 
+2020-01-06 14:50:46,925 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-06 14:50:46,927 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:51:58,805 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task where id = ? 
+2020-01-06 14:51:58,806 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 3(Long)
+2020-01-06 14:51:58,807 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:51:58,823 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: delete from sys_task where id = ? 
+2020-01-06 14:51:58,824 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 3(Long)
+2020-01-06 14:51:58,826 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 14:52:00,556 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 14:52:00,557 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 14:52:00,558 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:52:58,267 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: insert into sys_task( id,name,group_name,cron_express,description,current_state,default_state,last_time ) values(?,?,?,?,?,?,?,?) 
+2020-01-06 14:52:58,268 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null, sampleJob(String), kingJob(String), 0/10 * * * * ?(String), null, 0(Integer), 0(Integer), 1578293578(Long)
+2020-01-06 14:52:58,270 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 14:52:58,320 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 14:52:58,321 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 14:52:58,322 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:52:58,324 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task limit ?,? 
+2020-01-06 14:52:58,324 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-06 14:52:58,326 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:53:00,026 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task where id = ? 
+2020-01-06 14:53:00,027 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 4(Long)
+2020-01-06 14:53:00,028 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:53:00,036 INFO (SysTaskServiceImpl.java:96)- 定时任务:kingJob.sampleJob-已添加到调度器!
+2020-01-06 14:53:00,036 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: update sys_task SET name = ?, group_name = ?, cron_express = ?, current_state = ?, last_time = ? where id = ? 
+2020-01-06 14:53:00,037 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: sampleJob(String), kingJob(String), 0/10 * * * * ?(String), 1(Integer), 1578293580(Long), 4(Long)
+2020-01-06 14:53:00,038 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 14:53:00,082 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 14:53:00,083 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 14:53:00,084 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:53:00,085 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task limit ?,? 
+2020-01-06 14:53:00,086 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-06 14:53:00,086 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:53:15,499 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task where id = ? 
+2020-01-06 14:53:15,499 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 4(Long)
+2020-01-06 14:53:15,500 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:53:55,382 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: update sys_task SET name = ?, group_name = ?, cron_express = ?, current_state = ?, last_time = ? where id = ? 
+2020-01-06 14:53:55,383 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: sampleJob(String), kingJob(String), 0/10 * * * * ?(String), 2(Integer), 1578293580(Long), 4(Long)
+2020-01-06 14:53:55,393 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 14:53:55,439 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 14:53:55,440 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 14:53:55,441 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:53:55,442 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task limit ?,? 
+2020-01-06 14:53:55,443 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-06 14:53:55,444 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:54:50,240 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task where id = ? 
+2020-01-06 14:54:50,241 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 4(Long)
+2020-01-06 14:54:50,242 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:54:50,246 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: update sys_task SET name = ?, group_name = ?, cron_express = ?, current_state = ?, last_time = ? where id = ? 
+2020-01-06 14:54:50,247 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: sampleJob(String), kingJob(String), 0/10 * * * * ?(String), 3(Integer), 1578293580(Long), 4(Long)
+2020-01-06 14:54:50,249 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 14:54:50,315 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 14:54:50,316 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 14:54:50,317 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:54:50,319 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task limit ?,? 
+2020-01-06 14:54:50,320 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-06 14:54:50,322 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:55:55,072 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task where id = ? 
+2020-01-06 14:55:55,072 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 4(Long)
+2020-01-06 14:55:55,073 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 14:55:55,082 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: delete from sys_task where id = ? 
+2020-01-06 14:55:55,083 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 4(Long)
+2020-01-06 14:55:55,084 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 14:55:56,927 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 14:55:56,927 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 14:55:56,928 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:04:07,218 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 13084 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2020-01-06 15:04:07,222 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-01-06 15:04:07,223 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-01-06 15:04:11,367 INFO (StartupInfoLogger.java:61)- Started Startup in 4.997 seconds (JVM running for 6.447)
+2020-01-06 15:05:24,398 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 16200 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2020-01-06 15:05:24,403 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-01-06 15:05:24,404 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-01-06 15:06:49,607 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 3576 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2020-01-06 15:06:49,611 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-01-06 15:06:49,612 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-01-06 15:06:53,276 INFO (StartupInfoLogger.java:61)- Started Startup in 4.49 seconds (JVM running for 5.604)
+2020-01-06 15:07:52,456 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 15440 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2020-01-06 15:07:52,461 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-01-06 15:07:52,462 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-01-06 15:07:56,140 INFO (StartupInfoLogger.java:61)- Started Startup in 4.517 seconds (JVM running for 5.495)
+2020-01-06 15:12:23,671 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
+2020-01-06 15:12:23,768 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
+2020-01-06 15:12:23,783 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:12:23,787 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
+2020-01-06 15:12:23,790 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
+2020-01-06 15:12:23,791 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:12:23,792 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) order by id 
+2020-01-06 15:12:23,794 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
+2020-01-06 15:12:23,797 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 12
+2020-01-06 15:12:56,617 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 15:12:56,621 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 15:12:56,624 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:13:04,295 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: insert into sys_task( id,name,group_name,cron_express,description,current_state,default_state,last_time ) values(?,?,?,?,?,?,?,?) 
+2020-01-06 15:13:04,308 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null, sampleJob(String), kingJob(String), 0/10 * * * * ?(String), null, 0(Integer), 0(Integer), 1578294784(Long)
+2020-01-06 15:13:04,319 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 15:13:04,379 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 15:13:04,380 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 15:13:04,381 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:13:04,386 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task limit ?,? 
+2020-01-06 15:13:04,389 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-06 15:13:04,392 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:13:08,920 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task where id = ? 
+2020-01-06 15:13:08,922 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 5(Long)
+2020-01-06 15:13:08,923 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:13:08,939 INFO (SysTaskServiceImpl.java:96)- 定时任务:kingJob.sampleJob-已添加到调度器!
+2020-01-06 15:13:08,942 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: update sys_task SET name = ?, group_name = ?, cron_express = ?, current_state = ?, last_time = ? where id = ? 
+2020-01-06 15:13:08,946 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: sampleJob(String), kingJob(String), 0/10 * * * * ?(String), 1(Integer), 1578294788(Long), 5(Long)
+2020-01-06 15:13:08,948 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 15:13:09,020 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 15:13:09,021 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 15:13:09,022 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:13:09,024 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task limit ?,? 
+2020-01-06 15:13:09,025 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-06 15:13:09,027 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:13:32,049 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task where id = ? 
+2020-01-06 15:13:32,049 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 5(Long)
+2020-01-06 15:13:32,051 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:13:32,065 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: update sys_task SET name = ?, group_name = ?, cron_express = ?, current_state = ?, last_time = ? where id = ? 
+2020-01-06 15:13:32,065 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: sampleJob(String), kingJob(String), 0/10 * * * * ?(String), 2(Integer), 1578294788(Long), 5(Long)
+2020-01-06 15:13:32,067 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 15:13:32,128 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 15:13:32,129 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 15:13:32,130 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:13:32,132 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task limit ?,? 
+2020-01-06 15:13:32,133 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-06 15:13:32,136 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:13:53,149 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task where id = ? 
+2020-01-06 15:13:53,150 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 5(Long)
+2020-01-06 15:13:53,152 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:13:53,157 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: update sys_task SET name = ?, group_name = ?, cron_express = ?, current_state = ?, last_time = ? where id = ? 
+2020-01-06 15:13:53,158 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: sampleJob(String), kingJob(String), 0/10 * * * * ?(String), 3(Integer), 1578294788(Long), 5(Long)
+2020-01-06 15:13:53,169 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 15:13:53,223 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 15:13:53,224 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 15:13:53,225 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:13:53,227 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task limit ?,? 
+2020-01-06 15:13:53,228 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-06 15:13:53,230 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:14:29,448 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task where id = ? 
+2020-01-06 15:14:29,449 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 5(Long)
+2020-01-06 15:14:29,451 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:14:29,463 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: delete from sys_task where id = ? 
+2020-01-06 15:14:29,465 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 5(Long)
+2020-01-06 15:14:29,467 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 15:14:29,516 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 15:14:29,517 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 15:14:29,518 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:14:31,646 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 15:14:31,646 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 15:14:31,647 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:31:10,365 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 8824 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2020-01-06 15:31:10,370 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-01-06 15:31:10,370 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-01-06 15:31:14,083 INFO (StartupInfoLogger.java:61)- Started Startup in 4.554 seconds (JVM running for 5.527)
+2020-01-06 15:31:28,380 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
+2020-01-06 15:31:28,556 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
+2020-01-06 15:31:28,579 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:31:28,585 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
+2020-01-06 15:31:28,592 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
+2020-01-06 15:31:28,594 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:31:28,596 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) order by id 
+2020-01-06 15:31:28,599 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
+2020-01-06 15:31:28,608 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 12
+2020-01-06 15:31:30,899 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 15:31:30,901 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 15:31:30,902 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:31:31,839 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 15:31:31,840 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 15:31:31,843 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:31:41,206 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: insert into sys_task( id,name,group_name,cron_express,description,current_state,default_state,last_time ) values(?,?,?,?,?,?,?,?) 
+2020-01-06 15:31:41,215 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null, sampleJob(String), kingJob(String), 0/10 * * * * ? (String), null, 0(Integer), 0(Integer), 1578295901(Long)
+2020-01-06 15:31:41,218 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 15:31:41,282 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 15:31:41,282 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 15:31:41,284 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:31:41,288 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task limit ?,? 
+2020-01-06 15:31:41,291 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-06 15:31:41,293 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:31:45,178 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task where id = ? 
+2020-01-06 15:31:45,180 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 6(Long)
+2020-01-06 15:31:45,181 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:31:45,208 INFO (SysTaskServiceImpl.java:93)- 定时任务:kingJob.sampleJob-已添加到调度器!
+2020-01-06 15:31:45,210 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: update sys_task SET name = ?, group_name = ?, cron_express = ?, current_state = ?, last_time = ? where id = ? 
+2020-01-06 15:31:45,215 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: sampleJob(String), kingJob(String), 0/10 * * * * ? (String), 1(Integer), 1578295905(Long), 6(Long)
+2020-01-06 15:31:45,218 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 15:31:45,268 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 15:31:45,269 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 15:31:45,270 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:31:45,272 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task limit ?,? 
+2020-01-06 15:31:45,274 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-06 15:31:45,276 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:32:01,981 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task where id = ? 
+2020-01-06 15:32:01,982 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 6(Long)
+2020-01-06 15:32:01,984 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:32:01,999 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: update sys_task SET name = ?, group_name = ?, cron_express = ?, current_state = ?, last_time = ? where id = ? 
+2020-01-06 15:32:02,001 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: sampleJob(String), kingJob(String), 0/10 * * * * ? (String), 2(Integer), 1578295905(Long), 6(Long)
+2020-01-06 15:32:02,003 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 15:32:02,068 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 15:32:02,069 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 15:32:02,071 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:32:02,073 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task limit ?,? 
+2020-01-06 15:32:02,075 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-06 15:32:02,078 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:32:20,678 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task where id = ? 
+2020-01-06 15:32:20,678 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 6(Long)
+2020-01-06 15:32:20,680 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:32:20,688 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: update sys_task SET name = ?, group_name = ?, cron_express = ?, current_state = ?, last_time = ? where id = ? 
+2020-01-06 15:32:20,689 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: sampleJob(String), kingJob(String), 0/10 * * * * ? (String), 3(Integer), 1578295905(Long), 6(Long)
+2020-01-06 15:32:20,691 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 15:32:20,749 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 15:32:20,749 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 15:32:20,751 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:32:20,754 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task limit ?,? 
+2020-01-06 15:32:20,755 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-06 15:32:20,759 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:32:57,694 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task where id = ? 
+2020-01-06 15:32:57,695 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 6(Long)
+2020-01-06 15:32:57,696 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:32:57,718 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: delete from sys_task where id = ? 
+2020-01-06 15:32:57,720 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 6(Long)
+2020-01-06 15:32:57,722 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 15:32:57,765 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 15:32:57,765 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 15:32:57,766 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:36:49,512 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 12300 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2020-01-06 15:36:49,516 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-01-06 15:36:49,516 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-01-06 15:36:53,112 INFO (StartupInfoLogger.java:61)- Started Startup in 4.439 seconds (JVM running for 5.552)
+2020-01-06 15:36:57,504 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
+2020-01-06 15:36:57,633 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
+2020-01-06 15:36:57,653 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:36:57,657 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
+2020-01-06 15:36:57,661 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
+2020-01-06 15:36:57,663 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:36:57,664 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) order by id 
+2020-01-06 15:36:57,667 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
+2020-01-06 15:36:57,671 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 12
+2020-01-06 15:37:05,727 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 15:37:05,730 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 15:37:05,732 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:37:12,040 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: insert into sys_task( id,name,group_name,cron_express,description,current_state,default_state,last_time ) values(?,?,?,?,?,?,?,?) 
+2020-01-06 15:37:12,047 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null, sampleJob(String), kingJob(String), 0/10 * * * * ?(String), null, 0(Integer), 0(Integer), 1578296232(Long)
+2020-01-06 15:37:12,050 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 15:37:12,117 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 15:37:12,118 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 15:37:12,121 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:37:12,125 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task limit ?,? 
+2020-01-06 15:37:12,127 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-06 15:37:12,131 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:37:13,855 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task where id = ? 
+2020-01-06 15:37:13,857 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 7(Long)
+2020-01-06 15:37:13,859 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:37:13,897 INFO (SysTaskServiceImpl.java:93)- 定时任务:kingJob.sampleJob-已添加到调度器!
+2020-01-06 15:37:13,899 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: update sys_task SET name = ?, group_name = ?, cron_express = ?, current_state = ?, last_time = ? where id = ? 
+2020-01-06 15:37:13,906 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: sampleJob(String), kingJob(String), 0/10 * * * * ?(String), 1(Integer), 1578296233(Long), 7(Long)
+2020-01-06 15:37:13,908 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 15:37:13,957 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 15:37:13,958 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 15:37:13,959 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:37:13,962 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task limit ?,? 
+2020-01-06 15:37:13,962 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-06 15:37:13,964 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:37:25,422 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task where id = ? 
+2020-01-06 15:37:25,423 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 7(Long)
+2020-01-06 15:37:25,425 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:37:25,442 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: update sys_task SET name = ?, group_name = ?, cron_express = ?, current_state = ?, last_time = ? where id = ? 
+2020-01-06 15:37:25,443 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: sampleJob(String), kingJob(String), 0/10 * * * * ?(String), 2(Integer), 1578296233(Long), 7(Long)
+2020-01-06 15:37:25,445 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 15:37:25,492 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 15:37:25,493 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 15:37:25,495 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:37:25,497 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task limit ?,? 
+2020-01-06 15:37:25,498 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-06 15:37:25,500 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:37:39,436 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task where id = ? 
+2020-01-06 15:37:39,437 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 7(Long)
+2020-01-06 15:37:39,439 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:37:39,454 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: update sys_task SET name = ?, group_name = ?, cron_express = ?, current_state = ?, last_time = ? where id = ? 
+2020-01-06 15:37:39,456 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: sampleJob(String), kingJob(String), 0/10 * * * * ?(String), 3(Integer), 1578296233(Long), 7(Long)
+2020-01-06 15:37:39,459 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 15:37:39,559 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 15:37:39,560 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 15:37:39,562 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:37:39,563 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task limit ?,? 
+2020-01-06 15:37:39,564 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-06 15:37:39,567 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:37:53,244 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task where id = ? 
+2020-01-06 15:37:53,245 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 7(Long)
+2020-01-06 15:37:53,247 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:37:53,274 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: delete from sys_task where id = ? 
+2020-01-06 15:37:53,277 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 7(Long)
+2020-01-06 15:37:53,279 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 15:37:53,347 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 15:37:53,348 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 15:37:53,350 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:49:19,756 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 16132 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2020-01-06 15:49:19,762 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-01-06 15:49:19,762 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-01-06 15:49:24,664 INFO (StartupInfoLogger.java:61)- Started Startup in 5.846 seconds (JVM running for 6.883)
+2020-01-06 15:49:26,164 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
+2020-01-06 15:49:26,275 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
+2020-01-06 15:49:26,291 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:49:26,294 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
+2020-01-06 15:49:26,298 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
+2020-01-06 15:49:26,299 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:49:26,300 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) order by id 
+2020-01-06 15:49:26,303 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
+2020-01-06 15:49:26,308 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 12
+2020-01-06 15:51:33,103 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 15:51:33,111 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 15:51:33,113 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:51:33,997 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 15:51:33,998 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 15:51:34,000 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:51:41,194 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: insert into sys_task( id,name,group_name,cron_express,description,current_state,default_state,last_time ) values(?,?,?,?,?,?,?,?) 
+2020-01-06 15:51:41,201 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null, sampleJob(String), kingJob(String), 10/0 * * * * ?(String), null, 0(Integer), 0(Integer), 1578297101(Long)
+2020-01-06 15:51:41,203 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 15:51:41,265 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 15:51:41,265 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 15:51:41,268 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:51:41,271 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task limit ?,? 
+2020-01-06 15:51:41,275 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-06 15:51:41,276 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:51:48,174 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 15:51:48,175 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 15:51:48,176 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:51:48,179 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task limit ?,? 
+2020-01-06 15:51:48,180 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-06 15:51:48,183 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:52:03,289 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
+2020-01-06 15:52:03,290 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
+2020-01-06 15:52:03,292 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:52:03,338 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
+2020-01-06 15:52:03,338 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
+2020-01-06 15:52:03,339 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:52:03,340 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
+2020-01-06 15:52:03,341 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
+2020-01-06 15:52:03,343 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:52:03,344 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) order by id 
+2020-01-06 15:52:03,344 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
+2020-01-06 15:52:03,349 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 12
+2020-01-06 15:52:04,728 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 15:52:04,729 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 15:52:04,730 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:52:04,733 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task limit ?,? 
+2020-01-06 15:52:04,735 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-06 15:52:04,739 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:52:05,665 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 15:52:05,665 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 15:52:05,667 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:52:05,670 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task limit ?,? 
+2020-01-06 15:52:05,671 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-06 15:52:05,672 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:56:39,752 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
+2020-01-06 15:56:39,753 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
+2020-01-06 15:56:39,755 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:56:39,757 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
+2020-01-06 15:56:39,758 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
+2020-01-06 15:56:39,759 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:56:39,762 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) order by id 
+2020-01-06 15:56:39,763 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
+2020-01-06 15:56:39,765 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 12
+2020-01-06 15:56:41,437 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 15:56:41,437 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 15:56:41,439 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:56:41,441 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task limit ?,? 
+2020-01-06 15:56:41,442 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-06 15:56:41,444 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:57:00,859 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task where id = ? 
+2020-01-06 15:57:00,861 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 8(Long)
+2020-01-06 15:57:00,862 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:57:00,900 INFO (SysTaskServiceImpl.java:93)- 定时任务:kingJob.sampleJob-已添加到调度器!
+2020-01-06 15:57:00,902 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: update sys_task SET name = ?, group_name = ?, cron_express = ?, current_state = ?, last_time = ? where id = ? 
+2020-01-06 15:57:00,910 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: sampleJob(String), kingJob(String), 10/0 * * * * ?(String), 1(Integer), 1578297420(Long), 8(Long)
+2020-01-06 15:57:00,912 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 15:57:00,997 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 15:57:00,998 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 15:57:00,999 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:57:01,000 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task limit ?,? 
+2020-01-06 15:57:01,001 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-06 15:57:01,003 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:57:13,249 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,group_name,cron_express,description,current_state,default_state,last_time from sys_task where id = ? 
+2020-01-06 15:57:13,250 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 8(Long)
+2020-01-06 15:57:13,252 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 15:57:13,272 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: delete from sys_task where id = ? 
+2020-01-06 15:57:13,274 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 8(Long)
+2020-01-06 15:57:13,275 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 1
+2020-01-06 15:57:13,357 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-06 15:57:13,357 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 15:57:13,358 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-06 16:12:42,714 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 4604 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2020-01-06 16:12:42,724 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-01-06 16:12:42,726 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-01-06 16:12:46,631 INFO (StartupInfoLogger.java:61)- Started Startup in 4.997 seconds (JVM running for 6.042)
+2020-01-06 16:12:46,632 INFO (InitApplicationRun.java:27)- 统一认证授权应用启动...
+2020-01-06 16:12:46,683 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: update sys_task set current_state = 0 
+2020-01-06 16:12:46,780 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-06 16:12:46,784 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 0
