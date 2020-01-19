@@ -7,7 +7,7 @@
     <file url="file://$PROJECT_DIR$/chq-business" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chq-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chq-entity" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/chq-mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chq-game" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chq-oauth2server" charset="UTF-8" />
   </component>
 </project>

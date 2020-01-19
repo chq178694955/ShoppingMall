@@ -16,6 +16,7 @@
         <module name="chq-business" />
         <module name="chq-common" />
         <module name="chq-entity" />
+        <module name="chq-game" />
         <module name="chq-oauth2server" />
       </profile>
     </annotationProcessing>

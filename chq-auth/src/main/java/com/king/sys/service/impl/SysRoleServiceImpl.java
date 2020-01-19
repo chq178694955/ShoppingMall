@@ -1,6 +1,7 @@
 package com.king.sys.service.impl;
 
 import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.king.base.Page;
 import com.king.dao.SysRoleMapper;
 import com.king.sys.SysRole;
@@ -35,8 +36,9 @@ public class SysRoleServiceImpl implements ISysRoleService {
         //分页设置放在查询之前
         PageHelper.startPage(page.getPageNo(), page.getPageSize());
         List<SysRole> list = sysRoleMapper.find(params);
-        Long totalCount = sysRoleMapper.findCount(params);
-        page.setResults(list,totalCount);
+        PageInfo<SysRole> pageInfo = new PageInfo<SysRole>(list);
+        page.setResults(list,pageInfo.getTotal());
+        page.setResults(list,pageInfo.getTotal());
         return page;
     }
 

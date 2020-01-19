@@ -71,3 +71,32 @@ table{
     display: inline-block;
     height: 30px;
 }
+
+/* 游戏/娱乐版块 */
+.king-game-ul{
+    width: 100%;
+    height: 100px;
+}
+.king-game-ul-li{
+    float: left;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-right: 5px;
+    color: #FFF;
+}
+.king-game-circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+.king-bg-red{
+    background-color: red;
+}
+.king-bg-blue{
+    background-color: blue;
+}
+/* 游戏/娱乐版块 */

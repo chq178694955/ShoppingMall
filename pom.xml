@@ -58,6 +58,7 @@
         <module>chq-oauth2server</module>
         <module>chq-business</module>
         <module>chq-auth</module>
+        <module>chq-game</module>
     </modules>
 
     <!-- 编译管理 jdk版本和字符集编码 -->

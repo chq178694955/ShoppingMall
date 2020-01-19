@@ -155,6 +155,11 @@
             <artifactId>chq-auth</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>com.king</groupId>
+            <artifactId>chq-game</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <build>
