@@ -1,61 +1,213 @@
-2020-01-19 09:19:04,259 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 11300 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
-2020-01-19 09:19:04,274 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-01-19 09:19:04,276 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2020-01-19 09:19:10,448 INFO (StartupInfoLogger.java:61)- Started Startup in 7.334 seconds (JVM running for 11.37)
-2020-01-19 09:19:10,449 INFO (InitApplicationRun.java:27)- 统一认证授权应用启动...
-2020-01-19 09:19:10,503 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: update sys_task set current_state = 0 
-2020-01-19 09:19:10,591 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2020-01-19 09:19:10,609 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 0
-2020-01-19 09:19:10,610 INFO (InitApplicationRun.java:30)- 初始化任务完成...
-2020-01-19 09:20:01,215 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2020-01-19 09:20:01,258 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2020-01-19 09:20:01,292 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2020-01-19 09:20:01,357 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2020-01-19 09:20:01,358 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2020-01-19 09:20:01,360 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2020-01-19 09:20:01,362 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
-2020-01-19 09:20:01,366 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2020-01-19 09:20:01,396 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2020-01-19 09:20:01,398 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) order by id 
-2020-01-19 09:20:01,404 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
-2020-01-19 09:20:01,444 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 14
-2020-01-19 14:21:21,507 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 4380 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
-2020-01-19 14:21:21,510 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-01-19 14:21:21,511 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2020-01-19 14:21:26,995 INFO (StartupInfoLogger.java:61)- Started Startup in 6.703 seconds (JVM running for 8.168)
-2020-01-19 14:21:26,997 INFO (InitApplicationRun.java:27)- 统一认证授权应用启动...
-2020-01-19 14:21:27,050 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: update sys_task set current_state = 0 
-2020-01-19 14:21:27,140 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
-2020-01-19 14:21:27,143 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 0
-2020-01-19 14:21:27,144 INFO (InitApplicationRun.java:30)- 初始化任务完成...
-2020-01-19 14:22:25,876 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 272 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2020-01-19 14:22:25,880 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-01-19 14:22:25,881 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2020-01-19 14:24:05,513 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 15384 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2020-01-19 14:24:05,524 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-01-19 14:24:05,525 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2020-01-19 14:31:11,038 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 14884 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
-2020-01-19 14:31:11,041 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-01-19 14:31:11,042 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2020-01-19 14:31:15,546 INFO (StartupInfoLogger.java:61)- Started Startup in 5.551 seconds (JVM running for 6.857)
-2020-01-19 14:32:29,112 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2020-01-19 14:32:29,143 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2020-01-19 14:32:29,178 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2020-01-19 14:32:29,181 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2020-01-19 14:32:29,181 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2020-01-19 14:32:29,182 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2020-01-19 14:32:33,466 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2020-01-19 14:32:33,467 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2020-01-19 14:32:33,469 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2020-01-19 14:32:33,470 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2020-01-19 14:32:33,471 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2020-01-19 14:32:33,474 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2020-01-19 14:32:33,476 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
-2020-01-19 14:32:33,477 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
-2020-01-19 14:32:33,479 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2020-01-19 14:32:34,602 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
-2020-01-19 14:32:34,603 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
-2020-01-19 14:32:34,604 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
-2020-01-19 14:32:34,605 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_secret = ? 
-2020-01-19 14:32:34,606 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 3180d4fdc4733638bdc4296ef6cf47ed859dbe56(String)
-2020-01-19 14:32:34,607 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-20 13:41:02,292 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 16272 (D:\projects\ShoppingMall\chq-oauth2server\target\classes started by 17869 in D:\projects\ShoppingMall)
+2020-01-20 13:41:02,301 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-01-20 13:41:02,301 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-01-20 13:41:07,415 INFO (StartupInfoLogger.java:61)- Started Startup in 5.93 seconds (JVM running for 8.395)
+2020-01-20 13:41:07,416 INFO (InitApplicationRun.java:27)- 统一认证授权应用启动...
+2020-01-20 13:41:07,464 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: update sys_task set current_state = 0 
+2020-01-20 13:41:07,543 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-20 13:41:07,547 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==    Updates: 0
+2020-01-20 13:41:07,548 INFO (InitApplicationRun.java:30)- 初始化任务完成...
+2020-01-20 13:41:31,385 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
+2020-01-20 13:41:31,410 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
+2020-01-20 13:41:31,425 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-20 13:41:31,477 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
+2020-01-20 13:41:31,478 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
+2020-01-20 13:41:31,479 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-20 13:41:31,481 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role where id in (select rid from sys_user_role where uid = ?) 
+2020-01-20 13:41:31,484 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
+2020-01-20 13:41:31,490 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-20 13:41:31,491 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) order by id 
+2020-01-20 13:41:31,494 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
+2020-01-20 13:41:31,500 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 14
+2020-01-20 13:41:34,649 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_task 
+2020-01-20 13:41:34,650 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-20 13:41:34,651 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-20 13:41:37,731 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) order by id 
+2020-01-20 13:41:37,733 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: null
+2020-01-20 13:41:37,735 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
+2020-01-20 13:41:37,736 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select dict_sn,class_no,dict_no,dict_desc,disp_order,parent_sn,use_flag from sys_dict where class_no = ? and dict_no != -1 and use_flag = 1 
+2020-01-20 13:41:37,741 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 300(Integer)
+2020-01-20 13:41:37,747 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
+2020-01-20 13:41:37,748 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-20 13:41:37,754 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 14
+2020-01-20 13:41:37,770 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 3
+2020-01-20 13:41:39,632 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role 
+2020-01-20 13:41:39,634 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-20 13:41:39,636 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 3
+2020-01-20 13:41:39,646 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_user u LEFT JOIN sys_user_role r ON u.id = r.uid LEFT JOIN sys_role e ON r.rid = e.id 
+2020-01-20 13:41:39,649 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-20 13:41:39,651 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-20 13:41:39,652 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select u.id,u.username,u.password,u.name,u.id_card_num,u.state,e.id as role_id,e.name as role_name from sys_user u left join sys_user_role r on u.id = r.uid left join sys_role e on r.rid = e.id limit ?,? 
+2020-01-20 13:41:39,654 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-20 13:41:39,658 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 2
+2020-01-20 13:41:43,636 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT count(0) FROM sys_role 
+2020-01-20 13:41:43,636 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-20 13:41:43,639 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-20 13:41:43,640 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name from sys_role limit ?,? 
+2020-01-20 13:41:43,642 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 0(Integer), 10(Integer)
+2020-01-20 13:41:43,643 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 3
+2020-01-20 13:41:44,677 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) order by id 
+2020-01-20 13:41:44,677 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
+2020-01-20 13:41:44,682 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 14
+2020-01-20 13:41:44,683 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
+2020-01-20 13:41:44,684 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-20 13:41:44,686 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 14
+2020-01-20 13:41:46,281 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) order by id 
+2020-01-20 13:41:46,282 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 2(Long)
+2020-01-20 13:41:46,285 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
+2020-01-20 13:41:46,287 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
+2020-01-20 13:41:46,287 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-20 13:41:46,290 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 14
+2020-01-20 13:41:47,139 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) order by id 
+2020-01-20 13:41:47,140 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 3(Long)
+2020-01-20 13:41:47,141 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
+2020-01-20 13:41:47,141 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
+2020-01-20 13:41:47,142 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-20 13:41:47,144 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 14
+2020-01-20 13:41:48,153 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) order by id 
+2020-01-20 13:41:48,153 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 2(Long)
+2020-01-20 13:41:48,154 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
+2020-01-20 13:41:48,155 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
+2020-01-20 13:41:48,156 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-20 13:41:48,158 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 14
+2020-01-20 13:41:48,879 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) order by id 
+2020-01-20 13:41:48,880 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 3(Long)
+2020-01-20 13:41:48,882 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
+2020-01-20 13:41:48,883 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
+2020-01-20 13:41:48,883 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-20 13:41:48,887 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 14
+2020-01-20 13:41:49,140 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) order by id 
+2020-01-20 13:41:49,141 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 2(Long)
+2020-01-20 13:41:49,143 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
+2020-01-20 13:41:49,144 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
+2020-01-20 13:41:49,144 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-20 13:41:49,147 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 14
+2020-01-20 13:41:49,404 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) order by id 
+2020-01-20 13:41:49,405 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
+2020-01-20 13:41:49,409 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 14
+2020-01-20 13:41:49,410 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
+2020-01-20 13:41:49,410 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-20 13:41:49,412 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 14
+2020-01-20 13:41:49,720 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) order by id 
+2020-01-20 13:41:49,721 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 2(Long)
+2020-01-20 13:41:49,722 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
+2020-01-20 13:41:49,722 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
+2020-01-20 13:41:49,723 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-20 13:41:49,725 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 14
+2020-01-20 13:41:50,020 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) order by id 
+2020-01-20 13:41:50,021 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 3(Long)
+2020-01-20 13:41:50,022 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
+2020-01-20 13:41:50,022 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
+2020-01-20 13:41:50,023 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-20 13:41:50,024 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 14
+2020-01-20 13:41:50,644 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) order by id 
+2020-01-20 13:41:50,644 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 2(Long)
+2020-01-20 13:41:50,646 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 0
+2020-01-20 13:41:50,647 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
+2020-01-20 13:41:50,647 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-20 13:41:50,649 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 14
+2020-01-20 13:41:50,935 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources where id in (select res_id from sys_role_resources where role_id = ?) order by id 
+2020-01-20 13:41:50,936 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Long)
+2020-01-20 13:41:50,939 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 14
+2020-01-20 13:41:50,940 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,name,url,type,pid,permission from sys_resources order by id 
+2020-01-20 13:41:50,940 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 
+2020-01-20 13:41:50,943 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 14
+2020-01-20 13:46:22,699 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 11268 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2020-01-20 13:46:22,706 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-01-20 13:46:22,706 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-01-20 13:46:26,989 INFO (StartupInfoLogger.java:61)- Started Startup in 5.129 seconds (JVM running for 6.324)
+2020-01-20 13:46:36,197 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2020-01-20 13:46:36,198 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2020-01-20 13:46:36,201 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-20 13:46:36,202 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2020-01-20 13:46:36,203 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2020-01-20 13:46:36,205 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-20 13:46:39,914 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2020-01-20 13:46:39,916 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2020-01-20 13:46:39,919 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-20 13:46:39,919 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2020-01-20 13:46:39,920 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2020-01-20 13:46:39,920 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-20 13:46:39,921 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
+2020-01-20 13:46:39,922 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
+2020-01-20 13:46:39,923 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-20 13:46:40,707 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2020-01-20 13:46:40,708 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2020-01-20 13:46:40,708 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-20 13:46:40,709 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_secret = ? 
+2020-01-20 13:46:40,710 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 3180d4fdc4733638bdc4296ef6cf47ed859dbe56(String)
+2020-01-20 13:46:40,711 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-20 13:59:06,780 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 15784 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2020-01-20 13:59:06,783 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-01-20 13:59:06,783 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-01-20 13:59:10,666 INFO (StartupInfoLogger.java:61)- Started Startup in 4.785 seconds (JVM running for 5.941)
+2020-01-20 14:05:44,513 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 17324 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2020-01-20 14:05:44,518 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-01-20 14:05:44,519 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-01-20 14:05:48,717 INFO (StartupInfoLogger.java:61)- Started Startup in 5.189 seconds (JVM running for 6.446)
+2020-01-20 14:08:13,120 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 9428 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2020-01-20 14:08:13,124 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-01-20 14:08:13,124 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-01-20 14:08:19,186 INFO (StartupInfoLogger.java:61)- Started Startup in 6.969 seconds (JVM running for 8.189)
+2020-01-20 14:08:19,392 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2020-01-20 14:08:19,393 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2020-01-20 14:08:19,395 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-20 14:08:19,396 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2020-01-20 14:08:19,397 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2020-01-20 14:08:19,399 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-20 14:08:23,312 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2020-01-20 14:08:23,313 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2020-01-20 14:08:23,315 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-20 14:08:23,317 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2020-01-20 14:08:23,320 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2020-01-20 14:08:23,322 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-20 14:08:23,326 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
+2020-01-20 14:08:23,327 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
+2020-01-20 14:08:23,330 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-20 14:08:23,401 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2020-01-20 14:08:23,402 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2020-01-20 14:08:23,404 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-20 14:08:23,406 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_secret = ? 
+2020-01-20 14:08:23,408 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 3180d4fdc4733638bdc4296ef6cf47ed859dbe56(String)
+2020-01-20 14:08:23,411 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-20 14:15:05,897 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 9140 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2020-01-20 14:15:05,902 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-01-20 14:15:05,903 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-01-20 14:15:09,809 INFO (StartupInfoLogger.java:61)- Started Startup in 4.755 seconds (JVM running for 5.831)
+2020-01-20 14:15:16,909 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2020-01-20 14:15:16,910 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2020-01-20 14:15:16,913 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-20 14:15:16,914 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2020-01-20 14:15:16,914 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2020-01-20 14:15:16,916 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-20 14:15:19,773 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2020-01-20 14:15:19,774 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2020-01-20 14:15:19,776 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-20 14:15:19,777 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2020-01-20 14:15:19,778 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2020-01-20 14:15:19,782 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-20 14:15:19,785 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,username,password,name,id_card_num,state from sys_user where username = ? 
+2020-01-20 14:15:19,785 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: admin(String)
+2020-01-20 14:15:19,787 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-20 14:15:19,880 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_id = ? 
+2020-01-20 14:15:19,881 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: Igupf8ca(String)
+2020-01-20 14:15:19,883 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-20 14:15:19,884 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: select id,client_name,client_id,client_secret from oauth2_client where client_secret = ? 
+2020-01-20 14:15:19,884 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 3180d4fdc4733638bdc4296ef6cf47ed859dbe56(String)
+2020-01-20 14:15:19,886 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2020-01-20 14:17:53,426 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 16708 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2020-01-20 14:17:53,434 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-01-20 14:17:53,435 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-01-20 14:17:57,407 INFO (StartupInfoLogger.java:61)- Started Startup in 4.921 seconds (JVM running for 6.046)
+2020-01-20 14:18:51,178 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 17116 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2020-01-20 14:18:51,182 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-01-20 14:18:51,183 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-01-20 14:18:56,321 INFO (StartupInfoLogger.java:61)- Started Startup in 5.962 seconds (JVM running for 7.066)
+2020-01-20 14:30:10,199 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 1224 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2020-01-20 14:30:10,207 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-01-20 14:30:10,209 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-01-20 14:30:14,961 INFO (StartupInfoLogger.java:61)- Started Startup in 5.733 seconds (JVM running for 6.846)
+2020-01-20 14:39:31,089 INFO (StartupInfoLogger.java:55)- Starting Startup on LAPTOP-3H9KE96D with PID 1356 (D:\projects\ShoppingMall\chq-admin\target\classes started by 17869 in D:\projects\ShoppingMall)
+2020-01-20 14:39:31,093 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-01-20 14:39:31,093 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-01-20 14:39:34,958 INFO (StartupInfoLogger.java:61)- Started Startup in 4.729 seconds (JVM running for 5.906)

@@ -58,6 +58,7 @@
   }
 
 	Xadmin.prototype.add_lay_tab = function(title,url,id) {
+	    url = API.ROOT + url;
 		element.tabAdd('xbs_tab', {
 	       title: title 
 	        ,content: '<iframe tab-id="'+id+'" frameborder="0" src="'+url+'" scrolling="yes" class="x-iframe"></iframe>'

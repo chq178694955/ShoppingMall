@@ -25,6 +25,16 @@ public class LoginController {
         return "index";
     }
 
+    @RequestMapping("/welcome")
+    public String welcome(){
+        return "welcome";
+    }
+
+    @RequestMapping("/welcome1")
+    public String welcome1(){
+        return "welcome1";
+    }
+
     @RequestMapping("/oauth2Failure")
     public String fail(){
         return "oauth2Failure";
